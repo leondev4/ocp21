@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Reducing</strong>","children":[{"content":"Combines a stream into a single object. It is a reduction,<br>\nwhich means it processes all elements.","children":[],"payload":{"tag":"li","lines":"7,9"}},{"content":"\n<pre data-lines=\"9,12\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> T <span class=\"hljs-title function_\">reduce</span><span class=\"hljs-params\">(T identity, BinaryOperator&lt;T&gt; accumulator)</span>\n</code></pre>","children":[{"content":"The <em>identity</em> is the initial value of the reduction, in this case an empty <code>String</code>. The<br>\n<em>accumulator</em> combines the current result with the current value in the stream.","children":[],"payload":{"tag":"li","lines":"12,14"}},{"content":"\n<pre data-lines=\"14,20\"><code class=\"language-js\"><span class=\"hljs-keyword\">var</span> list = <span class=\"hljs-title class_\">List</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-string\">&quot;A&quot;</span>, <span class=\"hljs-string\">&quot;le&quot;</span>, <span class=\"hljs-string\">&quot;x&quot;</span>);\n<span class=\"hljs-keyword\">var</span> r = list.<span class=\"hljs-title function_\">stream</span>().<span class=\"hljs-title function_\">reduce</span>(<span class=\"hljs-string\">&quot;&quot;</span>, <span class=\"hljs-title class_\">String</span>::concat);\n                  <span class=\"hljs-comment\">// .reduce(&quot;&quot;, (acc,str)-&gt;acc.concat(str));</span>\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(r);<span class=\"hljs-comment\">//Alex</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"14,20"}},{"content":"\n<pre data-lines=\"20,24\"><code class=\"language-js\"><span class=\"hljs-title class_\">Stream</span>&lt;<span class=\"hljs-title class_\">Integer</span>&gt; stream = <span class=\"hljs-title class_\">Stream</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-number\">1</span>, <span class=\"hljs-number\">2</span>, <span class=\"hljs-number\">3</span>);\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(stream.<span class=\"hljs-title function_\">reduce</span>(<span class=\"hljs-number\">0</span>, (acc, i) -&gt; acc+i)); <span class=\"hljs-comment\">//6</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"20,24"}}],"payload":{"tag":"li","lines":"9,24"}},{"content":"\n<pre data-lines=\"24,27\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> Optional&lt;T&gt; <span class=\"hljs-title function_\">reduce</span><span class=\"hljs-params\">(BinaryOperator&lt;T&gt; accumulator)</span>\n</code></pre>","children":[{"content":"When you don&#x2019;t specify an identity, an <code>Optional</code><br>\nis returned because there might not be any data.","children":[{"content":"If the stream is empty, an empty <code>Optional</code> is returned.","children":[],"payload":{"tag":"li","lines":"29,30"}},{"content":"If the stream has one element, it is returned.","children":[],"payload":{"tag":"li","lines":"30,31"}},{"content":"If the stream has multiple elements, the <code>accumulator</code><br>\nis applied to combine them.","children":[],"payload":{"tag":"li","lines":"31,33"}}],"payload":{"tag":"li","lines":"27,33"}},{"content":"\n<pre data-lines=\"33,39\"><code data-lines=\"33,39\">BinaryOperator&lt;Integer&gt; op = (a, b) -&#xad;&gt; a * b;\n<span class=\"hljs-built_in\">Stream</span>&lt;Integer&gt; empty = <span class=\"hljs-built_in\">Stream</span>.<span class=\"hljs-built_in\">empty</span>();\n<span class=\"hljs-built_in\">Stream</span>&lt;Integer&gt; oneElement = <span class=\"hljs-built_in\">Stream</span>.<span class=\"hljs-built_in\">of</span>(<span class=\"hljs-number\">3</span>);\n<span class=\"hljs-built_in\">Stream</span>&lt;Integer&gt; threeElements = <span class=\"hljs-built_in\">Stream</span>.<span class=\"hljs-built_in\">of</span>(<span class=\"hljs-number\">3</span>, <span class=\"hljs-number\">4</span>, <span class=\"hljs-number\">5</span>);\n</code></pre>","children":[{"content":"\n<pre data-lines=\"39,44\"><code class=\"language-js\">empty.<span class=\"hljs-title function_\">reduce</span>(op).<span class=\"hljs-title function_\">ifPresent</span>(<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>::println);         <span class=\"hljs-comment\">// no output</span>\noneElement.<span class=\"hljs-title function_\">reduce</span>(op).<span class=\"hljs-title function_\">ifPresent</span>(<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>::println);    <span class=\"hljs-comment\">// 3</span>\nthreeElements.<span class=\"hljs-title function_\">reduce</span>(op).<span class=\"hljs-title function_\">ifPresent</span>(<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>::println); <span class=\"hljs-comment\">// 60</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"39,44"}}],"payload":{"tag":"li","lines":"33,44"}}],"payload":{"tag":"li","lines":"24,44"}},{"content":"\n<pre data-lines=\"44,49\"><code class=\"language-js\">public &lt;U&gt; U <span class=\"hljs-title function_\">reduce</span>(U identity,\n  <span class=\"hljs-title class_\">BiFunction</span>&lt;U,? <span class=\"hljs-variable language_\">super</span> T,U&gt; accumulator,\n  <span class=\"hljs-title class_\">BinaryOperator</span>&lt;U&gt; combiner)\n</code></pre>","children":[{"content":"It is used when we are dealing with different types. It<br>\nallows Java to create intermediate reductions and<br>\nthen combine them at the end","children":[{"content":"The first parameter is the value for the <em>initializer</em>.","children":[],"payload":{"tag":"li","lines":"52,53"}},{"content":"Second parameter is the <em>accumulator</em>. This one handles mixed data types","children":[],"payload":{"tag":"li","lines":"53,54"}},{"content":"The third parameter is called the <em>combiner</em>, which combines any intermediate<br>\ntotals of the same type.","children":[],"payload":{"tag":"li","lines":"54,56"}}],"payload":{"tag":"li","lines":"49,56"}},{"content":"\n<pre data-lines=\"56,62\"><code class=\"language-js\"><span class=\"hljs-title class_\">Stream</span>&lt;<span class=\"hljs-title class_\">String</span>&gt; stream = <span class=\"hljs-title class_\">Stream</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-string\">&quot;a&quot;</span>, <span class=\"hljs-string\">&quot;le&quot;</span>, <span class=\"hljs-string\">&quot;x&quot;</span>);\n<span class=\"hljs-keyword\">var</span> r = stream.<span class=\"hljs-title function_\">reduce</span>(<span class=\"hljs-number\">0</span>, ( acc,s) -&gt; acc + s.<span class=\"hljs-title function_\">length</span>(), \n  (x, y) -&gt; x + y);\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(r) <span class=\"hljs-comment\">//4</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"56,62"}},{"content":"It is useful when working with parallel streams","children":[],"payload":{"tag":"li","lines":"62,63"}}],"payload":{"tag":"li","lines":"44,63"}}],"payload":{"tag":"h1","lines":"6,7"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"","children":[{"content":"<strong>Working with Primitive Streams</strong>","children":[{"content":"Have many of the same intermediate and terminal methods as a <code>Stream</code> but includes<br>\nspecialized methods for working with numeric data, like <code>sum()</code> and <code>average()</code>.","children":[{"content":"Types of primitive streams","children":[{"content":"\n<pre data-lines=\"10,13\"><code data-lines=\"10,13\"><span class=\"hljs-attribute\">IntStream</span>\n</code></pre>","children":[{"content":"\n<pre data-lines=\"13,16\"><code data-lines=\"13,16\"><span class=\"hljs-type\">int</span>, <span class=\"hljs-type\">short</span>, <span class=\"hljs-type\">byte</span>, <span class=\"hljs-type\">char</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"13,16"}}],"payload":{"tag":"li","lines":"10,16"}},{"content":"\n<pre data-lines=\"16,19\"><code data-lines=\"16,19\"><span class=\"hljs-attribute\">LongStream</span>\n</code></pre>","children":[{"content":"\n<pre data-lines=\"19,22\"><code data-lines=\"19,22\"><span class=\"hljs-type\">long</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"19,22"}}],"payload":{"tag":"li","lines":"16,22"}},{"content":"\n<pre data-lines=\"22,25\"><code data-lines=\"22,25\"><span class=\"hljs-attribute\">DoubleStream</span>\n</code></pre>","children":[{"content":"\n<pre data-lines=\"25,28\"><code class=\"language-java\"><span class=\"hljs-type\">double</span>, <span class=\"hljs-type\">float</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"25,29"}}],"payload":{"tag":"li","lines":"22,29"}}],"payload":{"tag":"li","lines":"9,29"}}],"payload":{"tag":"li","lines":"7,29"}}],"payload":{"tag":"h1","lines":"6,7"}},{"content":"<strong>Common primitive stream methods</strong>","children":[{"content":"\n<p data-lines=\"30,31\">Watch carefully</p>","children":[{"content":"<code>X</code> (uppercase) is <code>Int</code>, <code>Long</code>, <code>Double</code>","children":[{"content":"<code>x</code> (lowercase) is <code>int</code>, <code>long</code>, <code>double</code>","children":[],"payload":{"tag":"li","lines":"32,33"}}],"payload":{"tag":"li","lines":"31,33"}}],"payload":{"tag":"li","lines":"30,33"}},{"content":"\n<p data-lines=\"33,34\">Arithmetic mean of elements</p>","children":[{"content":"\n<pre data-lines=\"34,37\"><code data-lines=\"34,37\"><span class=\"hljs-variable\">OptionalDouble</span> <span class=\"hljs-function\"><span class=\"hljs-title\">average</span>()</span>\n</code></pre>","children":[{"content":"\n<pre data-lines=\"37,40\"><code data-lines=\"37,40\"><span class=\"hljs-attribute\">XStream</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"37,40"}}],"payload":{"tag":"li","lines":"34,40"}}],"payload":{"tag":"li","lines":"33,40"}},{"content":"\n<p data-lines=\"40,42\">Stream<t> where T is wrapper class<br>\nassociated with primitive value</t></p>","children":[{"content":"\n<pre data-lines=\"43,46\"><code class=\"language-java\">Stream&lt;T&gt; <span class=\"hljs-title function_\">boxed</span><span class=\"hljs-params\">()</span>\n</code></pre>","children":[{"content":"\n<pre data-lines=\"46,49\"><code data-lines=\"46,49\"><span class=\"hljs-attribute\">XStream</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"46,49"}}],"payload":{"tag":"li","lines":"43,49"}}],"payload":{"tag":"li","lines":"40,49"}},{"content":"\n<p data-lines=\"49,50\">Maximum element of stream</p>","children":[{"content":"\n<pre data-lines=\"50,53\"><code data-lines=\"50,53\"><span class=\"hljs-variable\">OptionalX</span> <span class=\"hljs-function\"><span class=\"hljs-title\"><span class=\"hljs-built_in\">max</span></span>()</span>\n</code></pre>","children":[{"content":"\n<pre data-lines=\"53,56\"><code data-lines=\"53,56\"><span class=\"hljs-attribute\">XStream</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"53,56"}}],"payload":{"tag":"li","lines":"50,56"}}],"payload":{"tag":"li","lines":"49,56"}},{"content":"\n<p data-lines=\"56,57\">Minimum element of stream</p>","children":[{"content":"\n<pre data-lines=\"57,60\"><code data-lines=\"57,60\"><span class=\"hljs-variable\">OptionalX</span> <span class=\"hljs-function\"><span class=\"hljs-title\"><span class=\"hljs-built_in\">min</span></span>()</span>\n</code></pre>","children":[{"content":"\n<pre data-lines=\"60,63\"><code data-lines=\"60,63\"><span class=\"hljs-attribute\">XStream</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"60,63"}}],"payload":{"tag":"li","lines":"57,63"}}],"payload":{"tag":"li","lines":"56,63"}},{"content":"\n<p data-lines=\"63,65\">Returns primitive stream from <code>a</code><br>\n(inclusive) to <code>b</code> (exclusive)</p>","children":[{"content":"\n<pre data-lines=\"65,68\"><code class=\"language-java\">XStream <span class=\"hljs-title function_\">range</span><span class=\"hljs-params\">(x a, x b)</span>\n</code></pre>","children":[{"content":"\n<pre data-lines=\"68,71\"><code data-lines=\"68,71\"><span class=\"hljs-attribute\">XStream</span>\n</code></pre>","children":[{"content":"Only <code>int</code> and <code>long</code>","children":[],"payload":{"tag":"li","lines":"71,72"}}],"payload":{"tag":"li","lines":"68,72"}}],"payload":{"tag":"li","lines":"65,72"}}],"payload":{"tag":"li","lines":"63,72"}},{"content":"\n<p data-lines=\"72,74\">Returns primitive stream from <code>a</code><br>\n(inclusive) to <code>b</code> (inclusive)</p>","children":[{"content":"\n<pre data-lines=\"74,77\"><code data-lines=\"74,77\">XStream rangeClosed(<span class=\"hljs-attribute\">x</span> <span class=\"hljs-selector-tag\">a</span>, <span class=\"hljs-attribute\">x</span> <span class=\"hljs-selector-tag\">b</span>)\n</code></pre>","children":[{"content":"\n<pre data-lines=\"77,80\"><code data-lines=\"77,80\"><span class=\"hljs-attribute\">XStream</span>\n</code></pre>","children":[{"content":"Only <code>int</code> and <code>long</code>","children":[],"payload":{"tag":"li","lines":"80,81"}}],"payload":{"tag":"li","lines":"77,81"}}],"payload":{"tag":"li","lines":"74,81"}}],"payload":{"tag":"li","lines":"72,81"}},{"content":"\n<p data-lines=\"81,83\">Returns sum of elements in<br>\nstream</p>","children":[{"content":"\n<pre data-lines=\"83,86\"><code data-lines=\"83,86\"><span class=\"hljs-attribute\">x</span> <span class=\"hljs-built_in\">sum</span>()\n</code></pre>","children":[{"content":"\n<pre data-lines=\"86,89\"><code data-lines=\"86,89\"><span class=\"hljs-attribute\">XStream</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"86,89"}}],"payload":{"tag":"li","lines":"83,89"}}],"payload":{"tag":"li","lines":"81,89"}},{"content":"\n<p data-lines=\"89,92\">Returns object containing<br>\nnumerous stream statistics such<br>\nas average, min, max, etc.</p>","children":[{"content":"\n<pre data-lines=\"92,96\"><code data-lines=\"92,96\"><span class=\"hljs-variable\">XSummaryStatistics</span>\n  <span class=\"hljs-function\"><span class=\"hljs-title\">summaryStatistics</span>()</span>\n</code></pre>","children":[{"content":"\n<pre data-lines=\"96,99\"><code data-lines=\"96,99\"><span class=\"hljs-attribute\">XStream</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"96,99"}}],"payload":{"tag":"li","lines":"92,99"}}],"payload":{"tag":"li","lines":"89,99"}}],"payload":{"tag":"h1","lines":"29,30"}}]},{"initialExpandLevel":1})</script>
+</body>
+</html>

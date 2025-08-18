@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Grouping</strong>","children":[{"content":"You use <code>Collectors.groupingBy</code>","children":[{"content":"<code>(fun)</code>","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"<code>(fun,collector)</code>","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"<code>(fun,supplier,collector)</code>","children":[],"payload":{"tag":"li","lines":"9,10"}}],"payload":{"tag":"li","lines":"6,10"}},{"content":"Note that the function that you call in <code>groupingBy()</code><br>\ncannot return <code>null</code>. It does not allow null keys","children":[],"payload":{"tag":"li","lines":"10,12"}},{"content":"Group by length:<pre data-lines=\"13,19\"><code class=\"language-js\"><span class=\"hljs-title class_\">Map</span>&lt;<span class=\"hljs-title class_\">Integer</span>, <span class=\"hljs-title class_\">List</span>&lt;<span class=\"hljs-title class_\">String</span>&gt;&gt; map = <span class=\"hljs-title class_\">Stream</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-string\">&quot;Peter&quot;</span>, <span class=\"hljs-string\">&quot;Brenda&quot;</span>, <span class=\"hljs-string\">&quot;Cindy&quot;</span>).\n  <span class=\"hljs-title function_\">collect</span>(<span class=\"hljs-title class_\">Collectors</span>.<span class=\"hljs-title function_\">groupingBy</span>(<span class=\"hljs-title class_\">String</span>::length));\n\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(map);<span class=\"hljs-comment\">//{5=[Peter, Cindy], 6=[Brenda]}</span>\n</code></pre>","children":[{"content":"Each value in the <code>Map</code> is a <code>List</code>","children":[],"payload":{"tag":"li","lines":"19,20"}}],"payload":{"tag":"li","lines":"12,20"}},{"content":"\n<pre data-lines=\"20,26\"><code class=\"language-js\"><span class=\"hljs-title class_\">Map</span>&lt;<span class=\"hljs-title class_\">Integer</span>, <span class=\"hljs-title class_\">Set</span>&lt;<span class=\"hljs-title class_\">String</span>&gt;&gt; map = <span class=\"hljs-title class_\">Stream</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-string\">&quot;Peter&quot;</span>, <span class=\"hljs-string\">&quot;Brenda&quot;</span>, <span class=\"hljs-string\">&quot;Cindy&quot;</span>)\n  .<span class=\"hljs-title function_\">collect</span>(<span class=\"hljs-title class_\">Collectors</span>.<span class=\"hljs-title function_\">groupingBy</span>(<span class=\"hljs-title class_\">String</span>::length,<span class=\"hljs-title class_\">Collectors</span>.<span class=\"hljs-title function_\">toSet</span>()));\n\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(map);<span class=\"hljs-comment\">//{5=[Peter, Cindy], 6=[Brenda]}</span>\n</code></pre>","children":[{"content":"We don&#x2019;t want a <code>List</code> as the value in the map and prefer a <code>Set</code> instead.","children":[],"payload":{"tag":"li","lines":"26,27"}}],"payload":{"tag":"li","lines":"20,27"}},{"content":"\n<pre data-lines=\"27,34\"><code class=\"language-js\"><span class=\"hljs-comment\">//Map&lt;Integer, Set&lt;String&gt;&gt; map = Stream.of(&quot;Peter&quot;, &quot;Brenda&quot;, &quot;Cindy&quot;)</span>\n<span class=\"hljs-title class_\">TreeMap</span>&lt;<span class=\"hljs-title class_\">Integer</span>, <span class=\"hljs-title class_\">Set</span>&lt;<span class=\"hljs-title class_\">String</span>&gt;&gt; map = <span class=\"hljs-title class_\">Stream</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-string\">&quot;Peter&quot;</span>, <span class=\"hljs-string\">&quot;Brenda&quot;</span>, <span class=\"hljs-string\">&quot;Cindy&quot;</span>).\n  <span class=\"hljs-title function_\">collect</span>(<span class=\"hljs-title class_\">Collectors</span>.<span class=\"hljs-title function_\">groupingBy</span>(<span class=\"hljs-title class_\">String</span>::length,<span class=\"hljs-title class_\">TreeMap</span>::<span class=\"hljs-keyword\">new</span>, <span class=\"hljs-title class_\">Collectors</span>..<span class=\"hljs-title function_\">toSet</span>()));\n\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(map);<span class=\"hljs-comment\">//{5=[Peter, Cindy], 6=[Brenda]}</span>\n</code></pre>","children":[{"content":"We can change the type of <code>Map</code> returned","children":[],"payload":{"tag":"li","lines":"34,35"}}],"payload":{"tag":"li","lines":"27,35"}},{"content":"\n<pre data-lines=\"35,41\"><code class=\"language-js\"><span class=\"hljs-title class_\">TreeMap</span>&lt;<span class=\"hljs-title class_\">Integer</span>, <span class=\"hljs-title class_\">List</span>&lt;<span class=\"hljs-title class_\">String</span>&gt;&gt; map = <span class=\"hljs-title class_\">Stream</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-string\">&quot;Peter&quot;</span>, <span class=\"hljs-string\">&quot;Brenda&quot;</span>, <span class=\"hljs-string\">&quot;Cindy&quot;</span>).\n  <span class=\"hljs-title function_\">collect</span>(<span class=\"hljs-title class_\">Collectors</span>.<span class=\"hljs-title function_\">groupingBy</span>(<span class=\"hljs-title class_\">String</span>::length,<span class=\"hljs-title class_\">TreeMap</span>::<span class=\"hljs-keyword\">new</span>,<span class=\"hljs-title class_\">Collectors</span>.<span class=\"hljs-title function_\">toList</span>()));\n\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(map);<span class=\"hljs-comment\">//{5=[Peter, Cindy], 6=[Brenda]}</span>\n</code></pre>","children":[{"content":"We want to change the type of <code>Map</code> returned but leave the<br>\ntype of values as a <code>List</code>","children":[],"payload":{"tag":"li","lines":"41,43"}}],"payload":{"tag":"li","lines":"35,43"}},{"content":"\n<pre data-lines=\"43,49\"><code class=\"language-js\"><span class=\"hljs-title class_\">Map</span>&lt;<span class=\"hljs-title class_\">Integer</span>, <span class=\"hljs-title class_\">Long</span>&gt; map = <span class=\"hljs-title class_\">Stream</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-string\">&quot;Peter&quot;</span>, <span class=\"hljs-string\">&quot;Brenda&quot;</span>, <span class=\"hljs-string\">&quot;Cindy&quot;</span>).\n  <span class=\"hljs-title function_\">collect</span>(<span class=\"hljs-title class_\">Collectors</span>.<span class=\"hljs-title function_\">groupingBy</span>(<span class=\"hljs-title class_\">String</span>::length, <span class=\"hljs-title class_\">Collectors</span>.<span class=\"hljs-title function_\">counting</span>()));\n\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(map);<span class=\"hljs-comment\">//{5=2, 6=1}</span>\n</code></pre>","children":[{"content":"We can group by the length of the name to see how many of each length we have","children":[],"payload":{"tag":"li","lines":"49,50"}}],"payload":{"tag":"li","lines":"43,50"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

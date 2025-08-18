@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"","children":[{"content":"<strong>Linking Streams to the Underlying Data</strong>","children":[{"content":"\n<pre data-lines=\"6,14\"><code class=\"language-js\"><span class=\"hljs-number\">25</span>: <span class=\"hljs-keyword\">var</span> cats = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;<span class=\"hljs-title class_\">String</span>&gt;();\n<span class=\"hljs-number\">26</span>: cats.<span class=\"hljs-title function_\">add</span>(<span class=\"hljs-string\">&quot;Annie&quot;</span>);\n<span class=\"hljs-number\">27</span>: cats.<span class=\"hljs-title function_\">add</span>(<span class=\"hljs-string\">&quot;Ripley&quot;</span>);\n<span class=\"hljs-number\">28</span>: <span class=\"hljs-keyword\">var</span> stream = cats.<span class=\"hljs-title function_\">stream</span>();\n<span class=\"hljs-number\">29</span>: cats.<span class=\"hljs-title function_\">add</span>(<span class=\"hljs-string\">&quot;KC&quot;</span>);\n<span class=\"hljs-number\">30</span>: <span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(stream.<span class=\"hljs-title function_\">count</span>());<span class=\"hljs-comment\">//3</span>\n</code></pre>","children":[{"content":"Lines 25&#x2013;27 create a <code>List</code> with two elements. Line 28 requests that a<br>\nstream be created from that <code>List</code>. Remember that streams are lazily<br>\nevaluated. This means the stream isn&#x2019;t created on line 28. An object<br>\nis created that knows where to look for the data when it is needed.<br>\nOn line 29, the <code>List</code> gets a new element. On line 30, the stream<br>\npipeline sees three elements when it runs giving us that count.","children":[],"payload":{"tag":"li","lines":"14,20"}}],"payload":{"tag":"li","lines":"6,20"}}],"payload":{"tag":"h1","lines":"5,6"}},{"content":"<strong>Chaining Optionals</strong>","children":[{"content":"A few of the intermediate operations for streams are<br>\navailable for <code>Optional</code>, as shown in <strong>Table 10.9</strong>.","children":[{"content":"<strong>TABLE 10.9</strong> Advanced <code>Optional</code> instance methods\n<table data-lines=\"24,29\">\n<thead data-lines=\"24,25\">\n<tr data-lines=\"24,25\">\n<th>Method</th>\n<th>When<br><code>Optional</code> is <br>empty</th>\n<th>When <code>Optional</code> contains value</th>\n</tr>\n</thead>\n<tbody data-lines=\"26,29\">\n<tr data-lines=\"26,27\">\n<td><code>filter(Predicate p)</code></td>\n<td>Returns<br>empty<br><code>Optional</code></td>\n<td>Returns <code>Optional</code> containing the element if it<br>matches the <code>Predicate</code>, otherwise empty<br> <code>Optional</code></td>\n</tr>\n<tr data-lines=\"27,28\">\n<td><code>flatMap(Function f)</code></td>\n<td>Returns<br>empty<br><code>Optional</code></td>\n<td>Returns <code>Optional</code> with <code>Function</code> applied to the<br> element. Return type of <code>Function</code> must<br> inherit <code>Optional</code>.</td>\n</tr>\n<tr data-lines=\"28,29\">\n<td><code>map(Function f)</code></td>\n<td>Returns<br>empty<br><code>Optional</code></td>\n<td>Returns <code>Optional</code> with <code>Function</code> applied to the<br> element</td>\n</tr>\n</tbody>\n</table>","children":[],"payload":{"tag":"li","lines":"23,29"}}],"payload":{"tag":"li","lines":"21,29"}},{"content":"Suppose that you are given an <code>Optional&lt;Integer&gt;</code> and asked<br>\nto print the value, but only if it is a three-&#xad;digit number.","children":[{"content":"\n<pre data-lines=\"31,38\"><code class=\"language-js\">private <span class=\"hljs-keyword\">static</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">threeDigit</span>(<span class=\"hljs-params\">Optional&lt;Integer&gt; optional</span>) {\n  optional.<span class=\"hljs-title function_\">map</span>(n -&gt; <span class=\"hljs-string\">&quot;&quot;</span> + n)        <span class=\"hljs-comment\">// part 1</span>\n  .<span class=\"hljs-title function_\">filter</span>(s -&gt; s.<span class=\"hljs-title function_\">length</span>() == <span class=\"hljs-number\">3</span>)    <span class=\"hljs-comment\">// part 2</span>\n  .<span class=\"hljs-title function_\">ifPresent</span>(<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>::println); <span class=\"hljs-comment\">// part 3</span>\n}\n</code></pre>","children":[{"content":"Empty <code>Optional</code>: It sees an empty <code>Optional</code> and has both <code>map()</code> and <code>filter()</code><br>\npass it through. Then <code>ifPresent()</code> sees an empty <code>Optional</code> and doesn&#x2019;t call<br>\nthe <code>Consumer</code> parameter.","children":[],"payload":{"tag":"li","lines":"38,41"}},{"content":"<code>Optional.of(4)</code>: It maps the number <code>4</code> to <code>&quot;4&quot;</code>. The <code>filter()</code> then returns an<br>\nempty <code>Optional</code> since the filter doesn&#x2019;t match, and <code>ifPresent()</code> doesn&#x2019;t call<br>\nthe <code>Consumer</code> parameter.","children":[],"payload":{"tag":"li","lines":"41,44"}},{"content":"<code>Optional.of(123)</code>: It maps the number <code>123</code> to <code>&quot;123&quot;</code>. The <code>filter()</code> then returns<br>\nthe same <code>Optional</code>, and <code>ifPresent()</code> now does call the <code>Consumer</code> parameter.","children":[],"payload":{"tag":"li","lines":"44,46"}}],"payload":{"tag":"li","lines":"31,46"}}],"payload":{"tag":"li","lines":"29,46"}},{"content":"Now suppose that we wanted to get an <code>Optional&lt;Integer&gt;</code> representing the<br>\nlength of the <code>String</code> contained in another <code>Optional</code>. Easy enough:<pre data-lines=\"48,55\"><code class=\"language-js\"><span class=\"hljs-title class_\">String</span> str = <span class=\"hljs-string\">&quot;Marty&quot;</span>;\n<span class=\"hljs-title class_\">Optional</span>&lt;<span class=\"hljs-title class_\">String</span>&gt; o = <span class=\"hljs-title class_\">Optional</span>.<span class=\"hljs-title function_\">of</span>(str);\n<span class=\"hljs-title class_\">Optional</span>&lt;<span class=\"hljs-title class_\">Integer</span>&gt; r = o.<span class=\"hljs-title function_\">map</span>(<span class=\"hljs-title class_\">String</span>::length);\n                      <span class=\"hljs-comment\">//.map(x-&gt;x.length());</span>\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(r); <span class=\"hljs-comment\">//Optional[5]</span>\n</code></pre>","children":[{"content":"What if instead we had a helper method that takes a <code>String</code> and did the logic<br>\nof calculating something for us? It would return <code>Optional&lt;Integer&gt;</code>, such as this:<pre data-lines=\"57,62\"><code class=\"language-js\">public <span class=\"hljs-keyword\">static</span> <span class=\"hljs-title class_\">Optional</span>&lt;<span class=\"hljs-title class_\">Integer</span>&gt; <span class=\"hljs-title function_\">calculator</span>(<span class=\"hljs-params\"><span class=\"hljs-built_in\">String</span> text</span>) {\n<span class=\"hljs-comment\">// Calculation logic here</span>\n}\n</code></pre>","children":[{"content":"Using <code>map</code> to call it doesn&#x2019;t work. The solution is<br>\nto call <code>flatMap()</code>, instead:<pre data-lines=\"64,68\"><code data-lines=\"64,68\"><span class=\"hljs-keyword\">Optional</span>&lt;<span class=\"hljs-keyword\">Integer</span>&gt; result = <span class=\"hljs-keyword\">optional</span>\n  .flatMap(ChainingOptionals::calculator);\n</code></pre>","children":[],"payload":{"tag":"li","lines":"62,68"}}],"payload":{"tag":"li","lines":"55,68"}}],"payload":{"tag":"li","lines":"46,68"}}],"payload":{"tag":"h1","lines":"20,21"}}]},{"initialExpandLevel":2})</script>
+</body>
+</html>

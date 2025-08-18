@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Collecting into Maps</strong>","children":[{"content":"you use <code>Collectors.toMap</code>","children":[{"content":"<code>(fun, fun)</code>","children":[{"content":"The <em>first function</em> tells the collector <em>how to create the key</em>.<br>\nThe <em>second function</em> tells the collector <em>how to create the value</em>.","children":[],"payload":{"tag":"li","lines":"8,10"}}],"payload":{"tag":"li","lines":"7,10"}},{"content":"<code>(fun, fun, binOpe_merge)</code>","children":[{"content":"If there is a collision in the key generation,<br>\nadd a <code>BinaryOperator</code> to resolve it.","children":[],"payload":{"tag":"li","lines":"11,13"}}],"payload":{"tag":"li","lines":"10,13"}},{"content":"<code>(fun, fun ,binOpe_merge, Supplier)</code>","children":[{"content":"If you want to change <code>Map</code> returned to <code>TreeMap</code>, give a <code>Supplier</code>","children":[],"payload":{"tag":"li","lines":"14,15"}}],"payload":{"tag":"li","lines":"13,15"}}],"payload":{"tag":"li","lines":"6,15"}},{"content":"Group by name and its length characters","children":[{"content":"\n<pre data-lines=\"16,23\"><code class=\"language-js\"><span class=\"hljs-title class_\">Map</span>&lt;<span class=\"hljs-title class_\">String</span>, <span class=\"hljs-title class_\">Integer</span>&gt; map = <span class=\"hljs-title class_\">Stream</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-string\">&quot;Peter&quot;</span>, <span class=\"hljs-string\">&quot;Brenda&quot;</span>, <span class=\"hljs-string\">&quot;Cindy&quot;</span>).\n  <span class=\"hljs-title function_\">collect</span>(<span class=\"hljs-title class_\">Collectors</span>.<span class=\"hljs-title function_\">toMap</span>(k -&gt; k, v -&gt; v.<span class=\"hljs-title function_\">length</span>()));\n\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(map);        <span class=\"hljs-comment\">//{Brenda=6, Peter=5, Cindy=5}</span>\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(map.<span class=\"hljs-title function_\">getClass</span>().<span class=\"hljs-title function_\">getName</span>());<span class=\"hljs-comment\">//java.util.HashMap</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"16,23"}}],"payload":{"tag":"li","lines":"15,23"}},{"content":"If you just reverse the previous example,<br>\nthere is a collision (<code>Duplicate key 5</code>).<br>\nYou must use <code>BinaryOperator</code>.","children":[{"content":"\n<pre data-lines=\"26,33\"><code class=\"language-js\"><span class=\"hljs-title class_\">Map</span>&lt;<span class=\"hljs-title class_\">Integer</span>, <span class=\"hljs-title class_\">String</span>&gt; map = <span class=\"hljs-title class_\">Stream</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-string\">&quot;Peter&quot;</span>, <span class=\"hljs-string\">&quot;Brenda&quot;</span>, <span class=\"hljs-string\">&quot;Cindy&quot;</span>).\n  <span class=\"hljs-title function_\">collect</span>(<span class=\"hljs-title class_\">Collectors</span>.<span class=\"hljs-title function_\">toMap</span>(k -&gt; k.<span class=\"hljs-title function_\">length</span>(), v -&gt; v, (s1,s2)-&gt;s1+<span class=\"hljs-string\">&quot;,&quot;</span>+s2));\n\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(map);        <span class=\"hljs-comment\">//{5=Peter,Cindy, 6=Brenda}</span>\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(map.<span class=\"hljs-title function_\">getClass</span>().<span class=\"hljs-title function_\">getName</span>());<span class=\"hljs-comment\">//java.util.HashMap</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"26,33"}}],"payload":{"tag":"li","lines":"23,33"}},{"content":"The previous example but instead of<br>\nreturning <code>Map</code> it returns <code>TreeMap</code>","children":[{"content":"\n<pre data-lines=\"35,43\"><code class=\"language-js\"><span class=\"hljs-comment\">//TreeMap&lt;Integer, String&gt; map = Stream.of(&quot;Peter&quot;, &quot;Brenda&quot;, &quot;Cindy&quot;).collect( </span>\n<span class=\"hljs-title class_\">Map</span>&lt;<span class=\"hljs-title class_\">Integer</span>, <span class=\"hljs-title class_\">String</span>&gt; map = <span class=\"hljs-title class_\">Stream</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-string\">&quot;Peter&quot;</span>, <span class=\"hljs-string\">&quot;Brenda&quot;</span>, <span class=\"hljs-string\">&quot;Cindy&quot;</span>).<span class=\"hljs-title function_\">collect</span>(\n  <span class=\"hljs-title class_\">Collectors</span>.<span class=\"hljs-title function_\">toMap</span>(k -&gt; k.<span class=\"hljs-title function_\">length</span>(), v -&gt; v,  (s1, s2) -&gt; s1 + <span class=\"hljs-string\">&quot;,&quot;</span> + s2, <span class=\"hljs-title class_\">TreeMap</span>::<span class=\"hljs-keyword\">new</span>));\n\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(map);        <span class=\"hljs-comment\">//{5=Peter,Cindy, 6=Brenda}</span>\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(map.<span class=\"hljs-title function_\">getClass</span>().<span class=\"hljs-title function_\">getName</span>());<span class=\"hljs-comment\">//java.util.TreeMap</span>\n</code></pre>","children":[{"content":"We want to mandate that the code return a <code>TreeMap</code> instead","children":[],"payload":{"tag":"li","lines":"43,44"}}],"payload":{"tag":"li","lines":"35,44"}}],"payload":{"tag":"li","lines":"33,44"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>
