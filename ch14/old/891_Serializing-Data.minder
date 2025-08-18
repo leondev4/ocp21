@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="1777417474" etag="565607663">
+  <theme name="default" label="Light" index="2"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="890" posy="555" width="174" height="49" side="left" fold="false" treesize="1212" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="**Serializing Data**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="1164" posy="-26.5" width="315" height="70" side="right" fold="false" treesize="70.000000000000057" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="325" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="305.79166666666663">
+            <text data="_Serialization_ is the process of converting an in-&#xAD;memory object to a byte stream. "/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1579" posy="-26.500000000000057" width="331" height="70" side="right" fold="false" treesize="70.000000000000057" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="316" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="307.828125">
+                <text data="_Deserialization_ is the process of converting from a byte stream into an object."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="3" posx="2010" posy="-26.500000000000057" width="494" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="490" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="483.43749999999989">
+                    <text data="Serialization often involves writing an object to a stored or transmittable format, while deserialization is the reciprocal process."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="4" posx="1164" posy="171.50000000000011" width="348" height="49" side="right" fold="false" treesize="305" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="560" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="560">
+            <text data="**Applying the `Serializable` Interface**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="5" posx="1612" posy="54.000000000000057" width="662" height="70" side="right" fold="false" treesize="91" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="632" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="643.52864583333326">
+                <text data="To serialize an object must implement the `java.io.Serializable` interface. The `Serializable` interface is a marker interface, which means it does not have any methods."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="6" posx="2374" posy="43.500000000000057" width="651" height="91" side="right" fold="false" treesize="91" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="632" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="632">
+                    <text data="The purpose of using the `Serializable` interface is to inform any process attempting to&#10;serialize the object that you have taken the proper steps to make the object serializable. All&#10;primitives and many of the built-&#xAD;in Java classes are `Serializable`."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="7" posx="1612" posy="134.50000000000009" width="514" height="214" side="right" fold="false" treesize="214" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="632" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="632">
+                <text data="`import java.io.Serializable;&#10;**public class Gorilla implements Serializable**{&#10;  **private static final long serialVersionUID=1L;**&#10;    private String name;&#10;    private int age;&#10;    private Boolean friendly;&#10;    private**transient**String favoriteFood;&#10;&#10;    // Constructors/Getters/Setters/toString() omitted&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="8" posx="2226" posy="168.00000000000009" width="719" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="715" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="715.92447916666652">
+                    <text data="Instance members (`name`, `age`, `friendly`) will be saved to an I/O stream if the class is serialized. "/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="9" posx="2226" posy="217" width="276" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="715" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="715">
+                    <text data="`Serializable` must be imported."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="10" posx="2226" posy="266" width="715" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="715" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="715">
+                    <text data="Any field that is marked `transient` will not be saved to an I/O stream when the class is serialized. "/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="11" posx="1164" posy="404.5" width="256" height="49" side="right" fold="false" treesize="161" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="560" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="560">
+            <text data="**Marking Data `transient`**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="12" posx="1520" posy="348.5" width="568" height="112" side="right" fold="false" treesize="112" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="560" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="560">
+                <text data="The `transient` modifier can be used for sensitive data of the class, like a password. There are other objects it does not make sense to serialize, like the state of an in-&#xAD;memory `Thread`. If the object is part of a serializable object, we just mark it `transient` to ignore these select instance members."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="13" posx="2188" posy="369.5" width="588" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="560" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="560">
+                    <text data="What happens to data marked transient on deserialization? It reverts to its default Java values, such as `0.0` for `double`, or `null` for an object."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="14" posx="1520" posy="460.5" width="439" height="49" side="right" fold="false" treesize="49" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="560" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="560">
+                <text data="**Only the instance members of a class are serialized.**"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="15" posx="1164" posy="753" width="319" height="49" side="right" fold="false" treesize="536" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="560" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="560">
+            <text data="**Ensuring That a Class Is Serializable**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="16" posx="1583" posy="509.5" width="648" height="70" side="right" fold="false" treesize="69.999999999999943" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="628" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="631.89322916666674">
+                <text data="Any process attempting to serialize an object will throw a `NotSerializableException` if the class does not implement the `Serializable` interface properly."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="17" posx="1583" posy="614.5" width="296" height="49" side="right" fold="false" treesize="118.99999999999994" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="628" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="628">
+                <text data="**To Make a Class `Serializable`**"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="18" posx="1979" posy="579.5" width="331" height="49" side="right" fold="false" treesize="49" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="628" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="628">
+                    <text data="The class must be marked `Serializable`."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="19" posx="1979" posy="628.5" width="471" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="499" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="465.94270833333326">
+                    <text data="Every instance member of the class must be serializable, marked transient, or have a `null` value at the time of serialization."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="20" posx="1583" posy="698.5" width="519" height="49" side="right" fold="false" treesize="49" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="628" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="628">
+                <text data="For a class to be serializable, we must apply the second rule recursively."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="21" posx="1583" posy="806" width="455" height="181" side="right" fold="false" treesize="298" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="628" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="628">
+                <text data="Do you see why the following Cat class is not serializable?&#10;`public class Cat implements Serializable {&#10;**private Tail tail = new Tail();**&#10;}&#10;public class Tail implements Serializable {&#10;**private Fur fur = new Fur();**&#10;}&#10;public class Fur {}//No implements Serializable`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="22" posx="2138" posy="747.5" width="512" height="91" side="right" fold="false" treesize="90.999999999999943" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="512" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="497.71614583333348">
+                    <text data="`Cat` contains an instance of `Tail`, and both of those classes are marked `Serializable`, so no problems there. Unfortunately, `Tail` contains an instance of `Fur` that is not marked `Serializable`."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="23" posx="2138" posy="872" width="316" height="70" side="right" fold="false" treesize="136.99999999999994" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="345" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="324.11979166666669">
+                    <text data="Either of the following changes fixes the problem and allows `Cat` to be serialized:"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="24" posx="2554" posy="838.5" width="424" height="88" side="right" fold="false" treesize="87.999999999999943" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="393" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="396.11197916666674">
+                        <text data="`public class Tail implements Serializable {&#10;  private **transient** Fur fur = new Fur();&#10;}`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="25" posx="2554" posy="926.5" width="441" height="49" side="right" fold="false" treesize="49" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="409" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="417.66927083333326">
+                        <text data="`public class Fur**implements Serializable**{}`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="26" posx="2138" posy="975.5" width="606" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="585" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="589.7578125">
+                    <text data="We could also make our `tail` or `fur` instance members null, although this would make `Cat` serializable only for particular instances, rather than all instances."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="27" posx="1164" posy="1091" width="197" height="49" side="right" fold="false" treesize="140" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="560" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="560">
+            <text data="**Serializing Records**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="28" posx="1461" posy="1045.5" width="501" height="70" side="right" fold="false" treesize="70" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="560" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="560">
+                <text data="    `record Record(String name) {}`&#10;It is not serializable because it does not implement `Serializable`."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="29" posx="1461" posy="1115.5" width="529" height="70" side="right" fold="false" treesize="70" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="560" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="560">
+                <text data="This one is serializable&#10;    `record Record(String name) implements Serializable {}`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

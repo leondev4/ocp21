@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="1576931848" etag="4173327749">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="154.90234375" posy="229.96484375" width="221" height="69" side="left" fold="false" treesize="1587" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="400">
+        <text data="**Try-&#xAD;with-&#xAD;Resources**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="475.90234375" posy="-529.03515625" width="569" height="111" side="right" fold="false" treesize="111" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="537" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="550.52734375">
+            <text data=" Java includes the _try-&#xAD;with-&#xAD;resources_ statement to automatically close all resources opened in a `try` clause. This feature is also known as _automatic resource management_, because Java automatically takes care of the closing."/>
+          </nodename>
+          <nodenote></nodenote>
+        </node>
+        <node id="2" posx="475.90234375" posy="-331.03515625" width="111" height="69" side="right" fold="false" treesize="243" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="537" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="537">
+            <text data="Example:"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="3" posx="686.90234375" posy="-386.53515625" width="669" height="180" side="right" fold="false" treesize="243" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="662" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="667.71484375">
+                <text data="`4: void read(){&#10;5: **try (FileInputStream is = new FileInputStream(&quot;myfile.txt&quot;))** {&#10;6:      // Read file data&#10;7:  } catch (IOException e) {&#10;8:       e.printStackTrace();&#10;9:  }&#10;10:}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="4" posx="1455.90234375" posy="-418.03515625" width="607" height="90" side="right" fold="false" treesize="90" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="662" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="662">
+                    <text data="Using a try-&#xAD;with-&#xAD;resources statement, we guarantee that as soon as a connection &#10;passes out of scope, Java will attempt to close it within the same method"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="5" posx="1455.90234375" posy="-328.03515625" width="596" height="153" side="right" fold="false" treesize="153" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="588" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="556.26171875">
+                    <text data="Behind the scenes, the compiler replaces a try-&#xAD;with-&#xAD;resources block with a `try` and `finally` block. We refer to this &#x201C;hidden&#x201D; `finally` block as an implicit `finally` block since it is created and used by the compiler automatically. You can still create a `finally` or `catch` blocks when using a try-&#xAD;with-&#xAD;resources statement; just be aware that the **implicit one will be called first**."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="6" posx="475.90234375" posy="-175.03515625" width="579" height="132" side="right" fold="false" treesize="132" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="537" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="537">
+            <text data="When **multiple resources are opened, they are closed in the reverse of the order in which they were created**. Also, notice that **parentheses are used to list those resources, and semicolons are used to separate the declarations**. This works just like declaring multiple indexes in a for loop."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="12" posx="1154.90234375" posy="-175.03515625" width="743" height="132" side="right" fold="false" treesize="132" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="701" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="701">
+                <text data="You learned that a normal try statement must have one or more `catch` blocks or a `finally` block. In a try-&#xAD;with-&#xAD;resources statement neither of these is required, although a developer may add both. For the exam, you need to know that the implicit `finally` block runs before any programmer-&#xAD;coded ones."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="7" posx="475.90234375" posy="30.46484375" width="291" height="69" side="right" fold="false" treesize="216" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="537" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="537">
+            <text data="Syntax of a basic try-&#xAD;with-&#xAD;resources"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="8" posx="866.90234375" posy="-43.03515625" width="817" height="216" side="right" fold="false" treesize="216" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="772" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="772">
+                <text data="`try (var in = new FileInputStream(&quot;data.txt&quot;); //Required semicolon between resources&#10;     var out = new FileOutputStream(&quot;output.txt&quot;);) {//optional semicolon at the end&#10;    //resources are in and out&#10;    //Protected code&#10;}   //Resources are closed here in reverse order.&#10;catch (IOException e) { //Optional&#10;    // Exception handler&#10;} finally {  //Optional&#10;    // finally block`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="11" posx="475.90234375" posy="189.46484375" width="497" height="111" side="right" fold="false" treesize="144" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="470" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="461.2734375">
+            <text data="`catch` block is optional with a try-&#xAD;with-&#xAD;resources statement. For example, we can rewrite the previous `read()` example so that the method declares the exception to make it even shorter:"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="9" posx="1072.90234375" posy="172.96484375" width="669" height="144" side="right" fold="false" treesize="144" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="630" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="630">
+                <text data="`4: void read()**throws IOException**{&#10;5: **try (FileInputStream is = new FileInputStream(&quot;myfile.txt&quot;))** {&#10;6:      // Read file data&#10;7:  }&#10;10:}`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="14" posx="475.90234375" posy="450.46484375" width="464" height="111" side="right" fold="false" treesize="378" color="#333333" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="474" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="458.4921875">
+            <text data="**Only classes that implement the `AutoCloseable` or `Closable` interface can be used in a try-with-resources statement**."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="15" posx="1039.90234375" posy="316.96484375" width="453" height="108" side="right" fold="false" treesize="108" color="#333333" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="470" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="470">
+                <text data="`**interface AutoCloseable**{&#10;    **public void close() throws Exception**;&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="17" posx="1039.90234375" posy="424.96484375" width="471" height="108" side="right" fold="false" treesize="108" color="#333333" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="502" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="502">
+                <text data="`**interface Closeable extends AutoCloseable**{&#10;    **public void close() throws IOException**;&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="16" posx="1039.90234375" posy="532.96484375" width="547" height="162" side="right" fold="false" treesize="162" color="#333333" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="502" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="503.71484375">
+                <text data="`public class MyFileClass **implements AutoCloseable** {&#10;  private final int num;&#10;  public MyFileClass(int num) { this.num = num; }&#10;  **public void close()**{&#10;    System.out.println(&quot;Closing: &quot; + num);&#10;} }`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="18" posx="475.90234375" posy="820.96484375" width="501" height="111" side="right" fold="false" treesize="363" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="474" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="474">
+            <text data="**Declaring Resources:** While try-&#xAD;with-&#xAD;resources does support declaring multiple variables, each variable must be declared in a separate statement"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="19" posx="1076.90234375" posy="694.96484375" width="673" height="126" side="right" fold="false" treesize="126" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="626" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="685.19010416666663">
+                <text data="`try (**MyFileClass** is = new MyFileClass(1)**,** // DOES NOT COMPILE&#10;  os = new MyFileClass(2)) { //Missing semicolon, also the &#10;                             //type in the second resource&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="20" posx="1076.90234375" posy="820.96484375" width="664" height="108" side="right" fold="false" treesize="108" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="606" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="618.39583333333314">
+                <text data="`try(**MyFileClass** ab = new MyFileClass(1)**,** // DOES NOT COMPILE&#10;   **MyFileClass** cd = new MyFileClass(2)) { //missing semicolon&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="21" posx="1076.90234375" posy="928.96484375" width="718" height="129" side="right" fold="false" treesize="129" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="662" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="682.21354166666663">
+                <text data="You can declare a resource using `var`:&#10;`try (**var** f = new BufferedInputStream(new FileInputStream(&quot;it.txt&quot;))) {&#10;  // Process file&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <connections>
+    <connection from_id="17" to_id="15" drag_x="1300.15234375" drag_y="487.58984375">
+      <style connectiondash="solid" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+      <title></title>
+      <note></note>
+    </connection>
+  </connections>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="2248838274" etag="521201453">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="123.19921875" posy="305.86328125" width="290" height="49" side="left" fold="false" treesize="795" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="274" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="276.06640625">
+        <text data="**Acquiring Input with `Console`**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="513.19921875" posy="-67.13671875" width="560" height="49" side="right" fold="false" treesize="49" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="534" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="542.49609375">
+            <text data="`java.io.Console` class is specifically designed to handle user interactions."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1173.19921875" posy="-67.13671875" width="533" height="49" side="right" fold="false" treesize="49" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="534" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="534">
+                <text data="`Console` is a class with numerous methods centered around user input."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="3" posx="513.19921875" posy="-18.13671875" width="555" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="534" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="534">
+            <text data="The `Console` class is a singleton because it is accessible only from a factory method and only one instance of it is created by the JVM."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="4" posx="1168.19921875" posy="-18.13671875" width="441" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="534" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="534">
+                <text data="Constructors are all private:&#10;`Console c = new Console(); //DOES NOT COMPILE`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="5" posx="513.19921875" posy="52.36328125" width="550" height="160" side="right" fold="false" treesize="161" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="534" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="534">
+            <text data="`Console console=**System.console()**;&#10;if(**console!=null**){&#10;  String userInput=**console.readLine()**;&#10;**console.writer().println(**&quot;You entered: &quot; + userInput);&#10;}else{&#10;  System.err.println(&quot;Console not available&quot;);&#10;}`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="6" posx="1163.19921875" posy="51.86328125" width="533" height="70" side="right" fold="false" treesize="70" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="534" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="534">
+                <text data="The `Console` object may not be available, depending on where the code&#10;is being called. If it is not available, `System.console()` returns `null`."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="7" posx="1163.19921875" posy="121.86328125" width="558" height="91" side="right" fold="false" treesize="91" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="534" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="534">
+                <text data="This program first retrieves an instance of the `Console` and verifies that it is available, outputting a message to `System.err` if it is not. If it is available, the program retrieves a line of input from the user and prints the result."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="8" posx="513.19921875" posy="258.36328125" width="309" height="49" side="right" fold="false" treesize="140" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="534" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="534">
+            <text data="**Obtaining Underlying I/O Streams**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="9" posx="922.19921875" posy="212.86328125" width="583" height="91" side="right" fold="false" treesize="91" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="558" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="558.74609375">
+                <text data="The `Console` class includes access to two streams for reading and writing data.&#10;`public **Reader reader()**&#10;public **PrintWriter writer()**`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="11" posx="1605.19921875" posy="223.36328125" width="215" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="202" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="190.28515625">
+                    <text data="They use character streams rather than byte streams."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="10" posx="922.19921875" posy="303.86328125" width="423" height="49" side="right" fold="false" treesize="49" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="558" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="558">
+                <text data="Are analogous to calling `System.in` and `System.out`."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="12" posx="513.19921875" posy="515.86328125" width="242" height="49" side="right" fold="false" treesize="375" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="534" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="534">
+            <text data="**Formatting Console Data**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="13" posx="855.19921875" posy="455.86328125" width="671" height="169" side="right" fold="false" treesize="375" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="645" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="647.83333333333337">
+                <text data="`// PrintStream&#10;public**PrintStream format(String format, Object... args)**&#10;public**PrintStream format(Locale loc, String format, Object... args)**`&#10;&#10;`// PrintWriter&#10;public**PrintWriter format(String format, Object... args)**&#10;public**PrintWriter format(Locale loc, String format, Object... args)**`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="15" posx="1626.19921875" posy="352.86328125" width="685" height="196" side="right" fold="false" treesize="196" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="661" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="661.40625">
+                    <text data="`Console console =**System.console()**;&#10;if (console == null) {&#10;  throw new RuntimeException(&quot;Console not available&quot;);&#10;}else{&#10;  console.**writer().println**(&quot;Welcome to Our Zoo!&quot;);&#10;  console.**format**(&quot;It has %d animals and employs %d people&quot;, 391, 25);&#10;  console.**writer().println()**;&#10;  console.**printf**(&quot;The zoo spans %5.1f acres&quot;, 128.91);&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="16" posx="1626.19921875" posy="548.86328125" width="528" height="109" side="right" fold="false" treesize="109" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="661" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="661">
+                    <text data="    Assuming the `Console` is available at runtime, it prints the following:&#10;`Welcome to Our Zoo!&#10;It has 391 animals and employs 25 people&#10;The zoo spans 128.9 acres.`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="14" posx="1626.19921875" posy="657.86328125" width="576" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="645" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="645">
+                    <text data="You can use `format()` with `Locale`:&#10;`console.**writer().format(Locale.CANADA, &quot;%2.2f&quot;, 4.2356);**`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

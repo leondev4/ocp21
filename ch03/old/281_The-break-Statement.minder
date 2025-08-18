@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="2244405239" etag="3418898753">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="863.13749999999982" posy="555" width="227" height="49" side="left" fold="false" treesize="943" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="**The `break` Statement**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="1190.1374999999998" posy="265.5" width="464" height="133" side="right" fold="false" treesize="448" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="418" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="448.6495422363281">
+            <text data="As you saw when working with `switch` statements, a `break` statement transfers the flow of control out to the enclosing statement. The same holds true for a `break` statement that appears inside of a `while`, `do/while`, or `for` loop, as it will end the loop early, as shown in Figure (281_figure_3_12.png)"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1754.1374999999998" posy="255" width="440" height="154" side="right" fold="false" treesize="448" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="418" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="418">
+                <text data="Notice in Figure that the `break` statement can take an&#10;optional label parameter.**Without a label parameter, the `break` statement will terminate the nearest inner loop it is currently in the process of executing. The optional label parameter allows us to break out of a higher-level outer loop.**"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="3" posx="2294.1374999999998" posy="108" width="595" height="448" side="right" fold="false" treesize="448" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="595" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="596.01803779069769">
+                    <text data="`10: public class FindInMatrix {&#10;11:   public static void main(String[] args) {&#10;12:     int[][] list = {{1,13}, {5,2}, {2,2}};&#10;13:     int searchValue = 2;&#10;14:     int positionX = -1;&#10;15:     int positionY = -1;&#10;16:&#10;17:   **PARENT_LOOP:**for (int i = 0; i &lt; list.length; i++) {&#10;18:       for (int j = 0; j &lt; list[i].length; j++) {&#10;19:         if (list[i][j] == searchValue) {&#10;20:           positionX = i;&#10;21:           positionY = j;&#10;22:         **break PARENT_LOOP;**&#10;23:         }&#10;24:       }&#10;25:      }&#10;26:     if (positionX == -1 || positionY == -1) {&#10;27:       System.out.print(&quot;Value &quot;+searchValue+&quot; not found&quot;);&#10;28:     } else {&#10;29:       System.out.print(&quot;Value &quot;+searchValue+&quot; found at: &quot; +&#10;30:           &quot;(&quot;+positionX+&quot;,&quot;+positionY+&quot;)&quot;);&#10;31:     }&#10;32:  } }`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="4" posx="2989.1374999999998" posy="193" width="518" height="133" side="right" fold="false" treesize="245" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="513" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="508.40748546511622">
+                        <text data="When executed, this code will output the following:&#10;`Value 2 found at: (1,1)`&#10;In particular, take a look at the statement**`break PARENT_LOOP`**.&#10;This statement will break out of the entire loop structure as soon as the first matching value is found."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="5" posx="3607.1374999999998" posy="143" width="397" height="163" side="right" fold="false" treesize="175" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="410" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="391.95703125">
+                            <text data="Now, imagine what would happen if we replaced the body of the inner loop with the following:`&#10;19:         if (list[i][j]==searchValue){&#10;20:           positionX = i;&#10;21:           positionY = j;&#10;22:         **break;**&#10;23:         }`"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="6" posx="4104.1374999999998" posy="137" width="433" height="175" side="right" fold="false" treesize="175" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="513" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="513">
+                                <text data="How would this change our flow, and would the output&#10;change? Instead of exiting when the first matching value is&#10;found, the program would now only exit the inner loop&#10;when the condition was met. In other words, the structure&#10;would find the first matching value of the last inner loop to&#10;contain the value, resulting in the following output:&#10;`Value 2 found at: (2,0)`"/>
+                              </nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node id="9" posx="3607.1374999999998" posy="312" width="454" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="513" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="513">
+                            <text data="**break PARENT_LOOP;**: breaks the loop that has the label.&#10;It is like `return` without ends the method."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="7" posx="2989.1374999999998" posy="382" width="383" height="145" side="right" fold="false" treesize="145" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="418" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="418">
+                        <text data="Finally, what if we removed the break altogether?&#10;`19:       if(list[i][j]==searchValue) {&#10;20:         positionX = i;&#10;21:         positionY = j;&#10;22:&#10;23:        }`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="8" posx="3472.1374999999998" posy="398.5" width="429" height="112" side="right" fold="false" treesize="112" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="418" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="418">
+                            <text data="In this case, the code would search for the last value in the&#10;entire structure that had the matching value. The output would look like this:&#10;`Value 2 found at: (2,1)`"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="10" posx="1190.1374999999998" posy="633" width="425" height="91" side="right" fold="false" treesize="245" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="418" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="418">
+            <text data="**The `continue` Statement**&#10;A statement that causes flow to finish the execution of the current loop iteration. See Figure (281_figure_3_13.png)"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="11" posx="1715.1374999999998" posy="570" width="516" height="217" side="right" fold="false" treesize="245" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="470" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="491.5390625">
+                <text data="You may notice that the syntax of the `continue` statement mirrors that of the `break` statement. In fact, the statements are identical in how they are used, but with different results. While the `break` statement transfers control to the enclosing statement, the `continue` statement transfers control to the `boolean` expression that determines if the loop should continue. In other words, it ends the current iteration of the loop. Also, like the `break` statement, the&#10;`continue` statement is applied to the nearest inner loop under execution, using optional label statements to override this behavior."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="12" posx="2331.1374999999998" posy="643.5" width="468" height="70" side="right" fold="false" treesize="245" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="470" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="470">
+                    <text data="Imagine we have a zookeeper who is supposed to clean the first leopard in each of four stables but skip stable `b` entirely."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="13" posx="2899.1374999999998" posy="580.5" width="649" height="196" side="right" fold="false" treesize="245" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="634" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="637.80208333333337">
+                        <text data="`1: public class CleaningSchedule {&#10;2:   public static void main(String[] args) {&#10;3:   **CLEANING:**for (char stables = 'a'; stables&lt;='d'; stables++) {&#10;4:       for (int leopard = 1; leopard &lt;= 3; leopard++) {&#10;5:         if (stables=='b' || leopard==2) {&#10;6:         **continue CLEANING;**&#10;7:         }&#10;8:        System.out.println(&quot;Cleaning: &quot;+stables+&quot;,&quot;+leopard);&#10;9: } } } }`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="15" posx="3648.1374999999998" posy="556" width="518" height="154" side="right" fold="false" treesize="154" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="490" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="490">
+                            <text data="The loop will return control to the parent loop any time the first value is `b` or the second value is `2`. On the first, third, and fourth executions of the outer loop, the inner loop prints a statement exactly once and then exits on the next inner loop when leopard is `2`. On the second execution of the outer loop, the inner loop immediately exits without printing anything since `b` is encountered right away. "/>
+                          </nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="16" posx="4266.1374999999998" posy="580" width="203" height="106" side="right" fold="false" treesize="106" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="490" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="490">
+                                <text data=" The following is printed:`&#10;Cleaning: a,1&#10;Cleaning: c,1&#10;Cleaning: d,1`"/>
+                              </nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node id="14" posx="3648.1374999999998" posy="710" width="494" height="91" side="right" fold="false" treesize="91" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="490" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="473.42447916666674">
+                            <text data="**continue CLEANING;**: ends the current execution of the loop and goes to the `boolean` expression of the loop that has the label.&#10;It is like `break` without label."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="17" posx="1190.1374999999998" posy="859.5" width="408" height="133" side="right" fold="false" treesize="250" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="418" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="418">
+            <text data="Now, imagine we remove the `CLEANING` label in the `continue` statement so that control is returned to the inner loop instead of the outer. Line 6 becomes the following:`&#10;6:        **continue;**`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="18" posx="1698.1374999999998" posy="825" width="433" height="202" side="right" fold="false" treesize="250" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="418" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="418">
+                <text data="This corresponds to the zookeeper cleaning all leopards&#10;except those labeled 2 or in stable b. The output is then the&#10;following:`&#10;Cleaning: a,1&#10;Cleaning: a,3&#10;Cleaning: c,1&#10;Cleaning: c,3&#10;Cleaning: d,1&#10;Cleaning: d,2`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="19" posx="2231.1374999999998" posy="870" width="430" height="112" side="right" fold="false" treesize="250" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="418" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="418">
+                    <text data="Finally, if we remove the `continue` statement and the&#10;associated if statement altogether by removing lines `5&#x2013;7`,&#10;we arrive at a structure that outputs all the values, such as&#10;this:"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="20" posx="2761.1374999999998" posy="801" width="149" height="250" side="right" fold="false" treesize="250" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="418" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="418">
+                        <text data="`Cleaning: a,1&#10;Cleaning: a,2&#10;Cleaning: a,3&#10;Cleaning: b,1&#10;Cleaning: b,2&#10;Cleaning: b,3&#10;Cleaning: c,1&#10;Cleaning: c,2&#10;Cleaning: c,3&#10;Cleaning: d,1&#10;Cleaning: d,2&#10;Cleaning: d,3`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

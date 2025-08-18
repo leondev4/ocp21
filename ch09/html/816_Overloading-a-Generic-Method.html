@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Overloading and overriding <br>a Generic Method</strong>","children":[{"content":"In a parameter like <strong><code>Type&lt;T&gt;</code></strong>, you <em>must change<br>\n<code>Type</code> and optional <code>T</code></em>, only changing <code>T</code> is not<br>\nconsidered overloading.","children":[{"content":"\n<pre data-lines=\"10,14\"><code data-lines=\"10,14\"><span class=\"hljs-keyword\">protected</span> <span class=\"hljs-built_in\">void</span> <span class=\"hljs-title function_\">chew</span>(<span class=\"hljs-params\"><span class=\"hljs-title class_\">List</span>&lt;<span class=\"hljs-title class_\">Object</span>&gt; input</span>) {}\n<span class=\"hljs-keyword\">protected</span> <span class=\"hljs-built_in\">void</span> <span class=\"hljs-title function_\">chew</span>(<span class=\"hljs-params\"><span class=\"hljs-title class_\">List</span>&lt;<span class=\"hljs-title class_\">Double</span>&gt; input</span>) {}<span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"10,14"}},{"content":"Also apply to parent class and child:<pre data-lines=\"15,23\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">LongTailAnimal</span> {\n  <span class=\"hljs-keyword\">protected</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">chew</span><span class=\"hljs-params\">(List&lt;Object&gt; input)</span> {}\n}\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Anteater</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_\">LongTailAnimal</span> {\n  <span class=\"hljs-keyword\">protected</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">chew</span><span class=\"hljs-params\">(List&lt;Double&gt; input)</span> {} <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"14,23"}},{"content":"Ok:<pre data-lines=\"24,33\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">LongTailAnimal</span> {\n  <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">chew</span><span class=\"hljs-params\">(List&lt;Object&gt; input)</span> {}\n}\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Anteater</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_\">LongTailAnimal</span> {\n  <span class=\"hljs-keyword\">protected</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">chew</span><span class=\"hljs-params\">(List&lt;Object&gt; input)</span> {} <span class=\"hljs-comment\">//overriding</span>\n  <span class=\"hljs-keyword\">protected</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">chew</span><span class=\"hljs-params\">(ArrayList&lt;Double&gt; input)</span> {}<span class=\"hljs-comment\">//overloading</span>\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"23,33"}}],"payload":{"tag":"li","lines":"7,33"}},{"content":"To override a method: parameter <strong><strong><code>Type&lt;T&gt;</code></strong> must same<br>\nin both parent and child</strong>, see example. In return&apos;s type<br>\nmust be covariant in <code>Type</code> and same in <code>T</code>, but you can<br>\nalso use wildcards in <code>Type</code>.","children":[{"content":"\n<pre data-lines=\"37,49\"><code data-lines=\"37,49\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">LongTailAnimal</span> {\n  <span class=\"hljs-title class_\">List</span>&lt;<span class=\"hljs-title class_\">String</span>&gt; <span class=\"hljs-title function_\">chew</span>(<span class=\"hljs-params\"><span class=\"hljs-title class_\">List</span>&lt;<span class=\"hljs-title class_\">Object</span>&gt; input</span>) {<span class=\"hljs-keyword\">return</span> <span class=\"hljs-literal\">null</span>;}\n  <span class=\"hljs-title class_\">List</span>&lt;? <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_\">Number</span>&gt; <span class=\"hljs-title function_\">chew</span>(<span class=\"hljs-params\"></span>){<span class=\"hljs-keyword\">return</span> <span class=\"hljs-literal\">null</span>;}\n  <span class=\"hljs-title class_\">List</span>&lt;? <span class=\"hljs-variable language_\">super</span> <span class=\"hljs-title class_\">Integer</span>&gt; <span class=\"hljs-title function_\">chew</span>(<span class=\"hljs-params\">int x</span>){<span class=\"hljs-keyword\">return</span> <span class=\"hljs-literal\">null</span>;}\n}\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Anteater</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_ inherited__\">LongTailAnimal</span> {\n  <span class=\"hljs-keyword\">protected</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;<span class=\"hljs-title class_\">String</span>&gt; <span class=\"hljs-title function_\">chew</span>(<span class=\"hljs-params\"><span class=\"hljs-title class_\">List</span>&lt;<span class=\"hljs-title class_\">Object</span>&gt; input</span>) {<span class=\"hljs-keyword\">return</span> <span class=\"hljs-literal\">null</span>;}\n  <span class=\"hljs-title class_\">List</span>&lt;<span class=\"hljs-title class_\">Integer</span>&gt; <span class=\"hljs-title function_\">chew</span>(<span class=\"hljs-params\"></span>) {<span class=\"hljs-keyword\">return</span> <span class=\"hljs-literal\">null</span>;}\n  <span class=\"hljs-title class_\">ArrayList</span>&lt;<span class=\"hljs-title class_\">Number</span>&gt; <span class=\"hljs-title function_\">chew</span>(<span class=\"hljs-params\">int x</span>){<span class=\"hljs-keyword\">return</span> <span class=\"hljs-literal\">null</span>;}\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"37,49"}},{"content":"\n<p data-lines=\"49,53\">Remember:<br>\n<strong><code>&lt;? extends Number&gt;</code></strong>: inside <strong><code>&lt;&gt;</code></strong> you can pass <code>Number</code> or its subtypes (<code>Integer</code>, <code>Double</code>, <code>Float</code>,..),<br>\nalso known as upper bounds. You cannot add, but you can remove.<br>\n<br></p>\n<p data-lines=\"54,57\"><strong><code>&lt;? super Integer&gt;</code></strong>: inside <strong><code>&lt;&gt;</code></strong> you can pass <code>Integer</code> or its parents (<code>Number</code> or <code>Object</code>), also kown<br>\nas lower bounds and <code>Type</code> is modifiable for example <code>List&lt;? super Number&gt; modifiable</code> you can add<br>\n<code>Number</code> or its childs (<code>Integer</code>, <code>Float</code>, <code>Double</code>).</p>\n<pre data-lines=\"57,62\"><code data-lines=\"57,62\">modifiable.<span class=\"hljs-built_in\">add</span>(1);  \nmodifiable.<span class=\"hljs-built_in\">add</span>(1.0); \nmodifiable.<span class=\"hljs-built_in\">add</span>(3.1F);\n</code></pre>\n<br>\n<p data-lines=\"64,65\"><strong><code>&lt;?&gt;</code></strong> inside <strong><code>&lt;&gt;</code></strong> you can pass anything also known unbounded you can see <strong><code>List&lt;?&gt;</code></strong>  like <strong><code>List&lt;Object&gt;</code></strong></p>","children":[],"payload":{"tag":"li","lines":"49,65"}}],"payload":{"tag":"li","lines":"33,65"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="3312897788" etag="2575964312">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="68.4765625" posy="728.75" width="244" height="54" side="left" fold="false" treesize="504.93359375" summarized="false" layout="Manual" group="true">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="361" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+      <nodename maxwidth="361">
+        <text data="**Method references**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="14" posx="358.1015625" posy="509.75" width="187" height="54" side="right" fold="false" treesize="54.16796875" color="#c6262e" colorroot="false" summarized="false" layout="Manual" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+          <nodename maxwidth="200">
+            <text data="`static` methods"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="16" posx="670.87890625" posy="509.91796875" width="128" height="54" side="right" fold="false" treesize="54" color="#c6262e" colorroot="false" summarized="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+              <nodename maxwidth="200">
+                <text data="Class name"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="20" posx="898.015625" posy="509.91796875" width="152" height="54" side="right" fold="false" treesize="54" color="#c6262e" colorroot="false" summarized="false" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                  <nodename maxwidth="200">
+                    <text data="Method name"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="24" posx="1150.015625" posy="509.91796875" width="170" height="54" side="right" fold="false" treesize="54" color="#c6262e" colorroot="false" summarized="false" layout="Manual" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                      <nodename maxwidth="200">
+                        <text data="`Math::random`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="2" posx="341.05859375" posy="615.77734375" width="305" height="80" side="right" fold="false" treesize="218.734375" color="#f37329" colorroot="false" summarized="false" layout="Manual" group="true">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="312" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+          <nodename maxwidth="312">
+            <text data="Instance methods on particular object"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="17" posx="663.09375" posy="629.20703125" width="154" height="54" side="right" fold="false" treesize="207.12109375" color="#f37329" colorroot="false" summarized="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="312" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+              <nodename maxwidth="312">
+                <text data="Variable name"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="21" posx="908.546875" posy="630.1640625" width="152" height="54" side="right" fold="false" treesize="207.12109375" color="#f37329" colorroot="false" summarized="false" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="312" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                  <nodename maxwidth="312">
+                    <text data="Method name"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="25" posx="1144.01953125" posy="629.01953125" width="203" height="54" side="right" fold="false" treesize="205.9765625" color="#f37329" colorroot="false" summarized="false" layout="Manual" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="312" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                      <nodename maxwidth="312">
+                        <text data="`str::startsWith`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="30" posx="1447.7578125" posy="477.04296875" width="340" height="80" side="right" fold="false" treesize="80" color="#f37329" colorroot="false" summarized="false" layout="Manual" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="312" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                          <nodename maxwidth="312">
+                            <text data="Uses variables declared outside the lambda expression"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                        <node id="28" posx="1442.21484375" posy="565.2109375" width="463" height="106" side="right" fold="false" treesize="106" color="#f37329" colorroot="false" summarized="false" layout="Manual" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="411" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                          <nodename maxwidth="438.234375">
+                            <text data="To Change _Instance method on particular object_ to _Instance method on a parameter_ **only add 1 parameter** to the functional interface."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="3" posx="327.515625" posy="756.5234375" width="327" height="54" side="right" fold="false" treesize="312.41796875" color="#f9c440" colorroot="false" summarized="false" layout="Manual" group="true">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="299" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+          <nodename maxwidth="299">
+            <text data="Instance methods on a parameter"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="18" posx="662.14453125" posy="756.19140625" width="128" height="54" side="right" fold="false" treesize="312.41796875" color="#f9c440" colorroot="false" summarized="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="299" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+              <nodename maxwidth="299">
+                <text data="Class name"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="22" posx="890.14453125" posy="756.19140625" width="152" height="54" side="right" fold="false" treesize="312.41796875" color="#f9c440" colorroot="false" summarized="false" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="299" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                  <nodename maxwidth="299">
+                    <text data="Method name"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="26" posx="1142.14453125" posy="756.19140625" width="203" height="54" side="right" fold="false" treesize="312.41796875" color="#f9c440" colorroot="false" summarized="false" layout="Manual" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="299" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                      <nodename maxwidth="299">
+                        <text data="`String::isEmpty`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="29" posx="1434.953125" posy="669.55859375" width="490" height="236" side="right" fold="false" treesize="236" color="#f9c440" colorroot="false" summarized="false" layout="Manual" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="512" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                          <nodename maxwidth="522.375">
+                            <text data="String str = &quot;hello&quot;;&#10;Predicate&lt;String&gt; pred = str::startsWith;&#10;      //s -&gt; str.startsWith(s);&#10;System.out.println(pred.test(&quot;he&quot;));&#10;        &#10;BiPredicate&lt;String,String&gt; biPre = String::startsWith;&#10;                //(s,pref)-&gt;s.startsWith(pref);&#10;System.out.println(biPre.test(str, &quot;he&quot;));"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                        <node id="31" posx="1434.57421875" posy="901.9765625" width="477" height="80" side="right" fold="false" treesize="80" color="#f9c440" colorroot="false" summarized="false" layout="Manual" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="512" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                          <nodename maxwidth="512">
+                            <text data="Use variables declared as arguments in the lambda expression"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="4" posx="349.53125" posy="873.1328125" width="134" height="54" side="right" fold="false" treesize="54.62109375" color="#68b723" colorroot="false" summarized="false" layout="Manual" group="true">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+          <nodename maxwidth="200">
+            <text data="Constructor"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="19" posx="669" posy="872.8125" width="128" height="54" side="right" fold="false" treesize="54.62109375" color="#68b723" colorroot="false" summarized="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+              <nodename maxwidth="200">
+                <text data="Class name"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="23" posx="943.06640625" posy="873.43359375" width="71" height="54" side="right" fold="false" treesize="54.2734375" color="#68b723" colorroot="false" summarized="false" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="pilled" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                  <nodename maxwidth="200">
+                    <text data="`new`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="27" posx="1154.7265625" posy="873.16015625" width="159" height="54" side="right" fold="false" treesize="54" color="#68b723" colorroot="false" summarized="false" layout="Manual" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="6" nodefont="Sans 14" nodemarkup="true"/>
+                      <nodename maxwidth="200">
+                        <text data="`String::new`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+    <node id="6" posx="384.76953125" posy="446.109375" width="125" height="65" side="left" fold="false" treesize="65" summarized="false" layout="Manual" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="##Type"/>
+      </nodename>
+      <nodenote></nodenote>
+    </node>
+    <node id="8" posx="667.6484375" posy="448.66796875" width="172" height="65" side="left" fold="false" treesize="65" summarized="false" layout="Manual" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="##Before ::"/>
+      </nodename>
+      <nodenote></nodenote>
+    </node>
+    <node id="9" posx="923.265625" posy="447.05859375" width="150" height="65" side="left" fold="false" treesize="65" summarized="false" layout="Manual" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="##after ::"/>
+      </nodename>
+      <nodenote></nodenote>
+    </node>
+    <node id="10" posx="1144.234375" posy="451.7421875" width="175" height="65" side="left" fold="false" treesize="65" summarized="false" layout="Manual" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="##Example"/>
+      </nodename>
+      <nodenote></nodenote>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

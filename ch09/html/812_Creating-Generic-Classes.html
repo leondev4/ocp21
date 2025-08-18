@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Creating Generic Classes</strong>","children":[{"content":"The syntax for introducing a generic is to declare<br>\na <em>formal type parameter</em> in angle brackets (<code>&lt;&gt;</code>).","children":[{"content":"\n<pre data-lines=\"8,19\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Box</span>&lt;T&gt;{\n  <span class=\"hljs-keyword\">private</span> T contents;\n  <span class=\"hljs-keyword\">public</span> T <span class=\"hljs-title function_\">lookInBox</span><span class=\"hljs-params\">()</span> {\n    <span class=\"hljs-keyword\">return</span> contents;\n  }\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">packBox</span><span class=\"hljs-params\">(T contents)</span> {\n    <span class=\"hljs-built_in\">this</span>.contents = contents;\n  }\n}\n</code></pre>","children":[{"content":"The generic type <strong><code>T</code></strong> is available anywhere within the <code>Box</code> class.<br>\nWhen you instantiate the class, you tell the compiler what <strong><code>T</code></strong><br>\nshould be for that particular instance.","children":[],"payload":{"tag":"li","lines":"19,22"}},{"content":"To use, type:<pre data-lines=\"23,28\"><code class=\"language-java\">Box&lt;String&gt; crateForString = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Box</span>&lt;&gt;();\nboxForString.packBox(<span class=\"hljs-string\">&quot;hello&quot;</span>);\n<span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">recover</span> <span class=\"hljs-operator\">=</span> boxForString.lookInBox();\n</code></pre>","children":[{"content":"The <code>Box</code> class works with any type of class.","children":[],"payload":{"tag":"li","lines":"28,29"}},{"content":"<code>Box</code> not needing to know about the objects that go into it, those objects<br>\ndon&#x2019;t need to know about <code>Box</code>. We aren&#x2019;t requiring the objects to<br>\nimplement an interface named <code>Crateable</code> or the like. A class can be put<br>\nin the <code>Box</code> without any changes at all.","children":[],"payload":{"tag":"li","lines":"29,33"}}],"payload":{"tag":"li","lines":"22,33"}}],"payload":{"tag":"li","lines":"8,33"}}],"payload":{"tag":"li","lines":"6,33"}},{"content":"Generic classes aren&#x2019;t limited to having a single type parameter.","children":[{"content":"\n<pre data-lines=\"34,43\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">SizeLimitedCrate</span>&lt;T, U&gt; {\n  <span class=\"hljs-keyword\">private</span> T contents;\n  <span class=\"hljs-keyword\">private</span> U sizeLimit;\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-title function_\">SizeLimitedCrate</span><span class=\"hljs-params\">(T contents,U sizeLimit)</span> {\n    <span class=\"hljs-built_in\">this</span>.contents = contents;\n    <span class=\"hljs-built_in\">this</span>.sizeLimit = sizeLimit;\n  }}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"34,43"}}],"payload":{"tag":"li","lines":"33,43"}},{"content":"Type erasure:","children":[{"content":"After the code compiles, your<br>\ngenerics are just <code>Object</code> types","children":[{"content":"The compiler adds the relevant casts for your<br>\ncode to work with this type of erased class.","children":[{"content":"\n<pre data-lines=\"48,59\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Crate</span> {\n  <span class=\"hljs-keyword\">private</span> Object contents;\n  <span class=\"hljs-keyword\">public</span> Object <span class=\"hljs-title function_\">lookInCrate</span><span class=\"hljs-params\">()</span> {\n    <span class=\"hljs-keyword\">return</span> contents;\n  }\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">packCrate</span><span class=\"hljs-params\">(Object contents)</span> {\n    <span class=\"hljs-built_in\">this</span>.contents = contents;\n  }\n}\n</code></pre>","children":[{"content":"For example, you type the following:<pre data-lines=\"60,63\"><code class=\"language-java\"><span class=\"hljs-type\">Robot</span> <span class=\"hljs-variable\">r</span> <span class=\"hljs-operator\">=</span> crate.lookInCrate();\n</code></pre>\nThe compiler turns it into the following:<pre data-lines=\"64,67\"><code class=\"language-java\"><span class=\"hljs-type\">Robot</span> <span class=\"hljs-variable\">r</span> <span class=\"hljs-operator\">=</span> (Robot) crate.lookInCrate();\n</code></pre>","children":[],"payload":{"tag":"li","lines":"59,67"}}],"payload":{"tag":"li","lines":"48,67"}}],"payload":{"tag":"li","lines":"46,67"}}],"payload":{"tag":"li","lines":"44,67"}}],"payload":{"tag":"li","lines":"43,67"}},{"content":"Naming Conventions for Generics","children":[{"content":"<code>E</code> for an element","children":[],"payload":{"tag":"li","lines":"68,69"}},{"content":"<code>K</code> for a map key","children":[],"payload":{"tag":"li","lines":"69,70"}},{"content":"<code>V</code> for a map value","children":[],"payload":{"tag":"li","lines":"70,71"}},{"content":"<code>N</code> for a number","children":[],"payload":{"tag":"li","lines":"71,72"}},{"content":"<code>T</code> for a generic data type","children":[],"payload":{"tag":"li","lines":"72,73"}},{"content":"<code>S</code>, <code>U</code>, <code>V</code>, and so forth for multiple generic types","children":[],"payload":{"tag":"li","lines":"73,74"}}],"payload":{"tag":"li","lines":"67,74"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Checking Functional<br> Interfaces</strong>","children":[{"content":"What functional interface would you use in these three situations?","children":[{"content":"Returns a <code>String</code> without taking any parameters","children":[{"content":"<code>Supplier&lt;String&gt;</code>","children":[],"payload":{"tag":"li","lines":"8,9"}}],"payload":{"tag":"li","lines":"7,9"}},{"content":"Returns a <code>Boolean</code> and takes a <code>String</code>","children":[{"content":"<code>Function&lt;String,Boolean&gt;</code><br>\nYou might think it is a <code>Predicate&lt;String&gt;</code>. Note that a <code>Predicate</code><br>\nreturns a <code>boolean</code> primitive and not a <code>Boolean</code> object.","children":[],"payload":{"tag":"li","lines":"10,13"}}],"payload":{"tag":"li","lines":"9,13"}},{"content":"Returns an <code>Integer</code> and takes two <code>Integers</code>","children":[{"content":"<code>BinaryOperator&lt;Integer&gt;</code> or a <code>BiFunction&lt;Integer,Integer,Integer&gt;</code>.<br>\n<code>BinaryOperator&lt;Integer&gt;</code> is the better answer of the two since it is more specific.","children":[],"payload":{"tag":"li","lines":"14,16"}}],"payload":{"tag":"li","lines":"13,16"}}],"payload":{"tag":"li","lines":"6,16"}},{"content":"What functional interface would you use to fill in the blanks for these?","children":[{"content":"\n<pre data-lines=\"17,20\"><code class=\"language-java\"><span class=\"hljs-number\">6</span>: ______ &lt;List&gt; ex1 = x -&gt; <span class=\"hljs-string\">&quot;&quot;</span>.equals(x.get(<span class=\"hljs-number\">0</span>));\n</code></pre>","children":[{"content":"<code>Predicate</code>","children":[],"payload":{"tag":"li","lines":"20,21"}}],"payload":{"tag":"li","lines":"17,21"}},{"content":"\n<pre data-lines=\"21,24\"><code class=\"language-java\">7: ______ &lt;Long&gt; ex2 = (Long l) -&gt; System.out.println(l);\n</code></pre>","children":[{"content":"<code>Consumer</code>","children":[],"payload":{"tag":"li","lines":"24,25"}}],"payload":{"tag":"li","lines":"21,25"}},{"content":"\n<pre data-lines=\"25,28\"><code class=\"language-java\"><span class=\"hljs-number\">8</span>: ______ &lt;String, String&gt; ex3 = (s1, s2) -&#xad;&gt; <span class=\"hljs-literal\">false</span>;\n</code></pre>","children":[{"content":"<code>BiPredicate</code>","children":[],"payload":{"tag":"li","lines":"28,29"}}],"payload":{"tag":"li","lines":"25,29"}}],"payload":{"tag":"li","lines":"16,29"}},{"content":"<strong><em>identify the error.</em></strong>","children":[{"content":"\n<pre data-lines=\"30,33\"><code class=\"language-java\"><span class=\"hljs-number\">6</span>: Function&lt;List&lt;String&gt;&gt; ex1 = x-&gt; x.get(<span class=\"hljs-number\">0</span>);<span class=\"hljs-comment\">//DOES NOT COMPILE</span>\n</code></pre>","children":[{"content":"Claims to be a <code>Function</code>. A <code>Function</code> needs to specify two generic types: the<br>\ninput parameter type and the return value type. The return value type is missing,<br>\ncausing the code not to compile.","children":[],"payload":{"tag":"li","lines":"33,36"}}],"payload":{"tag":"li","lines":"30,36"}},{"content":"\n<pre data-lines=\"36,39\"><code class=\"language-java\"><span class=\"hljs-number\">7</span>: UnaryOperator&lt;Long&gt; ex2 = (Long l) -&#xad;&gt;<span class=\"hljs-number\">3.14</span>;<span class=\"hljs-comment\">//DOES NOT COMPILE</span>\n</code></pre>","children":[{"content":"<code>UnaryOperator</code>, which returns the same type as it is passed in. The example returns<br>\na <code>double</code> rather than a <code>Long</code>, causing the code not to compile.","children":[],"payload":{"tag":"li","lines":"39,41"}}],"payload":{"tag":"li","lines":"36,41"}}],"payload":{"tag":"li","lines":"29,41"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Creating Wrapper Classes</strong>","children":[{"content":"Each primitive type has a wrapper class, which is an object type<br>\nthat corresponds to the primitive.","children":[],"payload":{"tag":"li","lines":"6,8"}},{"content":"<strong>Primitive<br>\ntype</strong>","children":[{"content":"<strong>Wrapper<br>\nclass</strong>","children":[{"content":"<strong>Wrapper class<br>\ninherits <code>Number</code>?</strong>","children":[{"content":"<strong>Example of creating</strong>","children":[{"content":"<strong>Common methods</strong>","children":[],"payload":{"tag":"li","lines":"15,16"}}],"payload":{"tag":"li","lines":"14,16"}}],"payload":{"tag":"li","lines":"12,16"}}],"payload":{"tag":"li","lines":"10,16"}}],"payload":{"tag":"li","lines":"8,16"}},{"content":"<code>boolean</code>","children":[{"content":"<code>Boolean</code>","children":[{"content":"NO","children":[{"content":"&#xa0; &#xa0; &#xa0; &#xa0; &#xa0; &#xa0; &#xa0; &#xa0; <code>Boolean.valueOf(true);</code>","children":[{"content":"<code>public boolean booleanValue()</code>","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"<code>public static boolean parseBoolean(String s)</code>","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"<code>public static Boolean valueOf(String s)</code>","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"<code>public static Boolean valueOf(boolean b)</code>","children":[],"payload":{"tag":"li","lines":"23,24"}}],"payload":{"tag":"li","lines":"19,24"}}],"payload":{"tag":"li","lines":"18,24"}}],"payload":{"tag":"li","lines":"17,24"}}],"payload":{"tag":"li","lines":"16,24"}},{"content":"<code>char</code>","children":[{"content":"<code>Character</code>","children":[{"content":"NO","children":[{"content":"&#xa0; &#xa0; &#xa0; &#xa0; &#xa0; &#xa0; &#xa0; &#xa0; <code>Character.valueOf(&apos;c&apos;)</code>","children":[{"content":"<code>public char charValue()</code>","children":[],"payload":{"tag":"li","lines":"28,29"}},{"content":"<code>public static Character valueOf(char c)</code>","children":[],"payload":{"tag":"li","lines":"29,30"}}],"payload":{"tag":"li","lines":"27,30"}}],"payload":{"tag":"li","lines":"26,30"}}],"payload":{"tag":"li","lines":"25,30"}}],"payload":{"tag":"li","lines":"24,30"}},{"content":"<code>byte</code>","children":[{"content":"<code>Byte</code>","children":[{"content":"YES","children":[{"content":"<code>Byte.valueOf((byte) 1)</code>","children":[],"payload":{"tag":"li","lines":"33,34"}}],"payload":{"tag":"li","lines":"32,34"}}],"payload":{"tag":"li","lines":"31,34"}}],"payload":{"tag":"li","lines":"30,34"}},{"content":"<code>short</code>","children":[{"content":"<code>Short</code>","children":[{"content":"YES","children":[{"content":"<code>Short.valueOf((short)1)</code>","children":[],"payload":{"tag":"li","lines":"37,38"}}],"payload":{"tag":"li","lines":"36,38"}}],"payload":{"tag":"li","lines":"35,38"}}],"payload":{"tag":"li","lines":"34,38"}},{"content":"<code>int</code>","children":[{"content":"<code>Integer</code>","children":[{"content":"YES","children":[{"content":"<code>Integer.valueOf(1)</code>","children":[{"content":"Byte, Short, Integer or Long","children":[{"content":"<code>public xxx xxxValue()</code>","children":[],"payload":{"tag":"li","lines":"43,44"}},{"content":"<code>public static xxx parseXxx(String s)</code>","children":[],"payload":{"tag":"li","lines":"44,45"}},{"content":"<code>public static XXX valueOf(String s)</code>","children":[],"payload":{"tag":"li","lines":"45,46"}},{"content":"<code>public static XXX valueOf(xxx v)</code>","children":[],"payload":{"tag":"li","lines":"46,47"}},{"content":"<code>public static XXX valueOf(String s, int radix)</code>","children":[],"payload":{"tag":"li","lines":"47,48"}}],"payload":{"tag":"li","lines":"42,48"}}],"payload":{"tag":"li","lines":"41,48"}}],"payload":{"tag":"li","lines":"40,48"}}],"payload":{"tag":"li","lines":"39,48"}}],"payload":{"tag":"li","lines":"38,48"}},{"content":"<code>long</code>","children":[{"content":"<code>Long</code>","children":[{"content":"YES","children":[{"content":"<code>Long.valueOf(1)</code><br>\n<code>Long.valueOf(1L)</code>","children":[],"payload":{"tag":"li","lines":"51,53"}}],"payload":{"tag":"li","lines":"50,53"}}],"payload":{"tag":"li","lines":"49,53"}}],"payload":{"tag":"li","lines":"48,53"}},{"content":"<code>float</code>","children":[{"content":"<code>Float</code>","children":[{"content":"YES","children":[{"content":"<code>Float.valueOf((float)1.0)</code><br>\n<code>Float.valueOf(1.0F)</code>","children":[{"content":"<code>Double</code> or <code>Float</code>","children":[{"content":"<code>public static XXX valueOf(String s)</code>","children":[],"payload":{"tag":"li","lines":"59,60"}},{"content":"<code>public static XXX valueOf(xxx n)</code>","children":[],"payload":{"tag":"li","lines":"60,61"}}],"payload":{"tag":"li","lines":"58,61"}}],"payload":{"tag":"li","lines":"56,61"}}],"payload":{"tag":"li","lines":"55,61"}}],"payload":{"tag":"li","lines":"54,61"}}],"payload":{"tag":"li","lines":"53,61"}},{"content":"<code>double</code>","children":[{"content":"<code>Double</code>","children":[{"content":"YES","children":[{"content":"<code>Double.valueOf(1.0)</code>","children":[],"payload":{"tag":"li","lines":"64,65"}}],"payload":{"tag":"li","lines":"63,65"}}],"payload":{"tag":"li","lines":"62,65"}}],"payload":{"tag":"li","lines":"61,65"}},{"content":"xxx or Xxx","children":[{"content":"XXX","children":[],"payload":{"tag":"li","lines":"66,67"}}],"payload":{"tag":"li","lines":"65,67"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

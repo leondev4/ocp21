@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Using a <code>Spliterator</code></strong>","children":[{"content":"Methods","children":[{"content":"\n<pre data-lines=\"7,10\"><code data-lines=\"7,10\"><span class=\"hljs-variable\">Spliterator</span>&lt;<span class=\"hljs-variable\">T</span>&gt; <span class=\"hljs-function\"><span class=\"hljs-title\">trySplit</span>()</span>\n</code></pre>","children":[{"content":"Returns <code>Spliterator</code> containing ideally half of the data, which is removed<br>\nfrom current <code>Spliterator</code>. This method can be called multiple times and<br>\nwill eventually return <code>null</code> when data is no longer splittable.","children":[],"payload":{"tag":"li","lines":"10,13"}}],"payload":{"tag":"li","lines":"7,13"}},{"content":"\n<pre data-lines=\"13,16\"><code data-lines=\"13,16\"><span class=\"hljs-variable\">void</span> <span class=\"hljs-function\"><span class=\"hljs-title\">forEachRemaining</span>(<span class=\"hljs-variable\">Consumer</span>&lt;<span class=\"hljs-variable\">T</span>&gt; <span class=\"hljs-variable\">c</span>)</span>\n</code></pre>","children":[{"content":"Processes remaining elements in <code>Spliterator</code>.","children":[],"payload":{"tag":"li","lines":"16,17"}}],"payload":{"tag":"li","lines":"13,17"}},{"content":"\n<pre data-lines=\"17,20\"><code data-lines=\"17,20\"><span class=\"hljs-variable\">boolean</span> <span class=\"hljs-function\"><span class=\"hljs-title\">tryAdvance</span>(<span class=\"hljs-variable\">Consumer</span>&lt;<span class=\"hljs-variable\">T</span>&gt; <span class=\"hljs-variable\">c</span>)</span>\n</code></pre>","children":[{"content":"Processes single element from <code>Spliterator</code> if any remain.<br>\nReturns whether element was processed.","children":[],"payload":{"tag":"li","lines":"20,22"}}],"payload":{"tag":"li","lines":"17,22"}}],"payload":{"tag":"li","lines":"6,22"}},{"content":"\n<pre data-lines=\"22,34\"><code class=\"language-js\"><span class=\"hljs-number\">12</span>: <span class=\"hljs-keyword\">var</span> list = <span class=\"hljs-title class_\">List</span>.<span class=\"hljs-title function_\">of</span>(<span class=\"hljs-string\">&quot;bird-&#xad;&quot;</span>, <span class=\"hljs-string\">&quot;bunny-&#xad;&quot;</span>, <span class=\"hljs-string\">&quot;cat-&#xad;&quot;</span>, <span class=\"hljs-string\">&quot;dog-&#xad;&quot;</span>, <span class=\"hljs-string\">&quot;fish-&#xad;&quot;</span>, <span class=\"hljs-string\">&quot;lamb-&#xad;&quot;</span>,<span class=\"hljs-string\">&quot;mouse-&#xad;&quot;</span>);\n<span class=\"hljs-number\">13</span>: \n<span class=\"hljs-number\">14</span>: <span class=\"hljs-title class_\">Spliterator</span>&lt;<span class=\"hljs-title class_\">String</span>&gt; originalBagOfFood = list.<span class=\"hljs-title function_\">spliterator</span>();\n<span class=\"hljs-number\">15</span>: <span class=\"hljs-title class_\">Spliterator</span>&lt;<span class=\"hljs-title class_\">String</span>&gt; emmasBag = originalBagOfFood.<span class=\"hljs-title function_\">trySplit</span>(); <span class=\"hljs-comment\">//takes 3 left</span>\n<span class=\"hljs-number\">16</span>: emmasBag.<span class=\"hljs-title function_\">forEachRemaining</span>(<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>::print); <span class=\"hljs-comment\">//bird-&#xad;bunny-&#xad;cat-&#xad;</span>\n<span class=\"hljs-number\">17</span>:\n<span class=\"hljs-number\">18</span>: <span class=\"hljs-title class_\">Spliterator</span>&lt;<span class=\"hljs-title class_\">String</span>&gt; jillsBag = originalBagOfFood.<span class=\"hljs-title function_\">trySplit</span>();<span class=\"hljs-comment\">//takes 2 left</span>\n<span class=\"hljs-number\">19</span>: jillsBag.<span class=\"hljs-title function_\">tryAdvance</span>(<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>::print);<span class=\"hljs-comment\">// dog-&#xad;</span>\n<span class=\"hljs-number\">20</span>: jillsBag.<span class=\"hljs-title function_\">forEachRemaining</span>(<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>::print); <span class=\"hljs-comment\">// fish-&#xad;</span>\n<span class=\"hljs-number\">21</span>:\n<span class=\"hljs-number\">22</span>: originalBagOfFood.<span class=\"hljs-title function_\">forEachRemaining</span>(<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>::print); <span class=\"hljs-comment\">// lamb-mouse-&#xad;`</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"22,34"}},{"content":"\n<pre data-lines=\"34,43\"><code class=\"language-js\"><span class=\"hljs-keyword\">var</span> originalBag = <span class=\"hljs-title class_\">Stream</span>.<span class=\"hljs-title function_\">iterate</span>(<span class=\"hljs-number\">1</span>, n -&gt; ++n).<span class=\"hljs-title function_\">spliterator</span>();\n\n<span class=\"hljs-title class_\">Spliterator</span>&lt;<span class=\"hljs-title class_\">Integer</span>&gt; newBag = originalBag.<span class=\"hljs-title function_\">trySplit</span>();\n\nnewBag.<span class=\"hljs-title function_\">tryAdvance</span>(<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>::print); <span class=\"hljs-comment\">// 1</span>\nnewBag.<span class=\"hljs-title function_\">tryAdvance</span>(<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>::print); <span class=\"hljs-comment\">// 2</span>\nnewBag.<span class=\"hljs-title function_\">tryAdvance</span>(<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>::print); <span class=\"hljs-comment\">// 3</span>\n</code></pre>","children":[{"content":"You might have noticed that this is an infinite stream. No problem! The <code>Spliterator</code> recognizes<br>\nthat the stream is infinite and doesn&#x2019;t attempt to give you half. Instead, <code>newBag</code> contains a<br>\nlarge number of elements. We get the first three since we call <code>tryAdvance()</code> three times. It<br>\nwould be a bad idea to call <code>forEachRemaining()</code> on an infinite stream!","children":[],"payload":{"tag":"li","lines":"43,47"}}],"payload":{"tag":"li","lines":"34,47"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Bouding generic class or method</strong>","children":[{"content":"You can use <code>&lt;T extends Type&gt;</code> when declare a generic classs or method.","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"\n<pre data-lines=\"7,14\"><code data-lines=\"7,14\"><span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">MyClass</span> <span class=\"hljs-title\">&lt;T</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">Number&gt;</span></span>{\n  static &lt;<span class=\"hljs-type\">T</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-type\">CharSequense</span>&gt; <span class=\"hljs-type\">T</span> myMethod(){\n    <span class=\"hljs-keyword\">return</span> <span class=\"hljs-literal\">null</span>;\n  }\n}\n</code></pre>","children":[{"content":"In <code>MyClass</code>, <code>T</code> can be <code>Number</code> or its subtypes","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"In <code>myMethod</code>, <code>T</code> can be <code>CharSequence</code> or its subtypes","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"<code>T</code> in <code>MyClass</code> and <code>T</code> in <code>myMethod</code> are different types.","children":[],"payload":{"tag":"li","lines":"16,17"}}],"payload":{"tag":"li","lines":"7,17"}},{"content":"<strong>You cannot use wildcards</strong>.","children":[{"content":"\n<pre data-lines=\"18,25\"><code data-lines=\"18,25\"><span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">MyClass</span> <span class=\"hljs-title\">&lt;?</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">Number&gt;</span></span>{\n  &lt;? <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-type\">CharSequense</span>&gt; ? myMethod(){\n      <span class=\"hljs-keyword\">return</span> <span class=\"hljs-literal\">null</span>;\n  }\n}\n</code></pre>","children":[{"content":"Compile error in <code>MyClass</code> and <code>myMethod</code> declarations","children":[],"payload":{"tag":"li","lines":"25,26"}}],"payload":{"tag":"li","lines":"18,26"}}],"payload":{"tag":"li","lines":"17,26"}},{"content":"You can use wildcards in return&apos;s type method and method parameters, in<br>\nform <code>TypeVariable&lt;? superORextends ClassOrInterface&gt;</code>. For example:","children":[],"payload":{"tag":"li","lines":"26,28"}},{"content":"\n<pre data-lines=\"28,35\"><code data-lines=\"28,35\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">MyClass</span> {\n  <span class=\"hljs-title class_\">List</span>&lt;? <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_\">CharSequence</span>&gt; <span class=\"hljs-title function_\">myMethod</span>(<span class=\"hljs-params\">List&lt;? <span class=\"hljs-variable language_\">super</span> Integer&gt; list</span>){\n    <span class=\"hljs-keyword\">return</span> <span class=\"hljs-literal\">null</span>;\n  }\n}\n</code></pre>","children":[{"content":"You can return:<br>\n<code>List</code> or <code>ArrayList</code>","children":[{"content":"Inside <code>&lt;&gt;</code>:<br>\n<code>CharSequence</code>, <code>String</code> or<br>\n<code>StringBuilder</code>","children":[],"payload":{"tag":"li","lines":"37,40"}}],"payload":{"tag":"li","lines":"35,40"}},{"content":"You can pass when call<br>\nmethod:<br>\n<code>List</code> or <code>ArrayList</code>","children":[{"content":"Formal paramter type:<br>\ninside <code>&lt;&gt;</code>: <code>Integer</code>,<br>\n<code>Number</code> or  <code>Object</code>","children":[],"payload":{"tag":"li","lines":"43,46"}}],"payload":{"tag":"li","lines":"40,46"}}],"payload":{"tag":"li","lines":"28,46"}},{"content":"\n<pre data-lines=\"46,53\"><code data-lines=\"46,53\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">MyClass</span> {\n  <span class=\"hljs-title class_\">List</span><span class=\"hljs-operator\">&lt;</span>? <span class=\"hljs-variable language_\">super</span> <span class=\"hljs-title class_\">Integer</span><span class=\"hljs-operator\">&gt;</span> <span class=\"hljs-title function_\">myMethod</span>(<span class=\"hljs-params\">List</span>&lt;? <span class=\"hljs-params\">extends</span> <span class=\"hljs-params\">CharSequence</span>&gt; <span class=\"hljs-params\">list</span>){\n    <span class=\"hljs-keyword\">return</span> <span class=\"hljs-literal\">null</span>;\n  }\n}\n</code></pre>","children":[{"content":"You can return:<br>\n<code>List</code> or <code>ArrayList</code>","children":[{"content":"Formal paramter type:<br>\nInside <code>&lt;&gt;</code>:<code>Integer</code>,<br>\n<code>Number</code> or <code>Object</code>","children":[],"payload":{"tag":"li","lines":"55,58"}}],"payload":{"tag":"li","lines":"53,58"}},{"content":"You can pass when call<br>\nmethod:<br>\n<code>List</code> or <code>ArrayList</code>","children":[{"content":"Inside <code>&lt;&gt;</code>:<br>\n<code>CharSequence</code>, <code>String</code> or<br>\n<code>StringBuilder</code>","children":[],"payload":{"tag":"li","lines":"61,64"}}],"payload":{"tag":"li","lines":"58,64"}}],"payload":{"tag":"li","lines":"46,64"}},{"content":"<strong>Bounding Generic Types</strong>","children":[{"content":"Bounded wildcards restricting what<br>\ntypes can be used in a wildcard","children":[{"content":"A <em>bounded parameter type</em> is a generic type<br>\nthat specifies a bound for the generic.<br>\nOnly permits <code>&lt;T extends Type&gt;</code>","children":[{"content":"A <em>wildcard generic type</em> is an unknown generic<br>\ntype represented with a question mark (<code>?</code>)","children":[],"payload":{"tag":"li","lines":"70,72"}}],"payload":{"tag":"li","lines":"67,72"}}],"payload":{"tag":"li","lines":"65,72"}},{"content":"Unbounded wildcard","children":[{"content":"<code>?</code>","children":[{"content":"\n<pre data-lines=\"74,77\"><code class=\"language-java\">List&lt;?&gt; a = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;String&gt;();\n</code></pre>","children":[{"content":"You can assign to <code>a</code>, <code>ArrayList</code> or <code>List</code> inside <code>&lt;&gt;</code> put <code>&lt;Anything&gt;</code>","children":[],"payload":{"tag":"li","lines":"77,78"}},{"content":"You can imagine <code>Lst&lt;?&gt;</code> like <code>List&lt;Object&gt;</code>","children":[],"payload":{"tag":"li","lines":"78,79"}},{"content":"You can only add <code>null</code> or remove elements","children":[],"payload":{"tag":"li","lines":"79,80"}}],"payload":{"tag":"li","lines":"74,80"}}],"payload":{"tag":"li","lines":"73,80"}}],"payload":{"tag":"li","lines":"72,80"}},{"content":"Wildcard with upper<br>\nbound","children":[{"content":"<code>? extends type</code>","children":[{"content":"\n<pre data-lines=\"83,86\"><code class=\"language-java\">List&lt;? <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_\">Number</span>&gt; a = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;Long&gt;();\n</code></pre>","children":[{"content":"You can assign to <code>a</code>, <code>ArrayList</code> or <code>List</code> inside <code>&lt;&gt;</code> put <code>&lt;Number or its childs&gt;</code>","children":[],"payload":{"tag":"li","lines":"86,87"}},{"content":"You can only add <code>null</code> or remove elements","children":[],"payload":{"tag":"li","lines":"87,88"}}],"payload":{"tag":"li","lines":"83,88"}}],"payload":{"tag":"li","lines":"82,88"}}],"payload":{"tag":"li","lines":"80,88"}},{"content":"Wildcard with lower<br>\nbound","children":[{"content":"<code>? super type</code>","children":[{"content":"\n<pre data-lines=\"91,94\"><code class=\"language-java\">List&lt;? <span class=\"hljs-built_in\">super</span> Long&gt; a = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;Number&gt;();\n</code></pre>","children":[{"content":"You can add <code>Long</code> or its subtypes and remove","children":[],"payload":{"tag":"li","lines":"94,95"}},{"content":"You can assign to <code>a</code>, <code>ArrayList</code> or <code>List</code> inside <code>&lt;&gt;</code> put <code>&lt;Long or its parents&gt;</code>","children":[],"payload":{"tag":"li","lines":"95,96"}}],"payload":{"tag":"li","lines":"91,96"}}],"payload":{"tag":"li","lines":"90,96"}}],"payload":{"tag":"li","lines":"88,96"}}],"payload":{"tag":"li","lines":"64,96"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

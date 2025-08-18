@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="2037892138" etag="1685581032">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="182.60546875" posy="366.5625" width="377" height="69" side="left" fold="false" treesize="1251" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="400">
+        <text data="**Understanding Attribute and View Types**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="659.60546875" posy="-105.9375" width="687" height="132" side="right" fold="false" treesize="369" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="646.95052083333337">
+            <text data="NIO.2 includes two methods for working with attributes in a single method call: a read-&#xAD;only&#10;attributes method and an updatable view method. For each method, you need to provide a&#10;file system type object, which tells the NIO.2 method which type of view you are requesting.&#10;By updatable view, we mean that we can both read and write attributes with the same object."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1446.60546875" posy="-140.4375" width="179" height="69" side="right" fold="false" treesize="237" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="642">
+                <text data="Attributes interface"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="3" posx="1725.60546875" posy="-140.4375" width="217" height="69" side="right" fold="false" treesize="237" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="642">
+                    <text data="**BasicFileAttributes**"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="16" posx="2042.60546875" posy="-140.4375" width="112" height="69" side="right" fold="false" treesize="237" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="642">
+                        <text data="read only"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="18" posx="2254.60546875" posy="-224.4375" width="851" height="237" side="right" fold="false" treesize="237" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="800" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="807.2890625">
+                            <text data="**`FileTime creationTime()`**  Returns the creation time.&#10;**`Object fileKey()`** Returns an object that uniquely identifies the given file, or null if a file key is not available.&#10;**`boolean isDirectory()`** Tells whether the file is a directory.&#10;**`boolean isOther()`** Tells whether the file is something other than a regular file, directory, or symbolic link.&#10;**`boolean isRegularFile()`** Tells whether the file is a regular file with opaque content.&#10;**`boolean isSymbolicLink()`** Tells whether the file is a symbolic link.&#10;**`FileTime lastAccessTime()`** Returns the time of last access.&#10;**`FileTime lastModifiedTime()`** Returns the time of last modification.&#10;**`long size()`** Returns the size of the file (in bytes)."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="21" posx="3205.60546875" posy="-140.4375" width="225" height="69" side="right" fold="false" treesize="69" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="800" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="800">
+                                <text data="no one throws exceptions"/>
+                              </nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="4" posx="1446.60546875" posy="44.0625" width="145" height="69" side="right" fold="false" treesize="132" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="642">
+                <text data="View interface"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="5" posx="1691.60546875" posy="44.0625" width="245" height="69" side="right" fold="false" treesize="132" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="642">
+                    <text data="**BasicFileAttributeView**"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="17" posx="2036.60546875" posy="44.0625" width="152" height="69" side="right" fold="false" treesize="132" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="642">
+                        <text data="view updatable"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="19" posx="2288.60546875" posy="12.5625" width="808" height="132" side="right" fold="false" treesize="132" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="801" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="764.48828125">
+                            <text data="**`String name()`** Returns the name of the attribute view.&#10;**`BasicFileAttributes readAttributes()`** Reads the basic file attributes as a bulk operation.&#10;**`void setTimes(FileTime lastModifiedTime, FileTime lastAccessTime, FileTime createTime)`** Updates any or all of the file's last modified time, last access time, and create time attributes."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="20" posx="3196.60546875" posy="44.0625" width="321" height="69" side="right" fold="false" treesize="69" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="801" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="801">
+                                <text data="Only the first no throws `IOException`"/>
+                              </nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="6" posx="659.60546875" posy="315.5625" width="233" height="69" side="right" fold="false" treesize="411" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="642">
+            <text data="**Retrieving Attributes**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="8" posx="992.60546875" posy="144.5625" width="646" height="168" side="right" fold="false" treesize="168" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="642">
+                <text data="The `Files` class includes the following method to read attributes of a class in a read-&#xAD;&#10;only capacity:&#10;`public static &lt;A extends BasicFileAttributes&gt; A**readAttributes**(&#10;  Path path,&#10;  Class&lt;A&gt; type,&#10;  LinkOption... options) throws IOException`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="7" posx="992.60546875" posy="326.0625" width="669" height="216" side="right" fold="false" treesize="243" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="642">
+                <text data="`var path = Path.of(&quot;/turtles/sea.txt&quot;);&#10;**BasicFileAttributes data = Files.readAttributes(path,**&#10;  **BasicFileAttributes.class);**&#10;&#10;System.out.println(&quot;Is a directory? &quot;+**data.isDirectory()**);&#10;System.out.println(&quot;Is a regular file? &quot;+**data.isRegularFile()**);&#10;System.out.println(&quot;Is a symbolic link? &quot;+**data.isSymbolicLink()**);&#10;System.out.println(&quot;Size (in bytes): &quot;+**data.size()**);&#10;System.out.println(&quot;Last modified: &quot;+**data.lastModifiedTime()**);`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="9" posx="1761.60546875" posy="312.5625" width="682" height="111" side="right" fold="false" treesize="111" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="642">
+                    <text data="The `BasicFileAttributes` class includes many values with the same name as the attri-&#10;bute methods in the `Files` class. The advantage of using this method, though, is that all of&#10;the attributes are retrieved at once for some operating systems."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="15" posx="1761.60546875" posy="423.5625" width="533" height="132" side="right" fold="false" treesize="132" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="642">
+                    <text data="`Files`:&#10;`public static long size(Path path) throws IOException`&#10;`BasicFileAttributes`:&#10;`long size()`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="10" posx="659.60546875" posy="756.5625" width="231" height="69" side="right" fold="false" treesize="471" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="642">
+            <text data="**Modifying Attributes**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="11" posx="990.60546875" posy="555.5625" width="682" height="147" side="right" fold="false" treesize="147" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="642">
+                <text data="The following method in `Files` returns an updatable view:&#10;`public static &lt;V extends FileAttributeView&gt; V**getFileAttributeView**(&#10;  Path path,&#10;  Class&lt;V&gt; type,&#10;  LinkOption... options)`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="12" posx="990.60546875" posy="702.5625" width="621" height="90" side="right" fold="false" treesize="90" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="642">
+                <text data="We can use the updatable view to increment a file&#x2019;s last modified date/time value by&#10;10 seconds."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="13" posx="990.60546875" posy="792.5625" width="624" height="234" side="right" fold="false" treesize="234" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="642">
+                <text data="`&#10;var path = Path.of(&quot;/turtles/sea.txt&quot;);&#10;**BasicFileAttributeView view=Files.getFileAttributeView(path,**&#10;  **BasicFileAttributeView.class);**&#10;//read-only attributes&#10;**BasicFileAttributes attributes = view.readAttributes();**&#10;// Modify file last modified time&#10;FileTime lastModifiedTime = FileTime.fromMillis(&#10;  attributes.lastModifiedTime().toMillis() + 10_000);&#10;_**view.setTimes(lastModifiedTime, null, null);**_`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="14" posx="1714.60546875" posy="813.5625" width="681" height="192" side="right" fold="false" treesize="192" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="642" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="642">
+                    <text data="After the updatable view is retrieved, we need to call `readAttributes()` on the view to&#10;obtain the file metadata. From there, we create a new `FileTime` value and set it using the&#10;`setTimes()` method:&#10;`// BasicFileAttributeView instance method&#10;public void**setTimes(**FileTime lastModifiedTime,&#10;  FileTime lastAccessTime,FileTime creationTime)`&#10;This method allows us to pass `null` for any date/time value that we do not want to modify."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

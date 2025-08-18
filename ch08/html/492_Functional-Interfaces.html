@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Functional Interfaces</strong>","children":[{"content":"A <em>functional interface</em> is an interface that contains a single abstract<br>\nmethod. It is  known as a <em>single abstract method (SAM)</em> rule.","children":[{"content":"The <code>@FunctionalInterface</code> annotation tells the compiler<br>\nthat you intend for the code to be a functional interface.","children":[],"payload":{"tag":"li","lines":"8,10"}},{"content":"Remember that having exactly one abstract method is<br>\nwhat makes it a functional interface, not the annotation.","children":[],"payload":{"tag":"li","lines":"10,12"}},{"content":"Only apply to <strong>interfaces</strong>","children":[],"payload":{"tag":"li","lines":"12,13"}}],"payload":{"tag":"li","lines":"6,13"}},{"content":"Example","children":[{"content":"\n<pre data-lines=\"14,20\"><code class=\"language-java\"><span class=\"hljs-meta\">@FunctionalInterface</span>\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">interface</span> <span class=\"hljs-title class_\">Sprint</span> {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">sprint</span><span class=\"hljs-params\">(<span class=\"hljs-type\">int</span> speed)</span>;\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"14,20"}}],"payload":{"tag":"li","lines":"13,20"}},{"content":"There is one exception to the<br>\nsingle abstract method rule","children":[{"content":"If a functional interface includes an abstract method with the<br>\nsame signature as a <code>public</code> method found in <code>Object</code>, <em>those<br>\nmethods do not count toward the single abstract method test</em>.","children":[{"content":"\n<pre data-lines=\"25,28\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> String <span class=\"hljs-title function_\">toString</span><span class=\"hljs-params\">()</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"25,28"}},{"content":"\n<pre data-lines=\"28,31\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-type\">boolean</span> <span class=\"hljs-title function_\">equals</span><span class=\"hljs-params\">(Object)</span>\n</code></pre>","children":[{"content":"\n<pre data-lines=\"31,38\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">interface</span> <span class=\"hljs-title class_\">Dive</span>{\n  String <span class=\"hljs-title function_\">toString</span><span class=\"hljs-params\">()</span>;\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-type\">boolean</span> <span class=\"hljs-title function_\">equals</span><span class=\"hljs-params\">(Object o)</span>;\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">abstract</span> <span class=\"hljs-type\">int</span> <span class=\"hljs-title function_\">hashCode</span><span class=\"hljs-params\">()</span>;\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">dive</span><span class=\"hljs-params\">()</span>; <span class=\"hljs-comment\">//SAM method</span>\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"31,38"}}],"payload":{"tag":"li","lines":"28,39"}},{"content":"\n<pre data-lines=\"39,42\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-type\">int</span> <span class=\"hljs-title function_\">hashCode</span><span class=\"hljs-params\">()</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"39,42"}}],"payload":{"tag":"li","lines":"22,42"}},{"content":"You also cannot declare an interface method that is incompatible with<br>\n<code>Object</code>. For example, declaring an abstract method <code>int toString()</code> in<br>\nan interface would not compile since <code>Object</code>&#x2019;s version of the method<br>\nreturns a <code>String</code>.","children":[{"content":"They are not a functional interfaces","children":[{"content":"\n<pre data-lines=\"47,52\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">interface</span> <span class=\"hljs-title class_\">Soar</span> {\n  <span class=\"hljs-keyword\">abstract</span> String <span class=\"hljs-title function_\">toString</span><span class=\"hljs-params\">()</span>; \n}\n</code></pre>","children":[{"content":"Since <code>toString()</code> is a <code>public</code> method implemented in <code>Object</code>,<br>\nit does not count toward the single abstract method test.","children":[],"payload":{"tag":"li","lines":"52,54"}}],"payload":{"tag":"li","lines":"47,54"}},{"content":"\n<pre data-lines=\"54,62\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">interface</span> <span class=\"hljs-title class_\">Hibernate</span>{\n  String <span class=\"hljs-title function_\">toString</span><span class=\"hljs-params\">()</span>;\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-type\">boolean</span> <span class=\"hljs-title function_\">equals</span><span class=\"hljs-params\">(Hibernate o)</span>;\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">abstract</span> <span class=\"hljs-type\">int</span> <span class=\"hljs-title function_\">hashCode</span><span class=\"hljs-params\">()</span>;\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">rest</span><span class=\"hljs-params\">()</span>;\n}\n</code></pre>","children":[{"content":"Because uses <code>equals(Hibernate)</code> instead of <code>equals(Object)</code>","children":[],"payload":{"tag":"li","lines":"62,63"}}],"payload":{"tag":"li","lines":"54,63"}}],"payload":{"tag":"li","lines":"46,63"}}],"payload":{"tag":"li","lines":"42,63"}}],"payload":{"tag":"li","lines":"20,63"}},{"content":"Starting with Java 8, interfaces can have concrete methods.","children":[{"content":"\n<pre data-lines=\"64,67\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">default</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"64,67"}},{"content":"\n<pre data-lines=\"67,70\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"67,70"}},{"content":"Starting with java 9","children":[{"content":"<code>private static</code>","children":[],"payload":{"tag":"li","lines":"71,72"}},{"content":"<code>private</code>","children":[],"payload":{"tag":"li","lines":"72,73"}}],"payload":{"tag":"li","lines":"70,73"}}],"payload":{"tag":"li","lines":"63,73"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

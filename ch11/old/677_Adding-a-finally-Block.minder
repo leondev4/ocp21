@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="4164639679" etag="1479934502">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="613.5" posy="545" width="237" height="69" side="left" fold="false" treesize="1446" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="400">
+        <text data="**Adding a finally Block**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="950.5" posy="-133" width="458" height="111" side="right" fold="false" treesize="132" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="435" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="435">
+            <text data="The `try` statement also lets you run code at the end with a `finally` clause, regardless of whether an exception is thrown."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1508.5" posy="-143.5" width="577" height="132" side="right" fold="false" treesize="132" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="535" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="535">
+                <text data="There are two paths through code with both a `catch` and a `finally`. If an exception is thrown, the `finally` block is run after the `catch` block. If no exception is thrown, the `finally` block is run after the `try` block completes."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="3" posx="950.5" posy="71" width="372" height="69" side="right" fold="false" treesize="234" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="435" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="435">
+            <text data="The syntax of a `try` statement with `finally`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="4" posx="1422.5" posy="-11.5" width="579" height="234" side="right" fold="false" treesize="234" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="524" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="534.67903645833348">
+                <text data="`**try {**&#10;    // Protected code&#10;    // The catch block is optional when using finally &#10;    // (not for checked exceptions, but you can use throws)&#10;**} catch (Exception e) {**&#10;    // Exception handler&#10;**} finally {** // finally keyword&#10;    //The finally block always executes, whether&#10;    // or not an exception occurs.&#10;**}**`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="5" posx="950.5" posy="222.5" width="399" height="180" side="right" fold="false" treesize="180" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="435" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="435">
+            <text data="`25: **try** { // DOES NOT COMPILE&#10;26:   fall();&#10;27: } **finally** {&#10;28:   System.out.println(&quot;all better&quot;);&#10;29: }**catch** (Exception e) {&#10;30:  System.out.println(&quot;get up&quot;);&#10;31: }`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="6" posx="1449.5" posy="267.5" width="342" height="90" side="right" fold="false" treesize="90" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="348" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="338.9609375">
+                <text data="Does not compile because the `catch` and `finally` blocks are in the wrong order."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="7" posx="950.5" posy="402.5" width="331" height="108" side="right" fold="false" treesize="108" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="435" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="435">
+            <text data="`33:**try**{ // DOES NOT COMPILE&#10;34:     fall();&#10;35:  }`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="8" posx="1381.5" posy="411.5" width="308" height="90" side="right" fold="false" treesize="90" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="435" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="435">
+                <text data="Does not compile because there&#10;must be a `catch` or `finally` block"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="9" posx="950.5" posy="510.5" width="435" height="144" side="right" fold="false" treesize="144" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="435" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="435">
+            <text data="`37:**try** {&#10;38:      fall();&#10;39: }**finally**{&#10;40:       System.out.println(&quot;all better&quot;);&#10;41: }`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="10" posx="1485.5" posy="537.5" width="313" height="90" side="right" fold="false" treesize="90" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="435" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="435">
+                <text data=" It is just fine. The `catch` block is not &#10;required if `finally` is present."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="11" posx="950.5" posy="654.5" width="430" height="270" side="right" fold="false" treesize="270" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="435" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="435">
+            <text data="`public static void main(String[] unused) {&#10;  StringBuilder sb = new StringBuilder();&#10;    try {&#10;        sb.append(&quot;**t**&quot;);&#10;    } catch (Exception e) {&#10;        sb.append(&quot;**c**&quot;);&#10;    } finally {&#10;        sb.append(&quot;**f**&quot;);&#10;    }&#10;  sb.append(&quot;**a**&quot;);&#10;  System.out.print(sb.toString());&#10;}`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="12" posx="1480.5" posy="734" width="476" height="111" side="right" fold="false" treesize="111" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="435" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="435">
+                <text data="This code outputs `tfa`. The `try` block is executed. Since no exception is thrown, Java goes straight to the `finally` block. Then the code after the `try` statement is run."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="13" posx="950.5" posy="1013" width="433" height="111" side="right" fold="false" treesize="288" color="#715344" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="402" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="389.953125">
+            <text data="The `finally` block will always be executed, regardless of whether the code completes successfully, unless you execute `System.exit(0)`."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="14" posx="1483.5" posy="924.5" width="462" height="288" side="right" fold="false" treesize="288" color="#715344" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="435" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="435">
+                <text data="`12:int goHome() {&#10;13:    try {&#10;14:      // Optionally throw an exception here&#10;15:      System.out.print(&quot;1&quot;);&#10;16:      **return -&#xAD;1**;&#10;17:     } catch (Exception e) {&#10;18:       System.out.print(&quot;2&quot;);&#10;19:      **return -&#xAD;2**;&#10;20:     } finally {&#10;21:        System.out.print(&quot;3&quot;);&#10;22:        **return -&#xAD;3**;&#10;23:     }&#10;24:}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="15" posx="2045.5" posy="968" width="382" height="90" side="right" fold="false" treesize="90" color="#715344" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="435" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="435">
+                    <text data="If line 14 does not throw an exception, print: `13`&#10;If line 14 throws an exception, print: `32`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="16" posx="2045.5" posy="1058" width="506" height="111" side="right" fold="false" treesize="111" color="#715344" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="485" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="489.078125">
+                    <text data="The method always returns `-3`. Because the `finally` block is executed shortly before the method completes, it interrupts the `return` statement from inside both the `try` and `catch` blocks."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="17" posx="950.5" posy="1212.5" width="448" height="90" side="right" fold="false" treesize="90" color="#333333" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="402" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="402">
+            <text data="While a `finally` block will always execute, it may not terminate. For example, if an exception is thrown inside it."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="18" posx="1498.5" posy="1212.5" width="434" height="90" side="right" fold="false" treesize="90" color="#333333" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="402" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="402">
+                <text data="When `System.exit()` is called in the `try` or `catch` block, the `finally` block does not run."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

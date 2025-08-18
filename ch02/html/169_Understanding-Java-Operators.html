@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Understanding Java Operators</strong>","children":[{"content":"A <em>Java operator</em> is a special symbol that can be applied to a set<br>\nof variables, values, or literals&#x2014;referred to as operands&#x2014;and<br>\nthat returns a result. The term <em>operand</em>, which we use throughout this<br>\nchapter, refers to the value or variable the operator is being applied","children":[{"content":"The output of the operation is simply referred to as the result.","children":[{"content":"\n<pre data-lines=\"11,14\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">c</span> <span class=\"hljs-operator\">=</span> a + b;\n</code></pre>","children":[{"content":"<code>a</code> and <code>b</code> are operands","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"<code>+</code> (plus) is the operator.","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"Result assigned to <code>c</code>","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"It contains a second operation, with the assignment operator (<code>=</code>)<br>\nbeing used to store the result in variable <code>c</code>.","children":[],"payload":{"tag":"li","lines":"17,19"}}],"payload":{"tag":"li","lines":"11,19"}}],"payload":{"tag":"li","lines":"10,19"}},{"content":"Java supports three types of operators: unary, binary, and ternary.<br>\nThese types of operators can be applied to one, two, or three<br>\noperands, respectively.","children":[{"content":"Java operators are not necessarily evaluated from left-to-right<br>\norder. In this following example, the second expression is<br>\nactually evaluated from right to left, given the specific operators<br>\ninvolved:","children":[{"content":"\n<pre data-lines=\"26,31\"><code class=\"language-java\"><span class=\"hljs-type\">int</span> <span class=\"hljs-variable\">cookies</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">4</span>;\n<span class=\"hljs-type\">double</span> <span class=\"hljs-variable\">reward</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">3</span> + <span class=\"hljs-number\">2</span> * --cookies;\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">s</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-string\">&quot;Zoo animal receives: &quot;</span>+reward+<span class=\"hljs-string\">&quot; reward points&quot;</span>;\n</code></pre>","children":[{"content":"<code>s</code> contains<pre data-lines=\"32,35\"><code class=\"language-java\">Zoo animal receives: 9.0 reward points\n</code></pre>","children":[],"payload":{"tag":"li","lines":"31,35"}},{"content":"You first decrement <code>cookies</code> to <code>3</code>, then multiply the resulting value by<br>\n<code>2</code>, and finally add <code>3</code>. <strong>The value then is automatically promoted<br>\nfrom 9 to 9.0 and assigned to <code>reward</code></strong>. The final values of <code>reward</code><br>\nand <code>cookies</code> are 9.0 and 3, respectively.","children":[],"payload":{"tag":"li","lines":"35,39"}}],"payload":{"tag":"li","lines":"26,39"}}],"payload":{"tag":"li","lines":"22,39"}}],"payload":{"tag":"li","lines":"19,39"}}],"payload":{"tag":"li","lines":"6,39"}},{"content":"Determining which operators are evaluated in what order is referred<br>\nto as <em>operator precedence</em>.","children":[{"content":"Consider the following expression:<pre data-lines=\"42,45\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">perimeter</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">2</span> * height + <span class=\"hljs-number\">2</span> * length;\n</code></pre>\nLet&#x2019;s apply some optional parentheses to demonstrate how the<br>\ncompiler evaluates this statement:<pre data-lines=\"47,50\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">perimeter</span> <span class=\"hljs-operator\">=</span> ((<span class=\"hljs-number\">2</span> * height) + (<span class=\"hljs-number\">2</span> * length));\n</code></pre>","children":[{"content":"The multiplication operator (<code>*</code>) has a higher precedence than the<br>\naddition operator (<code>+</code>), so the <code>height</code> and <code>length</code> are both<br>\nmultiplied by <code>2</code> before being added together. The assignment<br>\noperator (<code>=</code>) has the lowest order of precedence, so the<br>\nassignment to the <code>perimeter</code> variable is performed last.","children":[],"payload":{"tag":"li","lines":"50,55"}},{"content":"Unless overridden with parentheses, Java operators follow order of operation,<br>\nlisted in the <a href=\"https://1drv.ms/i/c/c83cfca51d5c2032/EVvIozQUveROs14p0w2GV-kBSUvvsxsaMgeGsv17I2J0Bg?e=gPOAKq\">Table 2.1</a>, by decreasing order of operator precedence. If two<br>\noperators have the same level of precedence, then Java guarantees left-to-right<br>\nevaluation for most operators other than the ones marked in the table.","children":[],"payload":{"tag":"li","lines":"55,59"}}],"payload":{"tag":"li","lines":"41,59"}}],"payload":{"tag":"li","lines":"39,59"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

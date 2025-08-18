@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong><code>List</code> Implementations</strong>","children":[{"content":"\n<pre data-lines=\"7,10\"><code class=\"language-java\">ArrayList\n</code></pre>","children":[{"content":"Is like a resizable array. When elements are<br>\nadded, it automatically grows.","children":[{"content":"<em>main benefit:</em> you can look up any element in constant time","children":[{"content":"Adding or removing an element is slower than accessing an element","children":[],"payload":{"tag":"li","lines":"13,14"}}],"payload":{"tag":"li","lines":"12,14"}}],"payload":{"tag":"li","lines":"10,14"}}],"payload":{"tag":"li","lines":"7,14"}},{"content":"\n<pre data-lines=\"14,17\"><code class=\"language-java\">LinkedList\n</code></pre>","children":[{"content":"Implements both <code>List</code> and <code>Deque</code>. It has all the methods<br>\nof a <code>List</code>. It also has methods to facilitate adding or<br>\nremoving from the beginning and/or end of the list.","children":[{"content":"<em>main benefits</em> are that you can access, add to, and remove<br>\nfrom the beginning and end of the list in constant time.","children":[],"payload":{"tag":"li","lines":"20,22"}}],"payload":{"tag":"li","lines":"17,22"}}],"payload":{"tag":"li","lines":"14,22"}}],"payload":{"tag":"h1","lines":"6,7"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

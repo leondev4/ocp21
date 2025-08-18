@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>examples</strong>","children":[{"content":"<code>Predicate</code>","children":[{"content":"\n<p data-lines=\"7,8\">Let&#x2019;s start with these two <code>Predicate</code> variables:</p>\n<pre data-lines=\"9,13\"><code class=\"language-java\">Predicate&lt;String&gt; egg = s-&gt;s.contains(<span class=\"hljs-string\">&quot;egg&quot;</span>);\nPredicate&lt;String&gt; brown = s-&gt;s.contains(<span class=\"hljs-string\">&quot;brown&quot;</span>);\n</code></pre>\n  <br>\n<p data-lines=\"15,18\">Now we want a <code>Predicate</code> for brown eggs and another for all other colors of eggs.<br>\nA way to deal with this situation is to use two of the default methods on <code>Predicate</code>.<br>\n<br></p>\n<pre data-lines=\"18,22\"><code class=\"language-java\">Predicate&lt;String&gt; brownEggs = egg.and(brown);`\nPredicate&lt;String&gt; otherEggs = egg.and(brown.negate());\n</code></pre>","children":[],"payload":{"tag":"li","lines":"7,22"}}],"payload":{"tag":"li","lines":"6,22"}},{"content":"<code>Consumer</code>","children":[{"content":"\n<p data-lines=\"23,25\">The <code>andThen(Consumer)</code> method, which runs two functional<br>\ninterfaces in sequence:</p>\n<pre data-lines=\"26,33\"><code class=\"language-java\">Consumer&lt;String&gt; c1 = x-&gt;System.out.print(<span class=\"hljs-string\">&quot;1: &quot;</span> + x);\nConsumer&lt;String&gt; c2 = x-&gt;System.out.print(<span class=\"hljs-string\">&quot;,2: &quot;</span> + x);\n\nConsumer&lt;String&gt; combined = c1.andThen(c2);\ncombined.accept(<span class=\"hljs-string\">&quot;Annie&quot;</span>); <span class=\"hljs-comment\">// 1: Annie,2: Annie</span>\n</code></pre>","children":[{"content":"Notice how the same parameter is passed to both <code>c1</code><br>\nand <code>c2</code>. This shows that the <code>Consumer</code> instances<br>\nare run in sequence and are independent of each other.","children":[],"payload":{"tag":"li","lines":"33,36"}},{"content":"<code>andThen</code> runs from left to right, does not modify the parameter","children":[],"payload":{"tag":"li","lines":"36,37"}}],"payload":{"tag":"li","lines":"23,37"}}],"payload":{"tag":"li","lines":"22,37"}},{"content":"<code>Function</code>","children":[{"content":"\n<pre data-lines=\"38,44\"><code class=\"language-java\">Function&lt;Integer, Integer&gt; f1 = x -&gt; x + <span class=\"hljs-number\">1</span>;\nFunction&lt;Integer, Integer&gt; f2 = x -&gt; x * <span class=\"hljs-number\">2</span>;\nFunction&lt;Integer, Integer&gt; combined = f2.andThen(f1);\nSystem.out.println(combined.apply(<span class=\"hljs-number\">3</span>));<span class=\"hljs-comment\">// 7</span>\n</code></pre>","children":[{"content":"<code>andThen</code> runs from left to right, first executing <code>f2</code> (<code>3*2=6</code> )<br>\nand its output is used as input of <code>f1</code> (<code>6+1=7</code>)","children":[],"payload":{"tag":"li","lines":"44,46"}}],"payload":{"tag":"li","lines":"38,46"}},{"content":"\n<pre data-lines=\"46,52\"><code class=\"language-java\">Function&lt;Integer, Integer&gt; f1 = x -&gt; x + <span class=\"hljs-number\">1</span>;\nFunction&lt;Integer, Integer&gt; f2 = x -&gt; x * <span class=\"hljs-number\">2</span>;\nFunction&lt;Integer, Integer&gt; combined = f2.compose(f1);\nSystem.out.println(combined.apply(<span class=\"hljs-number\">3</span>));<span class=\"hljs-comment\">// 8</span>\n</code></pre>","children":[{"content":"<code>f1.compose(f2)</code> runs from the inside out and the output<br>\nof one is the input of the other","children":[],"payload":{"tag":"li","lines":"52,54"}},{"content":"<code>f1</code> runs first, turning the <code>3</code> into <code>4</code>. Then the <code>f2</code><br>\nruns, doubling the <code>4</code> to <code>8</code>.","children":[],"payload":{"tag":"li","lines":"54,56"}}],"payload":{"tag":"li","lines":"46,56"}}],"payload":{"tag":"li","lines":"37,56"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

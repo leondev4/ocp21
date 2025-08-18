@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="1798987184" etag="3874722600">
+  <theme name="default" label="Light" index="5"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="548.5" posy="545" width="335" height="69" side="left" fold="false" treesize="1406.9999999999998" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="400">
+        <text data="**Customizing the Date/Time Format**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="983.5" posy="-123.99999999999994" width="359" height="90" side="right" fold="false" treesize="90" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="400" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="400">
+            <text data="`DateTimeFormatter` supports a&#10;custom format using a date format `String`."/>
+          </nodename>
+          <nodenote></nodenote>
+        </node>
+        <node id="2" posx="983.5" posy="24.500000000000057" width="628" height="126" side="right" fold="false" treesize="243" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="611">
+            <text data="`var dt = LocalDateTime.of(2024, Month.OCTOBER, 20, 6, 15, 30);&#10;var f = **DateTimeFormatter.ofPattern(&quot;MMMM dd, yyyy 'at' hh:mm&quot;**);&#10;System.out.println(dt.format(f));//**October 20, 2024 at 06:15**`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="3" posx="1711.5" posy="-33.999999999999943" width="646" height="111" side="right" fold="false" treesize="111" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="611">
+                <text data="Java assigns each letter or symbol a specific date/time part. For example, `M` is used for month, while `y` is used for year. And case matters! Using `m` instead of `M` means it will return the minute of the hour, not the month of the year."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="4" posx="1711.5" posy="77.000000000000057" width="640" height="132" side="right" fold="false" treesize="132" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="611">
+                <text data="Using `M` by itself outputs the minimum number of characters for a month, such as `1` for January or `10` for october, while using `MM` always outputs two digits, such as `01`. Furthermore, using `MMM` prints the three-&#xAD;letter abbreviation, such as `Jul` for `July`, while `MMMM` prints the full month name."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="5" posx="983.5" posy="323.00000000000011" width="247" height="69" side="right" fold="false" treesize="297" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="611">
+            <text data=" Common date/time symbols"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="6" posx="1330.5" posy="209.00000000000011" width="65" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="611">
+                <text data="`y`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="7" posx="1495.5" posy="209.00000000000011" width="78" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="611">
+                    <text data="Year"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="8" posx="1673.5" posy="209.00000000000011" width="65" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="611">
+                        <text data="`M`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="9" posx="1838.5" posy="209.00000000000011" width="93" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="611">
+                            <text data="Month"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="10" posx="2031.5" posy="209.00000000000011" width="65" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="611">
+                                <text data="`d`"/>
+                              </nodename>
+                              <nodenote></nodenote>
+                              <nodes>
+                                <node id="11" posx="2196.5" posy="209.00000000000011" width="74" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                                  <nodename maxwidth="611">
+                                    <text data="Day"/>
+                                  </nodename>
+                                  <nodenote></nodenote>
+                                </node>
+                              </nodes>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="12" posx="1330.5" posy="288.50000000000011" width="87" height="69" side="right" fold="false" treesize="90" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="611">
+                <text data="`h`/`H`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="13" posx="1517.5" posy="278.00000000000011" width="145" height="90" side="right" fold="false" treesize="90" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="611">
+                    <text data="Hour in 12/24 &#10;hour format "/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="14" posx="1762.5" posy="288.50000000000011" width="65" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="611">
+                        <text data="`m`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="15" posx="1927.5" posy="288.50000000000011" width="96" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="611">
+                            <text data="Minute"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="16" posx="2123.5" posy="288.50000000000011" width="65" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="611">
+                                <text data="`s`"/>
+                              </nodename>
+                              <nodenote></nodenote>
+                              <nodes>
+                                <node id="17" posx="2288.5" posy="288.50000000000011" width="98" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                                  <nodename maxwidth="611">
+                                    <text data="Second"/>
+                                  </nodename>
+                                  <nodenote></nodenote>
+                                </node>
+                              </nodes>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="18" posx="1330.5" posy="368.00000000000011" width="65" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="611">
+                <text data="`a`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="19" posx="1495.5" posy="368.00000000000011" width="114" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="611">
+                    <text data="a.m./p.m."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="21" posx="1330.5" posy="437.00000000000011" width="162" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="611">
+                <text data="Time zone name"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="20" posx="1592.5" posy="437.00000000000011" width="108" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="611">
+                    <text data="`z` name"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="25" posx="1800.5" posy="437.00000000000011" width="162" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="611">
+                        <text data="Time zone offset"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="22" posx="2062.5" posy="437.00000000000011" width="108" height="69" side="right" fold="false" treesize="69" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="underlined" nodewidth="611" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="611">
+                            <text data="`Z` offset"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="24" posx="983.5" posy="506.00000000000011" width="696" height="252" side="right" fold="false" treesize="252" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="649" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="649">
+            <text data="`var dt = LocalDateTime.of(2022, Month.OCTOBER, 20, 6, 15, 30);&#10;&#10;var formatter1 = DateTimeFormatter.ofPattern(**&quot;MM/dd/yyyy hh:mm:ss&quot;**);&#10;System.out.println(dt.format(formatter1)); //**10/20/2022 06:15:30**&#10;&#10;//Underscore and hyphen are valid&#10;var formatter2 = DateTimeFormatter.ofPattern(**&quot;MM_yyyy_-&#xAD;_dd&quot;**);&#10;System.out.println(dt.format(formatter2)); //**10_2022_-&#xAD;_20**&#10;&#10;var formatter3 = DateTimeFormatter.ofPattern(**&quot;h:mm z&quot;**);&#10;System.out.println(dt.format(formatter3)); //**DateTimeException**`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="26" posx="1779.5" posy="534.50000000000011" width="654" height="195" side="right" fold="false" treesize="195" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="649" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="649">
+                <text data="The _first example_ prints the date, with the month before the day, followed by the time.&#10;The _second example_ prints the date in a weird format with extra characters that are just displayed as part of the output.&#10;The _third example_ throws an exception at runtime because the underlying&#10;`LocalDateTime` does not have a time zone specified. If `ZonedDateTime` were used instead, the code would complete successfully and print something like `06:15 EDT`, depending on the time zone."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="27" posx="983.5" posy="861.49999999999989" width="457" height="132" side="right" fold="false" treesize="338.99999999999989" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="420" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="420">
+            <text data="Make sure you know which symbols are compatible with which date/time types. For example, trying to format a month for a `LocalTime` or an hour for a `LocalDate` will result in a runtime exception."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="28" posx="1540.5" posy="758" width="137" height="69" side="right" fold="false" treesize="69" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="420" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="420">
+                <text data="`LocalDate`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="29" posx="1777.5" posy="758" width="107" height="69" side="right" fold="false" treesize="69" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="420" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="420">
+                    <text data="`y`,`M`,`d`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="30" posx="1540.5" posy="826.99999999999989" width="137" height="69" side="right" fold="false" treesize="69" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="420" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="420">
+                <text data="`LocalTime`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="31" posx="1777.5" posy="826.99999999999989" width="146" height="69" side="right" fold="false" treesize="69" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="420" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="420">
+                    <text data="`h/H`,`m`,`s`,`a`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="32" posx="1540.5" posy="906.49999999999989" width="173" height="69" side="right" fold="false" treesize="90" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="420" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="420">
+                <text data="`LocalDateTime`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="33" posx="1813.5" posy="895.99999999999989" width="146" height="90" side="right" fold="false" treesize="90" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="420" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="420">
+                    <text data="`y`,`M`,`d`&#10;`h/H`,`m`,`s`,`a`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="34" posx="1540.5" posy="1006.9999999999999" width="173" height="69" side="right" fold="false" treesize="111" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="pilled" nodewidth="420" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="420">
+                <text data="`ZonedDateTime`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="35" posx="1813.5" posy="985.99999999999989" width="146" height="111" side="right" fold="false" treesize="111" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="420" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="420">
+                    <text data="`y`,`M`,`d`&#10;`h/H`,`m`,`s`,`a`&#10;`z`,`Z`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="36" posx="983.5" posy="1134.5" width="463" height="111" side="right" fold="false" treesize="186" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="rounded" nodewidth="420" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="420">
+            <text data="The date/time classes contain a `format()` method that will take a formatter, while the formatter classes contain a `format()` method that will take a date/time value."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="37" posx="1546.5" posy="1097" width="745" height="186" side="right" fold="false" treesize="186" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="shortdash" nodeborder="bracket" nodewidth="716" nodeborderwidth="4" nodefill="false" nodemargin="18" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="716">
+                <text data="`var dateTime = LocalDateTime.of(2022, Month.OCTOBER, 20, 6, 15, 30);&#10;var formatter = DateTimeFormatter.ofPattern(&quot;MM/dd/yyyy hh:mm:ss&quot;);&#10;&#10;System.out.println(**dateTime.format(formatter)**); //**10/20/2022 06:15:30**&#10;System.out.println(**formatter.format(dateTime)**); //**10/20/2022 06:15:30**`&#10;&#10;These statements print the same value at runtime. "/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

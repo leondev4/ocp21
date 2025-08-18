@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Lambda Syntax</strong>","children":[{"content":"Lambdas work with interfaces that have exactly one abstract method.","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"Functional interface","children":[{"content":"\n<pre data-lines=\"8,13\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">interface</span> <span class=\"hljs-title class_\">CheckTrait</span>{\n  <span class=\"hljs-type\">boolean</span> <span class=\"hljs-title function_\">test</span><span class=\"hljs-params\">(Animal a)</span>; <span class=\"hljs-comment\">//SAM</span>\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"8,13"}}],"payload":{"tag":"li","lines":"7,13"}},{"content":"<strong>Only meets the SAM rule of a functional interface</strong>","children":[{"content":"\n<pre data-lines=\"14,17\"><code class=\"language-java\">print(animals,a-&#xad;&gt;a.canHop());\n</code></pre>\nThe <code>print()</code> method expects a <code>CheckTrait</code> as the second parameter:<pre data-lines=\"18,21\"><code class=\"language-java\"><span class=\"hljs-keyword\">static</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">print</span><span class=\"hljs-params\">(List&lt;Animal&gt; animals,CheckTrait checker)</span> { ... }\n</code></pre>","children":[{"content":"Since we are passing a lambda, Java tries to map our lambda to<br>\nthe abstract method declaration in the <code>CheckTrait</code> interface:<br>\n<strong><code>boolean test(Animal a);</code></strong><br>\nSince that interface&#x2019;s method takes an <code>Animal</code>, the lambda<br>\nparameter has to be an <code>Animal</code>. And since that interface&#x2019;s<br>\nmethod returns a <code>boolean</code>; the lambda returns a <code>boolean</code>.","children":[],"payload":{"tag":"li","lines":"21,27"}}],"payload":{"tag":"li","lines":"14,27"}}],"payload":{"tag":"li","lines":"13,27"}},{"content":"Lambda syntax omitting optional parts","children":[{"content":"\n<pre data-lines=\"28,31\"><code class=\"language-java\">a -&gt; a.canHop()\n</code></pre>","children":[{"content":"<strong>1.</strong> A single parameter specified with the name <code>a</code><br>\n<strong>2.</strong> The arrow operator (<code>-&gt;</code>) to separate the parameter and body<br>\n<strong>3.</strong> A body that calls a single method and returns the result of that method","children":[],"payload":{"tag":"li","lines":"31,34"}}],"payload":{"tag":"li","lines":"28,34"}}],"payload":{"tag":"li","lines":"27,34"}},{"content":"Lambda syntax including optional parts","children":[{"content":"\n<pre data-lines=\"35,38\"><code class=\"language-java\">(Animal a) -&gt; { <span class=\"hljs-keyword\">return</span> a.canHop(); }\n</code></pre>","children":[{"content":"<strong>1.</strong> A single parameter specified with the name <code>a</code> and stating that the type is <code>Animal</code> and parentesis<br>\n<strong>2.</strong> The arrow operator (<code>-&gt;</code>) to separate the parameter and body<br>\n<strong>3.</strong> A body that has one or more lines of code, including braces, a semicolon and a <code>return</code> statement","children":[],"payload":{"tag":"li","lines":"38,41"}}],"payload":{"tag":"li","lines":"35,41"}}],"payload":{"tag":"li","lines":"34,41"}},{"content":"You can mix syntax","children":[{"content":"\n<pre data-lines=\"42,45\"><code class=\"language-java\">a -&gt; {<span class=\"hljs-keyword\">return</span> a.canHop();}\n</code></pre>","children":[{"content":"The parentheses around the lambda parameters can be omitted only<br>\nif there is a single parameter and its type is not explicitly stated.","children":[],"payload":{"tag":"li","lines":"45,47"}}],"payload":{"tag":"li","lines":"42,47"}},{"content":"\n<pre data-lines=\"47,50\"><code class=\"language-java\">(Animal a)-&gt;a.canHop()\n</code></pre>","children":[{"content":"You can omit braces when we have only a single statement. We did this with if statements and<br>\nloops already. Java allows you to omit a <code>return</code> statement and semicolon (<code>;</code>) when no braces<br>\nare used. This special shortcut doesn&#x2019;t work when you have two or more statements.","children":[],"payload":{"tag":"li","lines":"50,53"}}],"payload":{"tag":"li","lines":"47,53"}}],"payload":{"tag":"li","lines":"41,53"}},{"content":"You cannot assign a lambda using <code>var</code>","children":[{"content":"\n<pre data-lines=\"54,57\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">lambda</span> <span class=\"hljs-operator\">=</span> a -&gt; a.canHop(); <span class=\"hljs-comment\">// Error: cannot use var with lambdas</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"54,57"}}],"payload":{"tag":"li","lines":"53,57"}},{"content":"Valid lambdas that return a <code>boolean</code>","children":[{"content":"\n<pre data-lines=\"58,65\"><code class=\"language-java\">() -&#xad;&gt; <span class=\"hljs-literal\">true</span>                                   <span class=\"hljs-comment\">//0 parameters</span>\nx -&#xad;&gt; x.startsWith(<span class=\"hljs-string\">&quot;test&quot;</span>)                    <span class=\"hljs-comment\">//1 parameter</span>\n(String x) -&#xad;&gt; x.startsWith(<span class=\"hljs-string\">&quot;test&quot;</span>)           <span class=\"hljs-comment\">//1 parameter</span>\n(x, y) -&#xad;&gt; { <span class=\"hljs-keyword\">return</span> x.startsWith(<span class=\"hljs-string\">&quot;test&quot;</span>); }   <span class=\"hljs-comment\">//2 parameters</span>\n(String x, String y) -&#xad;&gt; x.startsWith(<span class=\"hljs-string\">&quot;test&quot;</span>) <span class=\"hljs-comment\">//2 parameters</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"58,65"}}],"payload":{"tag":"li","lines":"57,65"}},{"content":"Invalid lambdas that should return a <code>boolean</code>","children":[{"content":"\n<pre data-lines=\"66,72\"><code class=\"language-java\">x, y -&#xad;&gt; x.startsWith(<span class=\"hljs-string\">&quot;fish&quot;</span>)            <span class=\"hljs-comment\">//Missing parentheses on left</span>\nx -&#xad;&gt; { x.startsWith(<span class=\"hljs-string\">&quot;camel&quot;</span>); }         <span class=\"hljs-comment\">//Missing return on right</span>\nx -&#xad;&gt; { <span class=\"hljs-keyword\">return</span> x.startsWith(<span class=\"hljs-string\">&quot;giraffe&quot;</span>) } <span class=\"hljs-comment\">//Missing semicolon inside braces</span>\nString x -&#xad;&gt; x.endsWith(<span class=\"hljs-string\">&quot;eagle&quot;</span>)         <span class=\"hljs-comment\">//Missing parentheses on left</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"66,72"}}],"payload":{"tag":"li","lines":"65,72"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

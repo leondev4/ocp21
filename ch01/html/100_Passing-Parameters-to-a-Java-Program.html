@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Passing Parameters to a Java Program</strong>","children":[{"content":"\n<p data-lines=\"6,8\">We modify the Zoo program to print out the first two<br>\narguments passed in.</p>\n<pre data-lines=\"8,16\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Zoo</span> {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">main</span><span class=\"hljs-params\">(String[] args)</span> {\n    System.out.println(args[<span class=\"hljs-number\">0</span>]);\n    System.out.println(args[<span class=\"hljs-number\">1</span>]);\n  }\n}\n</code></pre>","children":[{"content":"The code <code>args[0]</code> accesses the first element of the array.<br>\nThat&#x2019;s right: array indexes begin with <code>0</code> in Java.","children":[{"content":"To run it, type this:<pre data-lines=\"19,23\"><code class=\"language-java\">javac Zoo.java\njava Zoo Bronx Zoo\n</code></pre>","children":[{"content":"The output is what you might expect.<pre data-lines=\"24,28\"><code class=\"language-java\">Bronx\nZoo\n</code></pre>","children":[{"content":"The program correctly identifies the first two &quot;words&quot; as the<br>\narguments. Spaces are used to separate the arguments.","children":[],"payload":{"tag":"li","lines":"28,30"}}],"payload":{"tag":"li","lines":"23,30"}}],"payload":{"tag":"li","lines":"18,30"}}],"payload":{"tag":"li","lines":"16,30"}}],"payload":{"tag":"li","lines":"6,30"}},{"content":"\n<p data-lines=\"30,32\">If you want spaces inside an argument, you<br>\nneed to use quotes as in this example:</p>\n<pre data-lines=\"32,36\"><code class=\"language-java\">javac Zoo.java\njava Zoo <span class=\"hljs-string\">&quot;San Diego&quot;</span> Zoo\n</code></pre>","children":[{"content":"Now we have a space in the output.<pre data-lines=\"37,41\"><code class=\"language-java\">San Diego\nZoo\n</code></pre>","children":[],"payload":{"tag":"li","lines":"36,42"}}],"payload":{"tag":"li","lines":"30,42"}},{"content":"\n<p data-lines=\"42,43\">What happens if you don&#x2019;t pass in enough arguments?</p>\n<pre data-lines=\"43,47\"><code class=\"language-java\">javac Zoo.java\njava Zoo Zoo\n</code></pre>","children":[{"content":"Java prints out an exception telling you it has no idea what to do with this argument at position 1.<pre data-lines=\"48,54\"><code class=\"language-java\">Zoo\nException in thread <span class=\"hljs-string\">&quot;main&quot;</span> java.lang.ArrayIndexOutOfBoundsException:\n  Index <span class=\"hljs-number\">1</span> out of bounds <span class=\"hljs-keyword\">for</span> length <span class=\"hljs-number\">1</span>\n  at Zoo.main(Zoo.java:<span class=\"hljs-number\">4</span>)\n</code></pre>","children":[],"payload":{"tag":"li","lines":"47,54"}}],"payload":{"tag":"li","lines":"42,54"}},{"content":"\n<p data-lines=\"54,57\"><strong>Single-File Source Code</strong><br>\nIf you get tired of typing both <code>javac</code> and <code>java</code> every time you want<br>\nto try a code example, there&#x2019;s a shortcut. You can instead run this:</p>\n<pre data-lines=\"57,60\"><code class=\"language-java\">java Zoo.java Bronx Zoo\n</code></pre>","children":[{"content":"There is a key difference here. When compiling first, you<br>\nomitted the file extension when running <code>java</code>. When skipping<br>\nthe explicit compilation step, you include this extension. This<br>\nfeature is called launching <em>single-file source-code</em> programs.","children":[],"payload":{"tag":"li","lines":"60,64"}}],"payload":{"tag":"li","lines":"54,64"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

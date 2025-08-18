@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="869277811" etag="1411859670">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="875.5" posy="544.5" width="203" height="70" side="left" fold="false" treesize="1353" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="**Shortening Code with Pattern Matching**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="1178.5" posy="-82" width="519" height="112" side="right" fold="false" treesize="142" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="492" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="493.4453125">
+            <text data="_Pattern matching_ is a technique of controlling program flow that only executes a section of code that meets certain criteria. We perform pattern matching with the `if` statement, along with the `instanceof` operator, to improve program control."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1797.5" posy="-82" width="443" height="112" side="right" fold="false" treesize="142" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="492" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="492">
+                <text data="Pattern matching is a useful tool for reducing boilerplate&#10;code in your application._Boilerplate_ code is code that tends&#10;to be duplicated throughout a section of code over and over&#10;again in a similar manner."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="3" posx="2340.5" posy="-71.5" width="518" height="91" side="right" fold="false" treesize="142" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="492" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="492">
+                    <text data="To understand why this feature was added, consider the following code that takes a `Number` instance and compares it with the value `5`. You just need to know that `Integer` inherits from `Number`."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="4" posx="2958.5" posy="-97" width="388" height="142" side="right" fold="false" treesize="142" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="492" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="492">
+                        <text data="`void compareIntegers(Number number) {&#10;  if(number**instanceof**Integer) {&#10;    Integer data =**(Integer)**number;&#10;    System.out.print(data.compareTo(5));&#10;  }&#10;}`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="5" posx="3446.5" posy="-61" width="388" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="399" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="366.5078125">
+                            <text data="The cast is needed since the `compareTo()` method is defined on `Integer`, but not on `Number`."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="6" posx="1178.5" posy="115.5" width="512" height="112" side="right" fold="false" treesize="253" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="492" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="492">
+            <text data="Code that first checks if a variable is of a particular type and then immediately casts it to that type is extremely common in the Java world. It&#x2019;s so common that the authors of Java decided to implement a shorter syntax for it:"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="7" posx="1790.5" posy="109.5" width="388" height="124" side="right" fold="false" treesize="253" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="492" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="492">
+                <text data="`void compareIntegers(Number number) {&#10;  if(number**instanceof Integer data**){&#10;    System.out.print(data.compareTo(5));&#10;  }&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="9" posx="2278.5" posy="115.5" width="466" height="112" side="right" fold="false" treesize="253" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="492" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="492">
+                    <text data="The variable `data` in this example is referred to as the&#10;**pattern variable**. Notice that this code also avoids any&#10;potential `ClassCastException` because the cast operation is&#10;executed only if the `instanceof` operator returns `true`."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="10" posx="2844.5" posy="115.5" width="519" height="112" side="right" fold="false" treesize="253" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="476" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="494.564453125">
+                        <text data="Figure (see 230_figure_3_3.png) shows the anatomy of pattern matching using the `instanceof` operator and `if` statements. Adding a variable after the type is what instructs the compiler to treat it as pattern matching.The Figure also shows an optional conditional clause."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="11" posx="3463.5" posy="45" width="419" height="253" side="right" fold="false" treesize="253" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="476" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="476">
+                            <text data="**Reassigning Pattern Variables**&#10;While possible, it is a bad practice.&#10;Reassigning Pattern Variables&#10;`if(number instanceof Integer data) {&#10;  **data = 10;**&#10;}`&#10;The reassignment can be prevented with a `final`&#10;modifier.&#10;`if(number instanceof**final**Integer data){&#10;  data = 10; // DOES NOT COMPILE&#10;}`"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="12" posx="1178.5" posy="405" width="369" height="91" side="right" fold="false" treesize="305" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="408" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="396.90625">
+            <text data="**Pattern Variables and Expressions**&#10;Pattern matching supports an optional `boolean` expression. This can be used to filter data out."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="13" posx="1647.5" posy="397.5" width="604" height="106" side="right" fold="false" treesize="305" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="583" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="587.51171875">
+                <text data="`void printIntegersGreaterThan5(Number number){&#10;  if(number instanceof Integer data**&amp;&amp; data.compareTo(5) &gt; 0**)&#10;    System.out.print(data);&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="14" posx="2351.5" posy="394.5" width="418" height="112" side="right" fold="false" treesize="305" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="407" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="398.55859375">
+                    <text data="We can apply a number of filters, or patterns, so that the `if` statement is executed only in specific circumstances. **Notice that we&#x2019;re using the pattern variable in an expression in the same line in which it is declared.**"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="15" posx="2869.5" posy="359.5" width="442" height="91" side="right" fold="false" treesize="214" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="426" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="430.048828125">
+                        <text data="**Pattern Matching with `null`**&#10;The `instanceof` operator always evaluates `null` references to `false`. The same holds for pattern matching."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="16" posx="3411.5" posy="298" width="559" height="214" side="right" fold="false" treesize="214" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="527" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="532.015625">
+                            <text data="`String noObjectHere = null;&#10;&#10;**if(noObjectHere instanceof String)**&#10;    System.out.println(&quot;Not printed&quot;);&#10;&#10;**if(noObjectHere instanceof String s)**&#10;    System.out.println(&quot;Still not printed&quot;);&#10;&#10;**if(noObjectHere instanceof String s &amp;&amp; s.length() &gt; -1)**&#10;    System.out.println(&quot;Nope, not this one either&quot;);`"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="17" posx="2869.5" posy="512" width="468" height="91" side="right" fold="false" treesize="91" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="457" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="458.1640625">
+                        <text data="As shown in the last example, this also helps avoid any potential `NullPointerException`, as the conditional operator&#10;(`&amp;&amp;`, short-circuit) causes the `s.length()` call to be skipped."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="18" posx="1178.5" posy="613.5" width="432" height="154" side="right" fold="false" treesize="175" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="408" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="408">
+            <text data="**Supported Types**&#10;The type of the pattern variable must be a compatible type,&#10;which includes the **same type, a subtype, or a supertype of the reference variable. If the reference variable does not refer to a `final` class or type, then it can also include an unrelated interface.**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="19" posx="1710.5" posy="655.5" width="350" height="70" side="right" fold="false" treesize="175" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="335" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="324.02864583333337">
+                <text data="Consider the following two examples, in which `Integer` is a subtype of `Number`:"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="20" posx="2160.5" posy="610.5" width="604" height="160" side="right" fold="false" treesize="175" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="569" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="580.07031249999989">
+                    <text data="`11:**Number bearHeight = Integer.valueOf(123);**&#10;12:&#10;13: if (bearHeight**instanceof Integer i**){}&#10;14: if (bearHeight**instanceof Number n**){}&#10;15: if (bearHeight**instanceof String s**){} // DOES NOT COMPILE&#10;16: if (bearHeight**instanceof Object o**){}&#10;17: if (bearHeight**instanceof Cloneable c**) {}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="21" posx="2864.5" posy="603" width="593" height="175" side="right" fold="false" treesize="175" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="569" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="569">
+                        <text data="The first example uses a subtype, while the second example uses the same type as the reference variable `bearHeight`. On line `15`, the compiler recognizes that a `Number` cannot be cast to an unrelated type `String` and throws an error. Line 16 is permitted but not particularly useful, since every `Object` except `null` will return `true`.&#10;Applies to the line 17: If the reference variable does not refer to a `final` class or type, it can also include an unrelated interface."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="22" posx="1178.5" posy="798" width="430" height="154" side="right" fold="false" treesize="194" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="408" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="408">
+            <text data="**Flow Scoping**&#10;Flow scoping means the variable is only in scope when the compiler can definitively determine its type. Flow scoping is unlike any other type of scoping, in that it is not strictly hierarchical. It is determined by the compiler based on the branching and flow of the program."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="23" posx="1708.5" posy="822" width="604" height="106" side="right" fold="false" treesize="194" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="568" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="580.96875">
+                <text data="`void printIntegersOrNumbersGreaterThan5(Number number) {&#10;  if(number instanceof Integer data**|| data.compareTo(5) &gt; 0**)&#10;    System.out.print(data);&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="24" posx="2412.5" posy="819" width="496" height="112" side="right" fold="false" treesize="194" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="497" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="475.916015625">
+                    <text data="The key thing to notice is that we used OR (`||`) not AND (`&amp;&amp;`) in the conditional statement. If the input does not inherit `Integer`, the `data` variable is undefined. Since the compiler cannot guarantee that `data` is an instance of `Integer`, the code does not compile."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="25" posx="3008.5" posy="778" width="469" height="124" side="right" fold="false" treesize="124" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="497" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="497">
+                        <text data="`void printIntegerTwice(Number number) {&#10;**if(number instanceof Integer data)**&#10;    System.out.print(data.intValue());&#10;  var n =**data.intValue();** // DOES NOT COMPILE&#10;}`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="26" posx="3008.5" posy="902" width="468" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="497" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="497">
+                        <text data="Since the input might not have inherited `Integer`, `data` is no&#10;longer in scope after the `if` statement. "/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="27" posx="1178.5" posy="1041.5" width="397" height="145" side="right" fold="false" treesize="284" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="408" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="408">
+            <text data="Consider the following example that does compile:&#10;`void printOnlyIntegers(Number number) {&#10;**if(!(number instanceof Integer data))**&#10;    return;&#10;  var n =**data.intValue()**;&#10;}`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="28" posx="1675.5" posy="1047.5" width="424" height="133" side="right" fold="false" treesize="284" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="408" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="408">
+                <text data="It might surprise you to learn this code does compile. The method returns if the input does not inherit `Integer`. This means that when the last line of the method is reached, the input must inherit `Integer`, and therefore `data` stays in scope even after the `if` statement ends."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="29" posx="2199.5" posy="1089.5" width="293" height="49" side="right" fold="false" treesize="284" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="408" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="408">
+                    <text data="**Flow Scoping and else Branches**"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="30" posx="2592.5" posy="997.5" width="367" height="91" side="right" fold="false" treesize="142" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="408" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="408">
+                        <text data="Another way to think about it is to rewrite the&#10;logic to something equivalent that uses an `else`&#10;statement:"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="31" posx="3059.5" posy="972" width="383" height="142" side="right" fold="false" treesize="142" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="408" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="408">
+                            <text data="`void printOnlyIntegers(Number number) {&#10;  if(!(number instanceof Integer data))&#10;    return;&#10;  else&#10;    System.out.print(data.intValue());&#10;}`"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="32" posx="2592.5" posy="1150" width="418" height="70" side="right" fold="false" treesize="142" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="408" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="408">
+                        <text data="We can now go one step further and reverse the `if` and&#10;`else` branches by inverting the `boolean` expression:"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="33" posx="3110.5" posy="1114" width="383" height="142" side="right" fold="false" treesize="142" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="408" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="408">
+                            <text data="`void printOnlyIntegers(Number number) {&#10;  if(number instanceof Integer data)&#10;    System.out.print(data.intValue());&#10;  else&#10;    return;&#10;}`"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="34" posx="3593.5" posy="1139.5" width="436" height="91" side="right" fold="false" treesize="91" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="419" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="423.06510416666663">
+                                <text data="Our new code is equivalent to our original and better&#10;demonstrates how the compiler was able to determine that `data` was in scope only when `number` is an `Integer`."/>
+                              </nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

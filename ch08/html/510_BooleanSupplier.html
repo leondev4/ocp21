@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong><code>BooleanSupplier</code></strong>","children":[{"content":"<code>BooleanSupplier</code> is a separate type.<pre data-lines=\"2,7\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">interface</span> <span class=\"hljs-title class_\">BooleanSupplier</span> {\n  <span class=\"hljs-type\">boolean</span> <span class=\"hljs-title function_\">getAsBoolean</span><span class=\"hljs-params\">()</span>;\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"1,7"}},{"content":"It works just as you&#x2019;ve come to expect from functional interfaces.","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"\n<pre data-lines=\"8,14\"><code class=\"language-java\"><span class=\"hljs-number\">12</span>:   BooleanSupplier b1=()-&gt;<span class=\"hljs-literal\">true</span>;\n<span class=\"hljs-number\">13</span>:   BooleanSupplier b2=()-&gt;Math.random() &gt; <span class=\"hljs-number\">.5</span>;\n<span class=\"hljs-number\">14</span>:   System.out.println(b1.getAsBoolean()); <span class=\"hljs-comment\">// true</span>\n<span class=\"hljs-number\">15</span>:   System.out.println(b2.getAsBoolean()); <span class=\"hljs-comment\">// false</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"8,14"}},{"content":"Lines 12 and 13 each create a <code>BooleanSupplier</code>, which is the only<br>\nfunctional interface for <code>boolean</code>. Line 14 prints <code>true</code>, since it is<br>\nthe result of <code>b1</code>. Line 15 prints <code>true</code> or <code>false</code>, depending on the<br>\nrandom value generated.","children":[],"payload":{"tag":"li","lines":"14,18"}}],"payload":{"tag":"h1","lines":"0,1"}},{})</script>
+</body>
+</html>

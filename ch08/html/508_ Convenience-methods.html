@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Convenience default<br>methods</strong>","children":[{"content":"<code>Consumer</code>","children":[{"content":"\n<pre data-lines=\"7,10\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">default</span> Consumer <span class=\"hljs-title function_\">andThen</span><span class=\"hljs-params\">(Consumer)</span>\n</code></pre>","children":[{"content":"<code>c1.andThen(c2)</code> first executes <code>c1</code> and then<code>c2</code>; both use the same input","children":[],"payload":{"tag":"li","lines":"10,11"}}],"payload":{"tag":"li","lines":"7,11"}}],"payload":{"tag":"li","lines":"6,11"}},{"content":"<code>Function</code>","children":[{"content":"\n<pre data-lines=\"12,15\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">default</span> Function <span class=\"hljs-title function_\">andThen</span><span class=\"hljs-params\">(Function)</span>\n</code></pre>","children":[{"content":"<code>f1.andThen(f2)</code> first executes <code>f1</code> and the output is input of <code>f2</code>","children":[],"payload":{"tag":"li","lines":"15,16"}}],"payload":{"tag":"li","lines":"12,16"}},{"content":"\n<pre data-lines=\"16,19\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">default</span> Function <span class=\"hljs-title function_\">compose</span><span class=\"hljs-params\">(Function)</span>\n</code></pre>","children":[{"content":"<code>f1.compose(f2)</code> first executes <code>f2</code> and the outputs is input of <code>f1</code>","children":[],"payload":{"tag":"li","lines":"19,20"}}],"payload":{"tag":"li","lines":"16,20"}}],"payload":{"tag":"li","lines":"11,20"}},{"content":"<code>Predicate</code>","children":[{"content":"\n<pre data-lines=\"21,24\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">default</span> Predicate <span class=\"hljs-title function_\">and</span><span class=\"hljs-params\">(Predicate)</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"21,24"}},{"content":"\n<pre data-lines=\"24,27\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">default</span> Predicate <span class=\"hljs-title function_\">or</span><span class=\"hljs-params\">(Predicate)</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"24,27"}},{"content":"\n<pre data-lines=\"27,30\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">default</span> Predicate <span class=\"hljs-title function_\">negate</span><span class=\"hljs-params\">()</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"27,30"}}],"payload":{"tag":"li","lines":"20,30"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

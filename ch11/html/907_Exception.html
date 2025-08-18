@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Exception</strong>","children":[{"content":"An exception is an event that alters program flow","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"An exception is Java&#x2019;s way of saying, &#x201c;I give up. I don&#x2019;t know what to do right now. You<br>\ndeal with it.&#x201d; When you write a method, you can either deal with the exception or make<br>\nit the calling code&#x2019;s problem.","children":[],"payload":{"tag":"li","lines":"7,10"}},{"content":"A method can handle the exception case itself or make it the caller&#x2019;s responsibility","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"<strong>Understanding Exception Types</strong><br>\nAn exception is an event that alters program flow. Java has a<br>\n<code>Throwable</code> class for all objects that represent these events. Not all<br>\nof them have the word exception in their class name, which can<br>\nbe confusing. <strong>Figure 11.1</strong> shows the key subclasses of <code>Throwable</code>.","children":[{"content":"<strong>FIGURE 11.1</strong> Categories of exception<br>\n<img src=\"../img/figure_11_1.png\" alt=\"drawing\" style=\"width:350px;\">","children":[],"payload":{"tag":"li","lines":"16,18"}}],"payload":{"tag":"li","lines":"11,18"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

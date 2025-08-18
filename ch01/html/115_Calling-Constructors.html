@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Calling Constructors</strong>","children":[{"content":"To create an instance of a class, all you have to do is write <code>new</code><br>\nbefore the class name and add parentheses after it.","children":[{"content":"\n<pre data-lines=\"8,11\"><code class=\"language-java\"><span class=\"hljs-type\">Park</span> <span class=\"hljs-variable\">p</span> <span class=\"hljs-operator\">=</span><span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Park</span>();\n</code></pre>","children":[{"content":"First you declare the type that you&#x2019;ll be creating (<code>Park</code>) and give the<br>\nvariable a name (<code>p</code>). This gives Java a place to store a reference to<br>\nthe object. Then you write <code>new Park()</code> to actually create the object.","children":[],"payload":{"tag":"li","lines":"11,14"}}],"payload":{"tag":"li","lines":"8,14"}}],"payload":{"tag":"li","lines":"6,14"}},{"content":"<code>Park()</code> looks like a method since it is followed by parentheses.<br>\nIt&#x2019;s called a <em>constructor</em>, which is a special type of method that<br>\ncreates a new object. You can define your own constructor.","children":[{"content":"\n<pre data-lines=\"17,24\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Chick</span> {\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-title function_\">Chick</span><span class=\"hljs-params\">()</span>{\n    System.out.println(<span class=\"hljs-string\">&quot;in constructor&quot;</span>);\n  }\n}\n</code></pre>","children":[{"content":"There are two key points to note about the constructor: the name<br>\nof the constructor matches the name of the class, and there&#x2019;s no<br>\nreturn type.","children":[],"payload":{"tag":"li","lines":"24,27"}}],"payload":{"tag":"li","lines":"17,27"}}],"payload":{"tag":"li","lines":"14,27"}},{"content":"You may see a method like this on the exam:","children":[{"content":"\n<pre data-lines=\"28,33\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Chick</span> {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">Chick</span><span class=\"hljs-params\">()</span> { }<span class=\"hljs-comment\">// NOT A CONSTRUCTOR</span>\n}\n</code></pre>","children":[{"content":"When you see a method name beginning with a capital letter and<br>\nhaving a return type. It is not a constructor since there&#x2019;s a return<br>\ntype. It&#x2019;s a regular method that does compile but will not be called<br>\nwhen you write <code>new Chick()</code>.","children":[],"payload":{"tag":"li","lines":"33,37"}}],"payload":{"tag":"li","lines":"28,37"}}],"payload":{"tag":"li","lines":"27,37"}},{"content":"The purpose of a constructor is to initialize fields, although you<br>\ncan put any code in there. Another way to initialize fields is to<br>\ndo so directly on the line on which they&#x2019;re declared. This example<br>\nshows both approaches:","children":[{"content":"\n<pre data-lines=\"41,50\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Chicken</span> {\n  <span class=\"hljs-type\">int</span> <span class=\"hljs-variable\">numEggs</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">12</span>; <span class=\"hljs-comment\">//initialize on line</span>\n  String name;\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-title function_\">Chicken</span><span class=\"hljs-params\">()</span> {\n    name = <span class=\"hljs-string\">&quot;Duke&quot;</span>; <span class=\"hljs-comment\">//initialize in constructor</span>\n  }\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"41,50"}}],"payload":{"tag":"li","lines":"37,50"}},{"content":"<strong>Reading and Writing Member Fields</strong>","children":[{"content":"It&#x2019;s possible to read and write instance variables directly from the<br>\ncaller.","children":[{"content":"\n<pre data-lines=\"53,63\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Swan</span> {\n  <span class=\"hljs-type\">int</span> numberEggs;                          <span class=\"hljs-comment\">//instance variable</span>\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">main</span><span class=\"hljs-params\">(String[] args)</span> {\n    <span class=\"hljs-type\">Swan</span> <span class=\"hljs-variable\">mother</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Swan</span>();\n    mother.numberEggs = <span class=\"hljs-number\">1</span>;                 <span class=\"hljs-comment\">//set variable</span>\n    System.out.println(mother.numberEggs); <span class=\"hljs-comment\">//read variable</span>\n  }\n}\n</code></pre>","children":[{"content":"The &#x201c;caller&#x201d; in this case is the <code>main()</code> method, which could be in the<br>\nsame class or in another class. This class sets <code>numberEggs</code> to <code>1</code> and<br>\nthen reads <code>numberEggs</code> directly to print it out.","children":[],"payload":{"tag":"li","lines":"63,66"}}],"payload":{"tag":"li","lines":"53,66"}}],"payload":{"tag":"li","lines":"51,66"}},{"content":"You can even read values of already initialized fields on a line<br>\ninitializing a new field.","children":[{"content":"\n<pre data-lines=\"68,75\"><code class=\"language-java\"><span class=\"hljs-number\">1</span>: <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Name</span>{\n<span class=\"hljs-number\">2</span>:   <span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">first</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-string\">&quot;Theodore&quot;</span>;\n<span class=\"hljs-number\">3</span>:   <span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">last</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-string\">&quot;Moose&quot;</span>;\n<span class=\"hljs-number\">4</span>:   <span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">full</span> <span class=\"hljs-operator\">=</span> first + last;\n<span class=\"hljs-number\">5</span>: }\n</code></pre>","children":[{"content":"Lines 2 and 3 both write to fields. Line 4 both reads and writes data.<br>\nIt reads the fields <code>first</code> and <code>last</code>. It then writes the field <code>full</code>.","children":[],"payload":{"tag":"li","lines":"75,77"}}],"payload":{"tag":"li","lines":"68,77"}}],"payload":{"tag":"li","lines":"66,77"}}],"payload":{"tag":"li","lines":"50,77"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

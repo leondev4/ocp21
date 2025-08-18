@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="2873855853" etag="2431877520">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="34" posx="86.458557128907159" posy="18.39777628580714" width="162" height="36" side="left" fold="false" treesize="403.8046875" summarized="false" layout="Manual" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="squared" nodewidth="176" nodeborderwidth="4" nodefill="true" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="176">
+        <text data="**Convenience default methods**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="35" posx="322.47808837890716" posy="-99.71159871419286" width="74" height="15" side="right" fold="false" treesize="34.71484375" color="#f37329" colorroot="true" summarized="false" layout="Manual" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="pilled" nodewidth="176" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="176">
+            <text data="`Consumer`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="38" posx="490.78668212890716" posy="-119.42644246419286" width="371" height="15" side="right" fold="false" treesize="15.31640625" color="#f37329" colorroot="false" summarized="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="487" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="488.453125">
+                <text data="`public default Consumer andThen(Consumer)`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="46" posx="998.67730712890716" posy="-119.11003621419286" width="518" height="15" side="right" fold="false" treesize="15" color="#f37329" colorroot="false" summarized="false" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="572" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="573.33203125">
+                    <text data="`c1.andThen(c2)` first executes `c1` and then`c2`; both use the same input"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="36" posx="314.29058837890716" posy="26.73371378580714" width="74" height="15" side="right" fold="false" treesize="96.89453125" color="#f9c440" colorroot="true" summarized="false" layout="Manual" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="pilled" nodewidth="176" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="176">
+            <text data="`Function`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="39" posx="485.03668212890716" posy="-31.65300496419286" width="371" height="15" side="right" fold="false" treesize="15.8203125" color="#f9c440" colorroot="false" summarized="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="378" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="379.58203125">
+                <text data="`public default Function andThen(Function)`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="44" posx="1000.1851196289072" posy="-32.47331746419286" width="461" height="15" side="right" fold="false" treesize="15" color="#f9c440" colorroot="false" summarized="false" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="481" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="483.0078125">
+                    <text data="`f1.andThen(f2)` first executes `f1` and the output is input of `f2`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="40" posx="489.18511962890716" posy="49.42121378580714" width="371" height="15" side="right" fold="false" treesize="18.640625" color="#f9c440" colorroot="false" summarized="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="377" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="378.2734375">
+                <text data="`public default Function compose(Function)`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="45" posx="1002.2476196289072" posy="45.78058878580714" width="468" height="15" side="right" fold="false" treesize="15" color="#f9c440" colorroot="false" summarized="false" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="521" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="523.83203125">
+                    <text data="`f1.compose(f2)` first executes `f2` and the outputs is input of `f1`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="37" posx="307.66558837890716" posy="189.22980753580714" width="83" height="15" side="right" fold="false" treesize="165.48046875" color="#68b723" colorroot="true" summarized="false" layout="Manual" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="pilled" nodewidth="176" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="176">
+            <text data="`Predicate`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="41" posx="511.54840087890716" posy="118.89777628580714" width="353" height="15" side="right" fold="false" treesize="15" color="#68b723" colorroot="false" summarized="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="368" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="369.421875">
+                <text data="`public default Predicate and(Predicate)`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="43" posx="516.44683837890716" posy="194.67512003580714" width="344" height="15" side="right" fold="false" treesize="15" color="#68b723" colorroot="false" summarized="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="351" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="353.0625">
+                <text data="`public default Predicate or(Predicate)`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="42" posx="491.23199462890716" posy="269.37824503580714" width="299" height="15" side="right" fold="false" treesize="15" color="#68b723" colorroot="false" summarized="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="316" nodeborderwidth="4" nodefill="false" nodemargin="-9" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="316">
+                <text data="`public default Predicate negate()`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

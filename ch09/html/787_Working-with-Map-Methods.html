@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong><code>Map</code> methods</strong>","children":[{"content":"\n<pre data-lines=\"1,4\"><code class=\"language-java\">  <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">clear</span><span class=\"hljs-params\">()</span>\n</code></pre>","children":[{"content":"Removes all keys and values from map.","children":[],"payload":{"tag":"li","lines":"4,5"}}],"payload":{"tag":"li","lines":"1,5"}},{"content":"\n<pre data-lines=\"5,8\"><code class=\"language-java\"><span class=\"hljs-type\">boolean</span> <span class=\"hljs-title function_\">containsKey</span><span class=\"hljs-params\">(Object key)</span>\n</code></pre>","children":[{"content":"Returns whether key is in map.","children":[],"payload":{"tag":"li","lines":"8,9"}}],"payload":{"tag":"li","lines":"5,9"}},{"content":"\n<pre data-lines=\"9,12\"><code class=\"language-java\"><span class=\"hljs-type\">boolean</span> <span class=\"hljs-title function_\">containsValue</span><span class=\"hljs-params\">( Object value)</span>\n</code></pre>","children":[{"content":"Returns whether value is in map.","children":[],"payload":{"tag":"li","lines":"12,13"}}],"payload":{"tag":"li","lines":"9,13"}},{"content":"\n<pre data-lines=\"13,16\"><code class=\"language-java\">Set&lt;Map.Entry&lt;K,V&gt;&gt; entrySet()\n</code></pre>","children":[{"content":"Returns <code>Set</code> of key/value pairs.","children":[],"payload":{"tag":"li","lines":"16,17"}}],"payload":{"tag":"li","lines":"13,17"}},{"content":"\n<pre data-lines=\"17,20\"><code class=\"language-java\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">forEach</span><span class=\"hljs-params\">(BiConsumer&lt;K, V&gt; action)</span>\n</code></pre>","children":[{"content":"Loops through each key/value pair.","children":[],"payload":{"tag":"li","lines":"20,21"}}],"payload":{"tag":"li","lines":"17,21"}},{"content":"\n<pre data-lines=\"21,24\"><code class=\"language-java\">V <span class=\"hljs-title function_\">get</span><span class=\"hljs-params\">(Object key)</span>\n</code></pre>","children":[{"content":"Returns value mapped by key or <code>null</code> if none is mapped.","children":[],"payload":{"tag":"li","lines":"24,25"}}],"payload":{"tag":"li","lines":"21,25"}},{"content":"\n<pre data-lines=\"25,28\"><code class=\"language-java\">V <span class=\"hljs-title function_\">getOrDefault</span><span class=\"hljs-params\">(Object key, V defaultValue)</span>\n</code></pre>","children":[{"content":"Returns value mapped by key or default value if none is mapped.","children":[],"payload":{"tag":"li","lines":"28,29"}}],"payload":{"tag":"li","lines":"25,29"}},{"content":"\n<pre data-lines=\"29,32\"><code class=\"language-java\"><span class=\"hljs-type\">boolean</span> <span class=\"hljs-title function_\">isEmpty</span><span class=\"hljs-params\">()</span>\n</code></pre>","children":[{"content":"Returns whether map is empty.","children":[],"payload":{"tag":"li","lines":"32,33"}}],"payload":{"tag":"li","lines":"29,33"}},{"content":"\n<pre data-lines=\"33,36\"><code class=\"language-java\">Set&lt;K&gt; <span class=\"hljs-title function_\">keySet</span><span class=\"hljs-params\">()</span>\n</code></pre>","children":[{"content":"Returns set of all keys.","children":[],"payload":{"tag":"li","lines":"36,37"}}],"payload":{"tag":"li","lines":"33,37"}},{"content":"\n<pre data-lines=\"37,40\"><code class=\"language-java\">V <span class=\"hljs-title function_\">merge</span><span class=\"hljs-params\">(K key, V value, BiFunction&lt;V, V, V&gt; func)</span>\n</code></pre>","children":[{"content":"Sets value if key not set. Runs function if key is set,<br>\nto determine new value. Removes if value is <code>null</code>.","children":[],"payload":{"tag":"li","lines":"40,42"}}],"payload":{"tag":"li","lines":"37,42"}},{"content":"\n<pre data-lines=\"42,45\"><code class=\"language-java\">V <span class=\"hljs-title function_\">put</span><span class=\"hljs-params\">(K key, V value)</span>\n</code></pre>","children":[{"content":"Adds or replaces key/value pair. Returns previous value or <code>null</code>.","children":[],"payload":{"tag":"li","lines":"45,46"}}],"payload":{"tag":"li","lines":"42,46"}},{"content":"\n<pre data-lines=\"46,49\"><code class=\"language-java\">V <span class=\"hljs-title function_\">putIfAbsent</span><span class=\"hljs-params\">(K key, V value)</span>\n</code></pre>","children":[{"content":"Adds value if key not present and returns <code>null</code>.<br>\nOtherwise, returns existing value.","children":[],"payload":{"tag":"li","lines":"49,51"}}],"payload":{"tag":"li","lines":"46,51"}},{"content":"\n<pre data-lines=\"51,54\"><code class=\"language-java\">V <span class=\"hljs-title function_\">remove</span><span class=\"hljs-params\">(Object key)</span>\n</code></pre>","children":[{"content":"Removes and returns value mapped to key. Returns <code>null</code> if none.","children":[],"payload":{"tag":"li","lines":"54,55"}}],"payload":{"tag":"li","lines":"51,55"}},{"content":"\n<pre data-lines=\"55,58\"><code class=\"language-java\">V <span class=\"hljs-title function_\">replace</span><span class=\"hljs-params\">(K key, V value)</span>\n</code></pre>","children":[{"content":"Replaces value for given key if key is set. Returns original value or <code>null</code> if none.","children":[],"payload":{"tag":"li","lines":"58,59"}}],"payload":{"tag":"li","lines":"55,59"}},{"content":"\n<pre data-lines=\"59,62\"><code class=\"language-java\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">replaceAll</span><span class=\"hljs-params\">(BiFunction&lt;K, V, V&gt; func)</span>\n</code></pre>","children":[{"content":"Replaces each value with results of function.","children":[],"payload":{"tag":"li","lines":"62,63"}}],"payload":{"tag":"li","lines":"59,63"}},{"content":"\n<pre data-lines=\"63,66\"><code class=\"language-java\"><span class=\"hljs-type\">int</span> <span class=\"hljs-title function_\">size</span><span class=\"hljs-params\">()</span>\n</code></pre>","children":[{"content":"Returns number of entries (key/value pairs) in map.","children":[],"payload":{"tag":"li","lines":"66,67"}}],"payload":{"tag":"li","lines":"63,67"}},{"content":"\n<pre data-lines=\"67,70\"><code class=\"language-java\">Collection&lt;V&gt; <span class=\"hljs-title function_\">values</span><span class=\"hljs-params\">()</span>\n</code></pre>","children":[{"content":"Returns <code>Collection</code> of all values.","children":[],"payload":{"tag":"li","lines":"70,71"}}],"payload":{"tag":"li","lines":"67,71"}}],"payload":{"tag":"h1","lines":"0,1"}},{})</script>
+</body>
+</html>

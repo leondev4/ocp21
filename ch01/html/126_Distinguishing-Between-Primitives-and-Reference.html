@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Distinguishing Between Primitives and Reference Types</strong>","children":[{"content":"Notice that all the primitive types have lowercase type names.<br>\nAll classes that come with Java begin with uppercase.","children":[{"content":"Reference types can be used to call methods, assuming<br>\nthe reference is not <code>null</code>. Primitives do not have<br>\nmethods declared on them.","children":[],"payload":{"tag":"li","lines":"8,11"}}],"payload":{"tag":"li","lines":"6,11"}},{"content":"\n<pre data-lines=\"11,16\"><code class=\"language-java\">    <span class=\"hljs-number\">4</span>: <span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">reference</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-string\">&quot;hello&quot;</span>;\n    <span class=\"hljs-number\">5</span>: <span class=\"hljs-type\">int</span> <span class=\"hljs-variable\">len</span> <span class=\"hljs-operator\">=</span> reference.length();\n    <span class=\"hljs-number\">6</span>: <span class=\"hljs-type\">int</span> <span class=\"hljs-variable\">bad</span> <span class=\"hljs-operator\">=</span> len.length(); <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n</code></pre>","children":[{"content":"We can call a method on <code>reference</code> since it is of a reference<br>\ntype. You can tell <code>length</code> is a method because it has <code>()</code> after it.","children":[],"payload":{"tag":"li","lines":"16,18"}},{"content":"No methods exist on <code>len</code> because it is an <code>int</code> primitive (line 6).<br>\nPrimitives do not have methods. Remember, a <code>String</code> is not a<br>\nprimitive, so you can call methods like <code>length()</code> on a <code>String</code><br>\nreference, as we did on line 5.","children":[],"payload":{"tag":"li","lines":"18,22"}}],"payload":{"tag":"li","lines":"11,22"}},{"content":"Reference types can be assigned <code>null</code>, which means they do<br>\nnot currently refer to an object. Primitive types will give you a<br>\ncompiler error if you attempt to assign them <code>null</code>.","children":[{"content":"\n<pre data-lines=\"25,29\"><code class=\"language-java\"><span class=\"hljs-type\">int</span> <span class=\"hljs-variable\">value</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-literal\">null</span>; <span class=\"hljs-comment\">//DOES NOT COMPILE</span>\n<span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">name</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-literal\">null</span>;\n</code></pre>","children":[],"payload":{"tag":"li","lines":"25,29"}}],"payload":{"tag":"li","lines":"22,29"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

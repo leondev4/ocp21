@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Conditional operators</strong>","children":[{"content":"The conditional operators, often called short-circuit operators, are nearly identical to the logical operators,<br>\n<code>&amp;</code> and <code>|</code>, except that the right side of the expression may never be evaluated if the final result can be<br>\ndetermined by the left side of the expression.","children":[{"content":"Conditional AND <code>a &amp;&amp; b</code>","children":[{"content":"The value is <code>true</code> only if both values are <code>true</code>. If the left side is <code>false</code>,<br>\nthen the right side will not be evaluated.","children":[],"payload":{"tag":"li","lines":"10,12"}}],"payload":{"tag":"li","lines":"9,12"}},{"content":"Conditional OR <code>c || d</code>","children":[{"content":"The value is <code>true</code> if at least one of the values is <code>true</code>. If the left side is <code>true</code>,<br>\nthen the right side will not be evaluated.","children":[{"content":"\n<pre data-lines=\"15,20\"><code class=\"language-java\"><span class=\"hljs-type\">int</span> <span class=\"hljs-variable\">hour</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">10</span>;\n<span class=\"hljs-type\">boolean</span> zooOpen=<span class=\"hljs-literal\">true</span>||(hour &lt; <span class=\"hljs-number\">4</span>);\nSystem.out.println(zooOpen); <span class=\"hljs-comment\">// true</span>\n</code></pre>","children":[{"content":"Since we know the left side is <code>true</code>, there&#x2019;s no need to evaluate the right side.<br>\n<code>hour</code> could have been <code>-10</code> or <code>892</code>; the output would have been the same.","children":[],"payload":{"tag":"li","lines":"20,22"}}],"payload":{"tag":"li","lines":"15,22"}}],"payload":{"tag":"li","lines":"13,22"}}],"payload":{"tag":"li","lines":"12,22"}}],"payload":{"tag":"li","lines":"6,22"}},{"content":"<strong>Avoiding a <code>NullPointerException</code></strong><br>\nA more common example of where conditional operators are used is checking for <code>null</code><br>\nobjects before performing an operation. In the following example, if <code>duck</code> is <code>null</code>, the<br>\nprogram will throw a <code>NullPointerException</code> at runtime:","children":[{"content":"\n<pre data-lines=\"26,31\"><code class=\"language-java\"><span class=\"hljs-keyword\">if</span>(duck != <span class=\"hljs-literal\">null</span> &amp; duck.getAge() &lt; <span class=\"hljs-number\">5</span>) { <span class=\"hljs-comment\">// Could throw a NullPointerException</span>\n  <span class=\"hljs-comment\">// Do something</span>\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"26,31"}},{"content":"The issue is that the logical AND (<code>&amp;</code>) operator evaluates both sides of the expression.","children":[{"content":"An easy-to-read solution is to use the<br>\nconditional AND operator (<code>&amp;&amp;</code>)","children":[{"content":"\n<pre data-lines=\"34,39\"><code class=\"language-java\">  <span class=\"hljs-keyword\">if</span>(duck != <span class=\"hljs-literal\">null</span> &amp;&amp; duck.getAge()&lt;<span class=\"hljs-number\">5</span>){\n    <span class=\"hljs-comment\">// Do something</span>\n  }\n</code></pre>","children":[{"content":"If <code>duck</code> is <code>null</code>, the conditional prevents a <code>NullPointerException</code> from ever being thrown,<br>\nsince the evaluation of <code>duck.getAge() &lt; 5</code> is never reached.","children":[],"payload":{"tag":"li","lines":"39,41"}}],"payload":{"tag":"li","lines":"34,41"}}],"payload":{"tag":"li","lines":"32,41"}}],"payload":{"tag":"li","lines":"31,41"}}],"payload":{"tag":"li","lines":"22,41"}},{"content":"<strong>Checking for Unperformed Side Effects</strong>","children":[{"content":"Be wary of short-circuit behavior on the exam, as questions<br>\nare known to alter a variable on the right side of the<br>\nexpression that may never be reached. This is referred to<br>\nas an <em>unperformed side effect</em>.","children":[{"content":"\n<pre data-lines=\"46,51\"><code class=\"language-java\"><span class=\"hljs-type\">int</span> <span class=\"hljs-variable\">rabbit</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">6</span>;\n<span class=\"hljs-type\">boolean</span> <span class=\"hljs-variable\">bunny</span> <span class=\"hljs-operator\">=</span> (rabbit&gt;= <span class=\"hljs-number\">6</span>)||(++rabbit &lt;= <span class=\"hljs-number\">7</span>);\nSystem.out.println(rabbit);\n</code></pre>","children":[{"content":"Because <code>rabbit &gt;= 6</code> is <code>true</code>, the increment operator on the right<br>\nside of the expression is never evaluated, so the output is <code>6</code>.","children":[],"payload":{"tag":"li","lines":"51,53"}}],"payload":{"tag":"li","lines":"46,53"}}],"payload":{"tag":"li","lines":"42,53"}}],"payload":{"tag":"li","lines":"41,53"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

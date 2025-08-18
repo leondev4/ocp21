@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Understanding Compiler Enhancements</strong>","children":[{"content":"The Java compiler automatically inserts a call to the no-argument constructor<br>\n<code>super()</code> if you do not explicitly call <code>this()</code> or <code>super()</code> as the first line of a<br>\nconstructor. For example, the following three class and constructor definitions<br>\nare equivalent, because the compiler will automatically convert them all to the<br>\nlast example:","children":[{"content":"\n<pre data-lines=\"6,17\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Donkey</span> {}\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Donkey</span> {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-title function_\">Donkey</span><span class=\"hljs-params\">()</span> {}\n}\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Donkey</span> {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-title function_\">Donkey</span><span class=\"hljs-params\">()</span> {\n    <span class=\"hljs-built_in\">super</span>();\n  }\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"6,17"}}],"payload":{"tag":"li","lines":"1,17"}}],"payload":{"tag":"h1","lines":"0,1"}},{})</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Method references</strong>","children":[{"content":"<strong>TABLE 8.3</strong> Method references\n<table data-lines=\"2,8\">\n<thead data-lines=\"2,3\">\n<tr data-lines=\"2,3\">\n<th>Type</th>\n<th>Before ::</th>\n<th>After ::</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody data-lines=\"4,8\">\n<tr data-lines=\"4,5\">\n<td><code>static</code> methods</td>\n<td>Class name</td>\n<td>Method name</td>\n<td><code>Math::random</code></td>\n</tr>\n<tr data-lines=\"5,6\">\n<td>Instance methods on a<br>particular object</td>\n<td>Instance variable name</td>\n<td>Method name</td>\n<td><code>str::startsWith</code></td>\n</tr>\n<tr data-lines=\"6,7\">\n<td>Instance methods on a<br>parameter</td>\n<td>Class name</td>\n<td>Method name</td>\n<td><code>String::isEmpty</code></td>\n</tr>\n<tr data-lines=\"7,8\">\n<td>Constructor</td>\n<td>Class name</td>\n<td><code>new</code></td>\n<td><code>String::new</code></td>\n</tr>\n</tbody>\n</table>","children":[{"content":"The second, uses variables declared outside the lambda expression","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"To Change <em>Instance method on particular object</em> to <em>Instance method<br>\non a parameter</em> <strong>only add 1 parameter</strong> to the functional interface.","children":[],"payload":{"tag":"li","lines":"9,11"}},{"content":"\n<pre data-lines=\"11,21\"><code class=\"language-java\"><span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">str</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-string\">&quot;hello&quot;</span>;\nPredicate&lt;String&gt; pred = str::startsWith;\n      <span class=\"hljs-comment\">//s -&gt; str.startsWith(s);</span>\nSystem.out.println(pred.test(<span class=\"hljs-string\">&quot;he&quot;</span>));\n        \nBiPredicate&lt;String,String&gt; biPre = String::startsWith;\n                <span class=\"hljs-comment\">//(s,pref)-&gt;s.startsWith(pref);</span>\nSystem.out.println(biPre.test(str, <span class=\"hljs-string\">&quot;he&quot;</span>));\n</code></pre>","children":[],"payload":{"tag":"li","lines":"11,21"}},{"content":"Third use variables declared as arguments in the lambda expression","children":[],"payload":{"tag":"li","lines":"21,22"}}],"payload":{"tag":"li","lines":"1,22"}}],"payload":{"tag":"h1","lines":"0,1"}},{})</script>
+</body>
+</html>

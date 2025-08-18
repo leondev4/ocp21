@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Writing Generic Methods</strong>","children":[{"content":"You&apos;ve seen formal type parameters declared on the <code>class</code> or <code>interface</code> level.<br>\nIt is also possible to declare them on the method level. This is <em>often useful for<br>\n<code>static</code> methods</em> since they aren&#x2019;t part of an instance that can declare the type.<br>\nHowever, it is also allowed on non-<code>static</code> methods.","children":[],"payload":{"tag":"li","lines":"6,10"}},{"content":"\n<pre data-lines=\"10,21\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Handler</span> {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> &lt;T&gt; <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">prepare</span><span class=\"hljs-params\">(T t)</span> {\n    System.out.println(<span class=\"hljs-string\">&quot;Preparing &quot;</span> + t);\n  }\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> &lt;T&gt; Box&lt;T&gt; <span class=\"hljs-title function_\">ship</span><span class=\"hljs-params\">(T t)</span> {\n    System.out.println(<span class=\"hljs-string\">&quot;Shipping &quot;</span> + t);\n    <span class=\"hljs-keyword\">return</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Box</span>&lt;T&gt;();\n  }\n}\n</code></pre>","children":[{"content":"Before the return type, we declare formal parameter type of <code>&lt;T&gt;</code>","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"In the <code>ship()</code> method, we show how you can use the generic<br>\nparameter in the return type, <code>Box&lt;T&gt;</code>, for the method.","children":[],"payload":{"tag":"li","lines":"22,24"}},{"content":"<code>T</code> is a different type in both methods","children":[],"payload":{"tag":"li","lines":"24,25"}}],"payload":{"tag":"li","lines":"10,25"}},{"content":"Unless a method is obtaining the generic formal type<br>\nparameter from the class/interface, it is specified<br>\nimmediately before the return type of the method.","children":[{"content":"\n<pre data-lines=\"28,36\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">More</span> {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> &lt;T&gt; <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">sink</span><span class=\"hljs-params\">(T t)</span> { }\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> &lt;T&gt; T <span class=\"hljs-title function_\">identity</span><span class=\"hljs-params\">(T t)</span> { <span class=\"hljs-keyword\">return</span> t; }\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> T <span class=\"hljs-title function_\">noGood</span><span class=\"hljs-params\">(T t)</span> { <span class=\"hljs-keyword\">return</span> t; } <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n  <span class=\"hljs-comment\">//public static &lt;T&gt; T noGood(T t) { return t; }</span>\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"28,36"}}],"payload":{"tag":"li","lines":"25,36"}},{"content":"Optional Syntax for Invoking a Generic Method","children":[{"content":"\n<pre data-lines=\"37,41\"><code data-lines=\"37,41\"><span class=\"hljs-built_in\">Box</span><span class=\"hljs-operator\">.&lt;</span><span class=\"hljs-built_in\">String</span><span class=\"hljs-operator\">&gt;</span><span class=\"hljs-variable\">ship</span><span class=\"hljs-punctuation\">(</span><span class=\"hljs-string\">&quot;package&quot;</span><span class=\"hljs-punctuation\">)</span><span class=\"hljs-operator\">;</span>\n<span class=\"hljs-built_in\">Box</span><span class=\"hljs-operator\">.&lt;</span><span class=\"hljs-built_in\">String</span><span class=\"hljs-punctuation\">[</span><span class=\"hljs-punctuation\">]</span><span class=\"hljs-operator\">&gt;</span><span class=\"hljs-variable\">ship</span><span class=\"hljs-punctuation\">(</span><span class=\"hljs-variable\">args</span><span class=\"hljs-punctuation\">)</span><span class=\"hljs-operator\">;</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"37,41"}},{"content":"When you have a method that declare a<br>\ngeneric parameter type, it is independent<br>\nof the class generics.<pre data-lines=\"44,51\"><code class=\"language-java\"><span class=\"hljs-number\">1</span>: <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">TrickyCrate</span>&lt;T&gt; {\n<span class=\"hljs-number\">2</span>:   <span class=\"hljs-keyword\">public</span> &lt;T&gt; T <span class=\"hljs-title function_\">tricky</span><span class=\"hljs-params\">(T t)</span> {\n<span class=\"hljs-number\">3</span>:     <span class=\"hljs-keyword\">return</span> t;\n<span class=\"hljs-number\">4</span>:    }\n<span class=\"hljs-number\">5</span>: }\n</code></pre>","children":[{"content":"\n<pre data-lines=\"51,57\"><code class=\"language-java\"><span class=\"hljs-number\">10</span>: <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> String <span class=\"hljs-title function_\">crateName</span><span class=\"hljs-params\">()</span> {\n<span class=\"hljs-number\">11</span>:   TrickyCrate&lt;Robot&gt; crate = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">TrickyCrate</span>&lt;&gt;();\n<span class=\"hljs-number\">12</span>:   <span class=\"hljs-keyword\">return</span> crate.tricky(<span class=\"hljs-string\">&quot;bot&quot;</span>);\n<span class=\"hljs-number\">13</span>: }\n</code></pre>","children":[],"payload":{"tag":"li","lines":"51,57"}},{"content":"On line 1, <code>T</code> is <code>Robot</code> because that is what gets referenced<br>\nwhen constructing a <code>TrickyCrate</code>. On line 2, <code>T</code> is <code>String</code> because<br>\nthat is what is passed to the method.","children":[],"payload":{"tag":"li","lines":"57,60"}}],"payload":{"tag":"li","lines":"41,60"}}],"payload":{"tag":"li","lines":"36,60"}},{"content":"\n<h3 data-lines=\"60,61\">Creating a Generic Record</h3>","children":[{"content":"Generics can also be used with records. This record takes a single<br>\ngeneric type parameter:<pre data-lines=\"63,73\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">record</span> <span class=\"hljs-title class_\">CrateRecord</span>&lt;T&gt;(T contents) {\n  <span class=\"hljs-meta\">@Override</span>\n  <span class=\"hljs-keyword\">public</span> T <span class=\"hljs-title function_\">contents</span><span class=\"hljs-params\">()</span> {\n    <span class=\"hljs-keyword\">if</span> (contents == <span class=\"hljs-literal\">null</span>)\n      <span class=\"hljs-keyword\">throw</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">IllegalStateException</span>(<span class=\"hljs-string\">&quot;missing contents&quot;</span>);\n    <span class=\"hljs-keyword\">return</span> contents;\n  }\n}\n</code></pre>","children":[{"content":"This works the same way as classes. You can create a record of the robot!<pre data-lines=\"74,79\"><code class=\"language-java\"><span class=\"hljs-type\">Robot</span> <span class=\"hljs-variable\">robot</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Robot</span>();\nCrateRecord&lt;Robot&gt; record = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">CrateRecord</span>&lt;&gt;(robot);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">record2</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">CrateRecord</span>&lt;Robot&gt;(robot);\n</code></pre>","children":[],"payload":{"tag":"li","lines":"73,79"}}],"payload":{"tag":"li","lines":"61,79"}}],"payload":{"tag":"li","lines":"60,79"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

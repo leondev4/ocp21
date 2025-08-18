@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Major Components of Java</strong>","children":[{"content":"The Java Development Kit (JDK) contains the minimum<br>\nsoftware you need to do Java development.","children":[],"payload":{"tag":"li","lines":"6,8"}},{"content":"Key commands","children":[{"content":"<code>javac</code>: Converts <code>.java</code> source files into <code>.class</code> bytecode","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"<code>java</code>: Executes the program","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"<code>jar</code>: Packages files together","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"<code>javadoc</code>: Generates documentation","children":[],"payload":{"tag":"li","lines":"12,13"}}],"payload":{"tag":"li","lines":"8,13"}},{"content":"The <code>javac</code> program generates instructions in a special format called <em>bytecode</em><br>\nthat the <code>java</code> command can run. Then <code>java</code> launches the Java Virtual Machine<br>\n(JVM) before running the code. The JVM knows how to run bytecode.","children":[],"payload":{"tag":"li","lines":"13,16"}},{"content":"<strong>Check Your Version of Java</strong>","children":[{"content":"<code>javac -version</code><br>\n<code>java -version</code><br>\nBoth of these commands should include version number 21.","children":[],"payload":{"tag":"li","lines":"17,20"}}],"payload":{"tag":"li","lines":"16,20"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

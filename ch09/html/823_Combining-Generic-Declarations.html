@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"","children":[{"content":"<strong>Combining Generic Declarations</strong>","children":[{"content":"We have:<pre data-lines=\"7,12\"><code data-lines=\"7,12\"><span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">A</span> </span>{}\n<span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">B</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">A</span> </span>{}\n<span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">C</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">B</span> </span>{}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"6,12"}},{"content":"Can you figure out why these do or don&#x2019;t compile? Also, try to<br>\nfigure out what they do.<pre data-lines=\"14,19\"><code class=\"language-js\"><span class=\"hljs-number\">6</span>: <span class=\"hljs-title class_\">List</span>&lt;?&gt; list1 = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;A&gt;();\n<span class=\"hljs-number\">7</span>: <span class=\"hljs-title class_\">List</span>&lt;? <span class=\"hljs-keyword\">extends</span> A&gt; list2 = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;A&gt;();\n<span class=\"hljs-number\">8</span>: <span class=\"hljs-title class_\">List</span>&lt;? <span class=\"hljs-variable language_\">super</span> A&gt; list3 = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;A&gt;();\n</code></pre>","children":[{"content":"Line 6 creates an <code>ArrayList</code> that can hold instances of class <code>A</code>. It is<br>\nstored in a variable with an unbounded wildcard. Any generic type can<br>\nbe referenced from an unbounded wildcard, making this OK.","children":[],"payload":{"tag":"li","lines":"19,22"}},{"content":"Line 7 tries to store a list in a variable declaration with an upper-<br>\nbounded wildcard. This is OK. You can have <code>ArrayList&lt;A&gt;</code>, <code>ArrayList&lt;B&gt;</code>,<br>\nor <code>ArrayList&lt;C&gt;</code> stored in that reference. Line 8 is also OK. This time,<br>\nyou have a lower-bounded wildcard. The lowest type you can<br>\nreference is A. Since that is what you have, it compiles.","children":[],"payload":{"tag":"li","lines":"22,27"}}],"payload":{"tag":"li","lines":"12,27"}},{"content":"Did you get those right? Let&#x2019;s try a few more.<pre data-lines=\"28,33\"><code class=\"language-js\"> <span class=\"hljs-number\">9</span>: <span class=\"hljs-title class_\">List</span>&lt;? <span class=\"hljs-keyword\">extends</span> B&gt; list4 = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;A&gt;(); <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n<span class=\"hljs-number\">10</span>: <span class=\"hljs-title class_\">List</span>&lt;? <span class=\"hljs-variable language_\">super</span> B&gt; list5 = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;A&gt;();\n<span class=\"hljs-number\">11</span>: <span class=\"hljs-title class_\">List</span>&lt;?&gt; list6 = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;? <span class=\"hljs-keyword\">extends</span> A&gt;(); <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n</code></pre>","children":[{"content":"Line 9 has an upper-bounded wildcard that allows <code>ArrayList&lt;B&gt;</code> or<br>\n<code>ArrayList&lt;C&gt;</code> to be referenced. Since you have <code>ArrayList&lt;A&gt;</code> that is trying<br>\nto be referenced, the code does not compile. Line 10 has a lower-<br>\nbounded wildcard, which allows a reference to <code>ArrayList&lt;A&gt;</code>,<br>\n<code>ArrayList&lt;A&gt;</code>, or <code>ArrayList&lt;Object&gt;</code>.","children":[],"payload":{"tag":"li","lines":"33,38"}},{"content":"Finally, line 11 allows a reference to any generic type since it is an<br>\nunbounded wildcard. The problem is that you need to know what that<br>\ntype will be when instantiating the <code>ArrayList</code>. It wouldn&#x2019;t be useful<br>\nanyway, because you can&#x2019;t add any elements to that <code>ArrayList</code>.","children":[],"payload":{"tag":"li","lines":"38,42"}}],"payload":{"tag":"li","lines":"27,42"}}],"payload":{"tag":"h1","lines":"5,6"}},{"content":"<strong>Passing Generic Arguments</strong>","children":[{"content":"\n<pre data-lines=\"43,48\"><code data-lines=\"43,48\">&lt;T&gt; <span class=\"hljs-function\">T <span class=\"hljs-title\">first</span><span class=\"hljs-params\">(List&lt;? <span class=\"hljs-keyword\">extends</span> T&gt; list)</span> </span>{\n  <span class=\"hljs-function\"><span class=\"hljs-keyword\">return</span> list.<span class=\"hljs-title\">get</span><span class=\"hljs-params\">(<span class=\"hljs-number\">0</span>)</span></span>;\n}\n</code></pre>","children":[{"content":"This  method is a perfectly normal use of generics. It uses a<br>\nmethod-specific type parameter, <code>T</code>. It takes a parameter of <code>List&lt;T&gt;</code>, or<br>\nsome subclass of <code>T</code>, and it returns a single object of that <code>T</code> type. For<br>\nexample, you could call it with a <code>List&lt;String&gt;</code> parameter and have it<br>\nreturn a <code>String</code>. Or you could call it with a <code>List&lt;Number&gt;</code> parameter and<br>\nhave it return a <code>Number</code>.","children":[],"payload":{"tag":"li","lines":"48,54"}}],"payload":{"tag":"li","lines":"43,54"}},{"content":"\n<pre data-lines=\"54,59\"><code data-lines=\"54,59\">&lt;T&gt; &lt;? <span class=\"hljs-keyword\">extends</span> T&gt; <span class=\"hljs-title function_\">second</span>(<span class=\"hljs-params\">List&lt;? <span class=\"hljs-keyword\">extends</span> T&gt; list</span>) { <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n  <span class=\"hljs-keyword\">return</span> list.<span class=\"hljs-title function_\">get</span>(<span class=\"hljs-number\">0</span>);\n}<span class=\"hljs-comment\">// Wildcard alone is not a return type</span>\n</code></pre>","children":[{"content":"This method does not compile because the return type isn&#x2019;t actually<br>\na type. You are writing the method. You know what type it is<br>\nsupposed to return. You don&#x2019;t get to specify this as a wildcard.","children":[],"payload":{"tag":"li","lines":"59,62"}}],"payload":{"tag":"li","lines":"54,62"}},{"content":"\n<pre data-lines=\"62,67\"><code data-lines=\"62,67\">&lt;B <span class=\"hljs-keyword\">extends</span> A&gt; B <span class=\"hljs-title function_\">third</span>(<span class=\"hljs-params\">List&lt;B&gt; list</span>) {\n  <span class=\"hljs-keyword\">return</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title function_\">B</span>(); <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n}\n</code></pre>","children":[{"content":"This method, does not compile. <code>&lt;B extends A&gt;</code> says that you want<br>\nto use <code>B</code> as a type parameter just for this method and that it needs<br>\nto extend the <code>A</code> class. Coincidentally, <code>B</code> is also the name of a class.<br>\nWell, it isn&#x2019;t a coincidence. It&#x2019;s an evil trick. Within the scope of the<br>\nmethod, <code>B</code> can represent class <code>A</code>, <code>B</code>, or <code>C</code>, because all extend the<br>\n<code>A</code> class. Since <code>B</code> no longer refers to the <code>B</code> class in the method, you<br>\ncan&#x2019;t instantiate it.","children":[],"payload":{"tag":"li","lines":"67,74"}}],"payload":{"tag":"li","lines":"62,74"}},{"content":"\n<pre data-lines=\"74,77\"><code data-lines=\"74,77\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">fourth</span>(<span class=\"hljs-params\">List&lt;? <span class=\"hljs-variable language_\">super</span> B&gt; list</span>) {}\n</code></pre>","children":[{"content":"This is a normal use of generics. You can pass the type <code>List&lt;B&gt;</code>, <code>List&lt;A&gt;</code>,<br>\nor <code>List&lt;Object&gt;</code>. You can change <code>List</code> to <code>ArrayList</code> and it compiles.","children":[],"payload":{"tag":"li","lines":"77,79"}}],"payload":{"tag":"li","lines":"74,79"}},{"content":"\n<pre data-lines=\"79,82\"><code data-lines=\"79,82\">&lt;X&gt; <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">fifth</span>(<span class=\"hljs-params\">List&lt;X <span class=\"hljs-variable language_\">super</span> B&gt; list</span>) { } <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n</code></pre>","children":[{"content":"This method does not compile because it tries to mix<br>\na method-specific type parameter with a wildcard. A<br>\nwildcard must have a <code>?</code> in it.","children":[],"payload":{"tag":"li","lines":"82,85"}}],"payload":{"tag":"li","lines":"79,85"}}],"payload":{"tag":"h1","lines":"42,43"}}]},{"initialExpandLevel":2})</script>
+</body>
+</html>

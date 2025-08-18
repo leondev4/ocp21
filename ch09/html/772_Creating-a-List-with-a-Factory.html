@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Creating a <code>List</code> with a Factory</strong>","children":[{"content":"You get a <code>List</code> back but don&#x2019;t know the type","children":[{"content":"\n<pre data-lines=\"7,10\"><code class=\"language-java\">Arrays.asList(varargs)\n</code></pre>","children":[{"content":"Returns a fixed-size list backed by the specified array.","children":[{"content":"Only you can edit, replace or sort elements;<br>\nchanges are reflected in both list and array","children":[],"payload":{"tag":"li","lines":"11,13"}}],"payload":{"tag":"li","lines":"10,13"}},{"content":"\n<pre data-lines=\"13,17\"><code class=\"language-java\">String[] array = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">String</span>[] {<span class=\"hljs-string\">&quot;a&quot;</span>, <span class=\"hljs-string\">&quot;b&quot;</span>, <span class=\"hljs-string\">&quot;c&quot;</span>}; \nList&lt;String&gt; asList = Arrays.asList(array);\n</code></pre>","children":[{"content":"\n<pre data-lines=\"17,20\"><code class=\"language-java\">array[<span class=\"hljs-number\">0</span>] = <span class=\"hljs-string\">&quot;z&quot;</span>;\n</code></pre>","children":[{"content":"Both <code>[z, b, c]</code>","children":[],"payload":{"tag":"li","lines":"20,21"}}],"payload":{"tag":"li","lines":"17,21"}},{"content":"\n<pre data-lines=\"21,24\"><code class=\"language-java\">asList.set(<span class=\"hljs-number\">0</span>, <span class=\"hljs-string\">&quot;x&quot;</span>);\n</code></pre>","children":[{"content":"Both <code>[x, b, c]</code>","children":[],"payload":{"tag":"li","lines":"24,25"}}],"payload":{"tag":"li","lines":"21,25"}}],"payload":{"tag":"li","lines":"13,25"}}],"payload":{"tag":"li","lines":"7,25"}},{"content":"\n<pre data-lines=\"25,28\"><code class=\"language-java\">List.of(varargs)\n</code></pre>","children":[{"content":"Returns immutable list","children":[{"content":"You can not edit, replace, add or remove elements","children":[],"payload":{"tag":"li","lines":"29,30"}}],"payload":{"tag":"li","lines":"28,30"}}],"payload":{"tag":"li","lines":"25,30"}},{"content":"\n<pre data-lines=\"30,33\"><code class=\"language-java\">List.copyOf(collection)\n</code></pre>","children":[{"content":"Returns immutable list with copy<br>\nof original collection&#x2019;s values","children":[{"content":"You can not edit, replace, add or remove elements","children":[],"payload":{"tag":"li","lines":"35,36"}}],"payload":{"tag":"li","lines":"33,36"}}],"payload":{"tag":"li","lines":"30,36"}}],"payload":{"tag":"li","lines":"6,36"}},{"content":"Let&#x2019;s take a look at an example of these three methods:<pre data-lines=\"37,52\"><code class=\"language-java\"><span class=\"hljs-number\">16</span>: String[] array = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">String</span>[] {<span class=\"hljs-string\">&quot;a&quot;</span>, <span class=\"hljs-string\">&quot;b&quot;</span>, <span class=\"hljs-string\">&quot;c&quot;</span>};\n<span class=\"hljs-number\">17</span>: List&lt;String&gt; asList = Arrays.asList(array); <span class=\"hljs-comment\">// [a, b, c]</span>\n<span class=\"hljs-number\">18</span>: List&lt;String&gt; of = List.of(array);           <span class=\"hljs-comment\">// [a, b, c]</span>\n<span class=\"hljs-number\">19</span>: List&lt;String&gt; copy = List.copyOf(asList);    <span class=\"hljs-comment\">// [a, b, c]</span>\n<span class=\"hljs-number\">20</span>:\n<span class=\"hljs-number\">21</span>: array[<span class=\"hljs-number\">0</span>] = <span class=\"hljs-string\">&quot;z&quot;</span>;\n<span class=\"hljs-number\">22</span>:\n<span class=\"hljs-number\">23</span>: System.out.println(asList); <span class=\"hljs-comment\">// [z, b, c]</span>\n<span class=\"hljs-number\">24</span>: System.out.println(of);     <span class=\"hljs-comment\">// [a, b, c]</span>\n<span class=\"hljs-number\">25</span>: System.out.println(copy);   <span class=\"hljs-comment\">// [a, b, c]</span>\n<span class=\"hljs-number\">26</span>:\n<span class=\"hljs-number\">27</span>: asList.set(<span class=\"hljs-number\">0</span>, <span class=\"hljs-string\">&quot;x&quot;</span>);\n<span class=\"hljs-number\">28</span>: System.out.println(Arrays.toString(array)); <span class=\"hljs-comment\">// [x, b, c]</span>\n</code></pre>","children":[{"content":"When run independently, the following shows both types are<br>\nimmutable by throwing an exception when trying to set a value.<pre data-lines=\"54,58\"><code class=\"language-java\">of.set(<span class=\"hljs-number\">0</span>, <span class=\"hljs-string\">&quot;y&quot;</span>);   <span class=\"hljs-comment\">// UnsupportedOperationException</span>\ncopy.set(<span class=\"hljs-number\">0</span>, <span class=\"hljs-string\">&quot;y&quot;</span>); <span class=\"hljs-comment\">// UnsupportedOperationException</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"52,58"}},{"content":"Similarly, each of the following lines throws an exception when<br>\nadding or removing a value:<pre data-lines=\"60,65\"><code class=\"language-java\">asList.add(<span class=\"hljs-string\">&quot;z&quot;</span>);  <span class=\"hljs-comment\">// UnsupportedOperationException</span>\nof.remove(<span class=\"hljs-number\">0</span>);     <span class=\"hljs-comment\">// UnsupportedOperationException</span>\ncopy.remove(<span class=\"hljs-number\">0</span>);   <span class=\"hljs-comment\">// UnsupportedOperationException</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"58,65"}}],"payload":{"tag":"li","lines":"36,65"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

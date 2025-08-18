@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"","children":[{"content":"<strong>Throwing an Exception</strong>","children":[{"content":"The <code>throw</code> keyword tells Java that you want some<br>\nother part of the code to deal with the exception.","children":[{"content":"Remember: <code>throws</code> keyword is used only at the end of a<br>\nmethod declaration to indicate what exceptions it supports.","children":[],"payload":{"tag":"li","lines":"8,10"}}],"payload":{"tag":"li","lines":"6,10"}},{"content":"The first way is code that&#x2019;s wrong.","children":[{"content":"\n<pre data-lines=\"11,15\"><code class=\"language-js\"><span class=\"hljs-title class_\">String</span>[] animals = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">String</span>[<span class=\"hljs-number\">0</span>];\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(animals[<span class=\"hljs-number\">0</span>]); <span class=\"hljs-comment\">//  ArrayIndexOutOfBoundsException</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"11,15"}}],"payload":{"tag":"li","lines":"10,15"}},{"content":"The second way is for code that result in an exception<br>\nis to explicitly  request Java to throw one.","children":[{"content":"\n<pre data-lines=\"17,23\"><code class=\"language-java\"><span class=\"hljs-keyword\">throw</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Exception</span>();\n<span class=\"hljs-keyword\">throw</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Exception</span>(<span class=\"hljs-string\">&quot;Ow! I fell.&quot;</span>);\n<span class=\"hljs-keyword\">throw</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">RuntimeException</span>();\n<span class=\"hljs-keyword\">throw</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">RuntimeException</span>(<span class=\"hljs-string\">&quot;Ow! I fell.&quot;</span>);\n</code></pre>","children":[],"payload":{"tag":"li","lines":"17,23"}}],"payload":{"tag":"li","lines":"15,23"}},{"content":"\n<pre data-lines=\"23,27\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">e</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">RuntimeException</span>(); \n<span class=\"hljs-keyword\">throw</span> e;\n</code></pre>","children":[{"content":"The code instantiates an exception on<br>\none line and then throws on the next.","children":[],"payload":{"tag":"li","lines":"27,29"}}],"payload":{"tag":"li","lines":"23,29"}},{"content":"\n<pre data-lines=\"29,32\"><code class=\"language-js\"><span class=\"hljs-keyword\">throw</span> <span class=\"hljs-title class_\">RuntimeException</span>(); <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n</code></pre>","children":[{"content":"The exception is never instantiated with <code>new</code>","children":[],"payload":{"tag":"li","lines":"32,33"}}],"payload":{"tag":"li","lines":"29,33"}},{"content":"\n<pre data-lines=\"33,39\"><code class=\"language-js\"><span class=\"hljs-number\">3</span>: <span class=\"hljs-keyword\">try</span> {\n<span class=\"hljs-number\">4</span>:   <span class=\"hljs-keyword\">throw</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">RuntimeException</span>();\n<span class=\"hljs-number\">5</span>:   <span class=\"hljs-keyword\">throw</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayIndexOutOfBoundsException</span>(); <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n<span class=\"hljs-number\">6</span>: } <span class=\"hljs-keyword\">catch</span> (<span class=\"hljs-title class_\">Exception</span> e) {}\n</code></pre>","children":[{"content":"Line 5 can never be reached during runtime.<br>\nUnreachable code error.","children":[],"payload":{"tag":"li","lines":"39,41"}}],"payload":{"tag":"li","lines":"33,41"}}],"payload":{"tag":"h1","lines":"5,6"}},{"content":"<strong>Calling Methods That Throw <br>Checked Exceptions</strong>","children":[{"content":"\n<pre data-lines=\"42,52\"><code data-lines=\"42,52\"><span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">NoMoreCarrotsException</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">Exception</span> </span>{}\n\npublic <span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">Bunny</span> </span>{\n  public void hopAround() {\n    eatCarrot(); <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n  }\n  <span class=\"hljs-keyword\">private</span> void eatCarrot() <span class=\"hljs-keyword\">throws</span> <span class=\"hljs-type\">NoMoreCarrotsException</span> {}\n}\n</code></pre>","children":[{"content":"You must handle or declare. <code>NoMoreCarrotsException</code><br>\nis checked exception","children":[],"payload":{"tag":"li","lines":"52,54"}},{"content":"You might have noticed that <code>eatCarrot() </code>didn&#x2019;t throw an<br>\nexception; it just declared that it could. This is enough<br>\nfor the compiler to require the caller to handle or declare<br>\nthe exception.","children":[],"payload":{"tag":"li","lines":"54,58"}},{"content":"Declaring an unused exception isn&#x2019;t considered unreachable<br>\ncode. It gives the method the option to change the<br>\nimplementation to throw that exception in the future.","children":[],"payload":{"tag":"li","lines":"58,61"}}],"payload":{"tag":"li","lines":"42,61"}},{"content":"The above code compiles if either<br>\nof the two options is used","children":[{"content":"\n<pre data-lines=\"63,68\"><code class=\"language-js\">public <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">hopAround</span>() throws <span class=\"hljs-title class_\">NoMoreCarrotsException</span>{\n  <span class=\"hljs-title function_\">eatCarrot</span>(); <span class=\"hljs-comment\">// It compiles</span>\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"63,68"}},{"content":"\n<pre data-lines=\"68,77\"><code class=\"language-js\">public <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">hopAround</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">try</span> {\n    <span class=\"hljs-title function_\">eatCarrot</span>();\n  } <span class=\"hljs-keyword\">catch</span> (<span class=\"hljs-title class_\">NoMoreCarrotsException</span> e) {\n    <span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">print</span>(<span class=\"hljs-string\">&quot;sad rabbit&quot;</span>);\n  }\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"68,77"}}],"payload":{"tag":"li","lines":"61,77"}},{"content":"Java knows that <code>eatCarrot()</code> can&#x2019;t throw a checked<br>\nexception, &#xad;which means there&#x2019;s no way for the<br>\ncatch block in <code>bad()</code> to be reached.","children":[{"content":"\n<pre data-lines=\"80,92\"><code data-lines=\"80,92\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">Bunny</span> {\n  <span class=\"hljs-function\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title\">bad</span>()</span> {\n    <span class=\"hljs-keyword\">try</span> {\n      eatCarrot(); <span class=\"hljs-comment\">//It Must throws checked exception NoMoreCarrosException</span>\n    } <span class=\"hljs-keyword\">catch</span> (NoMoreCarrotsException e) { <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n      System.<span class=\"hljs-keyword\">out</span>.print(<span class=\"hljs-string\">&quot;sad rabbit&quot;</span>);  <span class=\"hljs-comment\">//unreachable code</span>\n    }\n  }\n  <span class=\"hljs-function\"><span class=\"hljs-keyword\">private</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title\">eatCarrot</span>()</span> {}\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"80,92"}}],"payload":{"tag":"li","lines":"77,92"}},{"content":"When you see a checked exception declared inside a <code>catch</code> block on the exam,<br>\nmake sure the code in the associated <code>try</code> block is capable of throwing the<br>\nexception or a subclass of the exception. If not, the code is unreachable and<br>\ndoes not compile.","children":[],"payload":{"tag":"li","lines":"92,96"}}],"payload":{"tag":"h1","lines":"41,42"}}]},{"initialExpandLevel":2})</script>
+</body>
+</html>

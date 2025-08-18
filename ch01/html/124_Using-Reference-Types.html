@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Using Reference Types</strong>","children":[{"content":"A reference type refers to an object. Primitive types hold their values in<br>\nthe memory where the variable is allocated, references hold the memory<br>\naddress where the object is located, a concept referred to as a pointer","children":[],"payload":{"tag":"li","lines":"6,9"}},{"content":"Suppose we declare a reference of type <code>String</code>.","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"<code>String greeting;</code>","children":[{"content":"The <code>greeting</code> variable is a reference that can only point to a<br>\n<code>String</code> object. A value is assigned to a reference in one of two ways.","children":[],"payload":{"tag":"li","lines":"11,13"}},{"content":"1. A reference can be assigned to another object of the same or<br>\ncompatible type.","children":[{"content":"\n<pre data-lines=\"15,19\"><code data-lines=\"15,19\">String hello<span class=\"hljs-operator\">=</span> new String(<span class=\"hljs-string\">&quot;hello&quot;</span>)<span class=\"hljs-comment\">;</span>\n<span class=\"hljs-attribute\">greeting</span> <span class=\"hljs-operator\">=</span> hello<span class=\"hljs-comment\">;</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"15,19"}}],"payload":{"tag":"li","lines":"13,19","listIndex":1}},{"content":"2. A reference can be assigned to a new object using the <code>new</code><br>\nkeyword.","children":[{"content":"\n<pre data-lines=\"21,24\"><code class=\"language-java\">greeting = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">String</span>(<span class=\"hljs-string\">&quot;How are you?&quot;</span>);\n</code></pre>","children":[],"payload":{"tag":"li","lines":"21,24"}},{"content":"The <code>greeting</code> reference points to a new <code>String</code> object, <code>&quot;How are you?&quot;</code>.<br>\n<strong>The <code>String</code> object does not have a name and can be accessed only<br>\nvia a corresponding reference.</strong>","children":[],"payload":{"tag":"li","lines":"24,27"}}],"payload":{"tag":"li","lines":"19,27","listIndex":2}}],"payload":{"tag":"li","lines":"10,27"}},{"content":"<strong>Objects vs. References</strong>","children":[{"content":"The reference is a variable that has a name and can be used to access<br>\nthe contents of an object. A reference can be assigned to another<br>\nreference, passed to a method, or returned from a method. All<br>\nreferences are the same size, no matter what their type is.","children":[],"payload":{"tag":"li","lines":"28,32"}},{"content":"An object sits on the heap and does not have a name. Therefore, you<br>\nhave no way to access an object except through a reference. Objects<br>\ncome in all different shapes and sizes and consume varying amounts<br>\nof memory. An object cannot be assigned to another object, and an<br>\nobject cannot be passed to a method or returned from a method. It is<br>\nthe object that gets garbage collected, not its reference.","children":[],"payload":{"tag":"li","lines":"32,38"}}],"payload":{"tag":"li","lines":"27,38"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

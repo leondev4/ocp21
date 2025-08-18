@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Using the <code>Map</code> Interface</strong>","children":[{"content":"You use a <code>Map</code> when you want to identify values by a key.","children":[{"content":"All <code>Map</code> classes have in common is that they have keys and values,","children":[{"content":"Given that <code>Map</code> doesn&#x2019;t extend <code>Collection</code>, more methods are<br>\nspecified on the <code>Map</code> interface. Since there are both keys and<br>\nvalues, we need generic type parameters for both. The class<br>\nuses <code>K</code> for key and <code>V</code> for value.","children":[],"payload":{"tag":"li","lines":"8,12"}}],"payload":{"tag":"li","lines":"7,12"}}],"payload":{"tag":"li","lines":"6,12"}},{"content":"Create a <code>Map</code> from factory","children":[{"content":"\n<pre data-lines=\"13,16\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">map</span> <span class=\"hljs-operator\">=</span> Map.of(<span class=\"hljs-string\">&quot;key1&quot;</span>, <span class=\"hljs-string\">&quot;value1&quot;</span>, <span class=\"hljs-string\">&quot;key2&quot;</span>, <span class=\"hljs-string\">&quot;value2&quot;</span>);\n</code></pre>","children":[],"payload":{"tag":"li","lines":"13,16"}},{"content":"\n<pre data-lines=\"16,19\"><code class=\"language-java\">Map.copyOf(map);\n</code></pre>","children":[],"payload":{"tag":"li","lines":"16,19"}},{"content":"\n<pre data-lines=\"19,24\"><code class=\"language-java\">Map.ofEntries(\n  Map.entry(<span class=\"hljs-string\">&quot;key1&quot;</span>, <span class=\"hljs-string\">&quot;value1&quot;</span>),\n  Map.entry(<span class=\"hljs-string\">&quot;key2&quot;</span>, <span class=\"hljs-string\">&quot;value2&quot;</span>));\n</code></pre>","children":[],"payload":{"tag":"li","lines":"19,24"}}],"payload":{"tag":"li","lines":"12,24"}},{"content":"From <strong>Figure 9.1</strong>, <code>HashMap</code>, <code>LinkedHashMap</code>, and <code>TreeMap</code><br>\nare the three classes that implement the <code>Map</code> interface.","children":[],"payload":{"tag":"li","lines":"24,26"}},{"content":"A <code>HashMap</code> stores the keys in a hash table.","children":[{"content":"\n<p data-lines=\"27,30\">The <em>main benefit</em> is that adding elements and retrieving the element<br>\nby key both have constant time. You lose the order in which you<br>\ninserted the elements.</p>","children":[],"payload":{"tag":"li","lines":"27,31"}},{"content":"\n<p data-lines=\"31,32\">Constructors:</p>\n<pre data-lines=\"32,37\"><code class=\"language-java\">HashMap()\nHashMap(<span class=\"hljs-type\">int</span> initialCapacity)\nHashMap(Map&lt;? <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_\">K</span>,? <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_\">V</span>&gt; m)\n</code></pre>","children":[],"payload":{"tag":"li","lines":"31,37"}}],"payload":{"tag":"li","lines":"26,37"}},{"content":"Like <code>LinkedHashSet</code>, the <code>LinkedHashMap</code> supports iterating over the<br>\nelements in a well-defined order. This is generally the insertion order,<br>\nalthough it also includes methods to add/remove elements at the front<br>\nor back of the map.","children":[{"content":"Constructors:<pre data-lines=\"42,49\"><code class=\"language-java\">LinkedHashMap()\nLinkedHashMap(<span class=\"hljs-type\">int</span> initialCapacity)\nLinkedHashMap(<span class=\"hljs-type\">int</span> initialCapacity, <span class=\"hljs-type\">float</span> loadFactor)\nLinkedHashMap(<span class=\"hljs-type\">int</span> initialCapacity, <span class=\"hljs-type\">float</span> loadFactor, <span class=\"hljs-type\">boolean</span> accessOrder)\nLinkedHashMap(Map&lt;? <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_\">K</span>,? <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_\">V</span>&gt; m)\n</code></pre>","children":[],"payload":{"tag":"li","lines":"41,49"}}],"payload":{"tag":"li","lines":"37,49"}},{"content":"A <code>TreeMap</code> stores the keys in a sorted tree structure.","children":[{"content":"The <em>main benefit</em> is that the keys are always in sorted order. Like a <code>TreeSet</code>, adding<br>\nand checking whether a key is present takes longer as the tree grows larger.","children":[],"payload":{"tag":"li","lines":"50,52"}},{"content":"Constructors:<pre data-lines=\"53,58\"><code class=\"language-java\">TreeMap(): <span class=\"hljs-comment\">//Its keys must implement Comparable</span>\nTreeMap(Comparator&lt;? <span class=\"hljs-built_in\">super</span> K&gt; comparator)\nTreeMap(Map&lt;? <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_\">K</span>,? <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title class_\">V</span>&gt; m)\n</code></pre>","children":[],"payload":{"tag":"li","lines":"52,58"}}],"payload":{"tag":"li","lines":"49,58"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

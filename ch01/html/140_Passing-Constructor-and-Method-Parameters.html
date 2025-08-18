@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Passing Constructor and<br>Method Parameters</strong>","children":[{"content":"Variables passed to a constructor or method are called constructor<br>\nparameters or method parameters.","children":[{"content":"These parameters are like local variables that have been preinitialized.","children":[],"payload":{"tag":"li","lines":"9,10"}}],"payload":{"tag":"li","lines":"7,10"}},{"content":"In this method, <code>check</code> is a method parameter.<pre data-lines=\"11,14\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">findAnswer</span><span class=\"hljs-params\">(<span class=\"hljs-type\">boolean</span> check)</span>{}\n</code></pre>","children":[{"content":"Take a look at the following method <code>checkAnswer()</code> in the same class:<pre data-lines=\"15,21\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">checkAnswer</span><span class=\"hljs-params\">()</span> {\n  <span class=\"hljs-type\">boolean</span> value;\n  findAnswer(value); <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n}\n</code></pre>","children":[{"content":"The call to <code>findAnswer()</code> does not compile because it tries to use a<br>\nvariable that is not initialized. While the caller of a method<br>\n<code>checkAnswer()</code> needs to be concerned about the variable being<br>\ninitialized, once inside the method <code>findAnswer()</code>, we can assume the<br>\nlocal variable has been initialized to some value.","children":[],"payload":{"tag":"li","lines":"21,26"}}],"payload":{"tag":"li","lines":"14,26"}}],"payload":{"tag":"li","lines":"10,26"}},{"content":"<strong>Defining Instance and Class Variables</strong>","children":[{"content":"Variables that are not local variables are defined either as instance<br>\nvariables or as class variables. An <em>instance variable</em>, often called a<br>\nfield, is a value defined within a specific instance of an object. Let&#x2019;s<br>\nsay we have a <code>Person</code> class with an instance variable <code>name</code> of type<br>\n<code>String</code>. Each instance of the class would have its own value for <code>name</code>,<br>\nsuch as <code>Elysia</code> or <code>Toby</code>. Two instances could have the same value for<br>\n<code>name</code>, but changing the value for one does not modify the other.","children":[{"content":"\n<pre data-lines=\"34,39\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Person</span> {\n  String name;\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"34,39"}}],"payload":{"tag":"li","lines":"27,39"}},{"content":"A <em>class variable</em> is one that is defined on the class level and shared<br>\namong all instances of the class. It can even be publicly accessible<br>\nto classes outside the class and doesn&#x2019;t require an instance to use.<br>\nYou can tell a variable is a class variable because it has the keyword<br>\n<code>static</code> before it.","children":[{"content":"\n<pre data-lines=\"44,49\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Person</span> {\n  <span class=\"hljs-keyword\">static</span> <span class=\"hljs-type\">int</span> instances;\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"44,49"}}],"payload":{"tag":"li","lines":"39,49"}},{"content":"Instance and class variables do not require you to initialize them.<br>\nAs soon as you declare these variables, they are given a default<br>\nvalue.","children":[{"content":"<code>null</code> for object","children":[],"payload":{"tag":"li","lines":"52,53"}},{"content":"zero for <code>byte</code>, <code>short</code> and <code>int</code>","children":[],"payload":{"tag":"li","lines":"53,54"}},{"content":"<code>0L</code> for <code>long</code>, if you print it get <code>0</code>","children":[],"payload":{"tag":"li","lines":"54,55"}},{"content":"<code>0.0f</code> for <code>float</code>, if you print it get <code>0.0</code>","children":[],"payload":{"tag":"li","lines":"55,56"}},{"content":"<code>0.0</code> for <code>double</code>.","children":[],"payload":{"tag":"li","lines":"56,57"}},{"content":"<code>&apos;\\u0000&apos;</code> for <code>char</code>","children":[],"payload":{"tag":"li","lines":"57,58"}}],"payload":{"tag":"li","lines":"49,58"}},{"content":"\n<pre data-lines=\"58,70\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Person</span> {\n<span class=\"hljs-type\">int</span> v; <span class=\"hljs-type\">long</span> l; <span class=\"hljs-type\">float</span> f; <span class=\"hljs-type\">double</span> d;\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">main</span><span class=\"hljs-params\">(String[] args)</span> {\n  <span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">p</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Person</span>();\n  System.out.println(p.v);\n  System.out.println(p.l);\n  System.out.println(p.f);\n  System.out.println(p.d);\n  }\n}\n</code></pre>","children":[{"content":"It prints:<pre data-lines=\"71,77\"><code class=\"language-java\">0\n0\n0.0\n0.0\n</code></pre>","children":[],"payload":{"tag":"li","lines":"70,77"}}],"payload":{"tag":"li","lines":"58,77"}}],"payload":{"tag":"li","lines":"26,77"}}],"payload":{"tag":"h1","lines":"6,7"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

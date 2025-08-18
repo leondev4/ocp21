@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Common functional interfaces</strong>","children":[{"content":"\n<pre data-lines=\"1,4\"><code class=\"language-java\">Supplier&lt;T&gt;\n</code></pre>","children":[{"content":"\n<pre data-lines=\"4,7\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> T <span class=\"hljs-title function_\">get</span><span class=\"hljs-params\">()</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"4,7"}}],"payload":{"tag":"li","lines":"1,7"}},{"content":"\n<pre data-lines=\"7,10\"><code class=\"language-java\">Consumer&lt;T&gt;\n</code></pre>","children":[{"content":"\n<pre data-lines=\"10,13\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">accept</span><span class=\"hljs-params\">(T)</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"10,13"}}],"payload":{"tag":"li","lines":"7,13"}},{"content":"\n<pre data-lines=\"13,16\"><code class=\"language-java\">BiConsumer&lt;T,U&gt;\n</code></pre>","children":[{"content":"\n<pre data-lines=\"16,19\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">accept</span><span class=\"hljs-params\">(T,U)</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"16,19"}}],"payload":{"tag":"li","lines":"13,19"}},{"content":"\n<pre data-lines=\"19,22\"><code class=\"language-java\">Predicate&lt;T&gt;\n</code></pre>","children":[{"content":"\n<pre data-lines=\"22,25\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">test</span><span class=\"hljs-params\">(T)</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"22,25"}}],"payload":{"tag":"li","lines":"19,25"}},{"content":"\n<pre data-lines=\"25,28\"><code class=\"language-java\">BiPredicate&lt;T,U&gt;\n</code></pre>","children":[{"content":"\n<pre data-lines=\"28,31\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">test</span><span class=\"hljs-params\">(T,U)</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"28,31"}}],"payload":{"tag":"li","lines":"25,31"}},{"content":"\n<pre data-lines=\"31,34\"><code class=\"language-java\">Function&lt;T,R&gt;\n</code></pre>","children":[{"content":"\n<pre data-lines=\"34,37\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> R <span class=\"hljs-title function_\">apply</span><span class=\"hljs-params\">(T)</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"34,37"}},{"content":"\n<pre data-lines=\"37,40\"><code class=\"language-java\">UnaryOperator&lt;T&gt;\n</code></pre>","children":[{"content":"\n<pre data-lines=\"40,43\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> T <span class=\"hljs-title function_\">apply</span><span class=\"hljs-params\">(T)</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"40,43"}}],"payload":{"tag":"li","lines":"37,43"}}],"payload":{"tag":"li","lines":"31,43"}},{"content":"\n<pre data-lines=\"43,46\"><code class=\"language-java\">BiFunction&lt;T,U,R&gt;\n</code></pre>","children":[{"content":"\n<pre data-lines=\"46,49\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> R <span class=\"hljs-title function_\">apply</span><span class=\"hljs-params\">(T,U)</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"46,49"}},{"content":"\n<pre data-lines=\"49,52\"><code class=\"language-java\">BinaryOperator&lt;T&gt;\n</code></pre>","children":[{"content":"\n<pre data-lines=\"52,55\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> T <span class=\"hljs-title function_\">apply</span><span class=\"hljs-params\">(T,T)</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"52,55"}}],"payload":{"tag":"li","lines":"49,55"}}],"payload":{"tag":"li","lines":"43,55"}}],"payload":{"tag":"h1","lines":"0,1"}},{})</script>
+</body>
+</html>

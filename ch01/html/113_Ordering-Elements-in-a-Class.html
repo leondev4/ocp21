@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Ordering Elements in a Class</strong>","children":[{"content":"Comments can go anywhere in the code.","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"Order for declaring a class<br>\n<strong>Table 1.4</strong>","children":[{"content":"<strong>TABLE 1.4</strong> Order for declaring a class","children":[{"content":"The first example contains one of each element.\n<table data-lines=\"11,18\">\n<thead data-lines=\"11,12\">\n<tr data-lines=\"11,12\">\n<th>Element</th>\n<th>Example</th>\n<th>Required?</th>\n<th>Where does it go?</th>\n</tr>\n</thead>\n<tbody data-lines=\"13,18\">\n<tr data-lines=\"13,14\">\n<td>Package declaration</td>\n<td><code>package abc;</code></td>\n<td>No</td>\n<td>First line in the file (excluding &#xad;comments or blank lines)</td>\n</tr>\n<tr data-lines=\"14,15\">\n<td><code>import</code> statements</td>\n<td><code>import java.util.*;</code></td>\n<td>No</td>\n<td>Immediately after the package &#xad;(if present)</td>\n</tr>\n<tr data-lines=\"15,16\">\n<td>Top-&#xad;level type declaration</td>\n<td><code>public class C</code></td>\n<td>Yes</td>\n<td>Immediately after the import (if any)</td>\n</tr>\n<tr data-lines=\"16,17\">\n<td>Field declarations</td>\n<td><code>int value;</code></td>\n<td>No</td>\n<td>Any top-&#xad;level element within a class</td>\n</tr>\n<tr data-lines=\"17,18\">\n<td>Method declarations</td>\n<td><code>void method()</code></td>\n<td>No</td>\n<td>Any top-&#xad;level element within a class</td>\n</tr>\n</tbody>\n</table>","children":[],"payload":{"tag":"li","lines":"10,18"}}],"payload":{"tag":"li","lines":"9,18"}}],"payload":{"tag":"li","lines":"7,18"}},{"content":"\n<pre data-lines=\"18,28\"><code class=\"language-java\"><span class=\"hljs-keyword\">package</span> structure; <span class=\"hljs-comment\">//package must be first non-comment</span>\n<span class=\"hljs-keyword\">import</span> java.util.*; <span class=\"hljs-comment\">//import must come after package</span>\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Meerkat</span> {<span class=\"hljs-comment\">// then comes the class</span>\n  <span class=\"hljs-type\">double</span> weight;<span class=\"hljs-comment\">// fields and methods can go in either order</span>\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-type\">double</span> <span class=\"hljs-title function_\">getWeight</span><span class=\"hljs-params\">()</span> {\n    <span class=\"hljs-keyword\">return</span> weight; }\n  <span class=\"hljs-type\">double</span> height; <span class=\"hljs-comment\">// another field - they don&apos;t need to be together</span>\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"18,28"}},{"content":"How about this one?","children":[{"content":"\n<pre data-lines=\"29,37\"><code class=\"language-java\"><span class=\"hljs-comment\">/* header */</span>\n\n<span class=\"hljs-keyword\">package</span> structure;\n\n<span class=\"hljs-comment\">// class Meerkat</span>\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Meerkat</span>{ }\n</code></pre>","children":[{"content":"Still good. We can put comments anywhere, blank<br>\nlines are ignored, and imports are optional.","children":[],"payload":{"tag":"li","lines":"37,39"}}],"payload":{"tag":"li","lines":"29,39"}}],"payload":{"tag":"li","lines":"28,39"}},{"content":"In the next example, we have a problem:","children":[{"content":"\n<pre data-lines=\"40,46\"><code class=\"language-java\"><span class=\"hljs-keyword\">import</span> java.util.*;\n<span class=\"hljs-keyword\">package</span> structure; <span class=\"hljs-comment\">//DOES NOT COMPILE</span>\nString name; <span class=\"hljs-comment\">//DOES NOT COMPILE</span>\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Meerkat</span> { } <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n</code></pre>","children":[{"content":"There are two problems here. One is that the <code>package</code> and <code>import</code> statements<br>\nare reversed. Although both are optional, <code>package</code> must come before <code>import</code><br>\nif present. The other issue is that a field attempts a declaration outside a class.<br>\nThis is not allowed. Fields and methods must be within a class.","children":[],"payload":{"tag":"li","lines":"46,50"}}],"payload":{"tag":"li","lines":"40,50"}}],"payload":{"tag":"li","lines":"39,50"}},{"content":"<strong>Think of the acronym PIC (picture): <code>package</code>, <code>import</code>,<br>\nand <code>class</code>. Fields and methods must be inside a class.</strong>","children":[],"payload":{"tag":"li","lines":"50,52"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

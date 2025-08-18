@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Handling a <code>null</code> Case</strong>","children":[{"content":"What if the <code>switch</code> variable is <code>null</code>?","children":[{"content":"\n<pre data-lines=\"2,10\"><code class=\"language-java\"><span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">fish</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-literal\">null</span>;\nSystem.out.print(<span class=\"hljs-keyword\">switch</span> (fish){\n    <span class=\"hljs-keyword\">case</span> <span class=\"hljs-string\">&quot;ClownFish&quot;</span> -&gt; <span class=\"hljs-string\">&quot;Hello!&quot;</span>;\n    <span class=\"hljs-keyword\">case</span> <span class=\"hljs-string\">&quot;BlueTang&quot;</span> -&gt; <span class=\"hljs-string\">&quot;Hello again!&quot;</span>;\n    <span class=\"hljs-keyword\">default</span> -&gt; <span class=\"hljs-string\">&quot;Goodbye&quot;</span>;\n});\n</code></pre>","children":[{"content":"This code compiles ( it technically is exhaustive )<br>\nbut throws a <code>NullPointerException</code>!","children":[],"payload":{"tag":"li","lines":"10,12"}},{"content":"New to Java 21, <code>switch</code> now supports <code>case null</code><br>\nclause when working with object types","children":[{"content":"\n<pre data-lines=\"14,23\"><code class=\"language-java\"><span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">fish</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-literal\">null</span>;\nSystem.out.print(<span class=\"hljs-keyword\">switch</span> (fish) {\n  <span class=\"hljs-keyword\">case</span> <span class=\"hljs-string\">&quot;ClownFish&quot;</span> -&gt; <span class=\"hljs-string\">&quot;Hello!&quot;</span>;\n  <span class=\"hljs-keyword\">case</span> <span class=\"hljs-string\">&quot;BlueTang&quot;</span> -&gt; <span class=\"hljs-string\">&quot;Hello again!&quot;</span>;\n  <span class=\"hljs-keyword\">case</span> <span class=\"hljs-literal\">null</span> -&gt; <span class=\"hljs-string\">&quot;What type of fish are you?&quot;</span>;\n  <span class=\"hljs-keyword\">default</span> -&gt; <span class=\"hljs-string\">&quot;Goodbye&quot;</span>;\n});\n</code></pre>","children":[],"payload":{"tag":"li","lines":"14,23"}},{"content":"Although the code looks like a <code>switch</code> expression,<br>\nit&apos;s a pattern matching. Look carefully at the order of<br>\n<code>case null</code> and <code>default</code>.","children":[],"payload":{"tag":"li","lines":"23,26"}}],"payload":{"tag":"li","lines":"12,26"}}],"payload":{"tag":"li","lines":"2,26"}}],"payload":{"tag":"li","lines":"1,26"}},{"content":"<strong>Case <code>null</code> Is Considered Pattern<br>\nMatching</strong>","children":[{"content":"Any guess as to why the following code<br>\nsnippet does not compile?","children":[{"content":"\n<pre data-lines=\"30,38\"><code class=\"language-java\"><span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">fish</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-literal\">null</span>;\n<span class=\"hljs-keyword\">switch</span> (fish) { <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n  <span class=\"hljs-keyword\">case</span> <span class=\"hljs-string\">&quot;ClownFish&quot;</span>: System.out.print(<span class=\"hljs-string\">&quot;Hello!&quot;</span>);\n  <span class=\"hljs-keyword\">case</span> <span class=\"hljs-string\">&quot;BlueTang&quot;</span>:  System.out.print(<span class=\"hljs-string\">&quot;Hello again!&quot;</span>);\n  <span class=\"hljs-keyword\">case</span> <span class=\"hljs-literal\">null</span>:        System.out.print(<span class=\"hljs-string\">&quot;null&quot;</span>);\n}\n</code></pre>","children":[{"content":"Anytime <code>case null</code> is used within a <code>switch</code>, then the <code>switch</code><br>\nstatement is considered to use pattern matching.","children":[],"payload":{"tag":"li","lines":"38,40"}},{"content":"That means the <code>switch</code> statement <em>must be exhaustive</em>.<br>\nAdding a <code>default</code> branch allows the code to compile.","children":[],"payload":{"tag":"li","lines":"40,42"}}],"payload":{"tag":"li","lines":"30,42"}}],"payload":{"tag":"li","lines":"28,42"}}],"payload":{"tag":"li","lines":"26,42"}},{"content":"Since using <code>case null</code> implies pattern matching, the ordering<br>\nof branches matters anytime <code>case null</code> is used. <strong>While<br>\n<code>case null</code> can appear almost anywhere in <code>switch</code>, it<br>\ncannot be used after a <code>default</code> statement.</strong>","children":[{"content":"\n<pre data-lines=\"46,54\"><code class=\"language-java\">System.out.print(<span class=\"hljs-keyword\">switch</span> (fish) {\n  <span class=\"hljs-keyword\">case</span> String s <span class=\"hljs-keyword\">when</span> <span class=\"hljs-string\">&quot;ClownFish&quot;</span>.equals(s) -&gt; <span class=\"hljs-string\">&quot;Hello!&quot;</span>;\n  <span class=\"hljs-keyword\">case</span> <span class=\"hljs-literal\">null</span> -&gt; <span class=\"hljs-string\">&quot;No good&quot;</span>;\n  <span class=\"hljs-keyword\">case</span> String s <span class=\"hljs-keyword\">when</span> <span class=\"hljs-string\">&quot;BlueTang&quot;</span>.equals(s) -&gt; <span class=\"hljs-string\">&quot;Hello again!&quot;</span>;\n  <span class=\"hljs-keyword\">default</span> -&gt; <span class=\"hljs-string\">&quot;Goodbye&quot;</span>;\n});\n</code></pre>","children":[{"content":"It compiles","children":[],"payload":{"tag":"li","lines":"54,55"}}],"payload":{"tag":"li","lines":"46,55"}},{"content":"\n<pre data-lines=\"55,63\"><code class=\"language-java\">System.out.print(<span class=\"hljs-keyword\">switch</span> (fish) {\n  <span class=\"hljs-keyword\">case</span> String s <span class=\"hljs-keyword\">when</span> <span class=\"hljs-string\">&quot;ClownFish&quot;</span>.equals(s) -&gt; <span class=\"hljs-string\">&quot;Hello!&quot;</span>;\n  <span class=\"hljs-keyword\">case</span> String s <span class=\"hljs-keyword\">when</span> <span class=\"hljs-string\">&quot;BlueTang&quot;</span>.equals(s) -&gt; <span class=\"hljs-string\">&quot;Hello again!&quot;</span>;\n  <span class=\"hljs-keyword\">default</span> -&gt; <span class=\"hljs-string\">&quot;Goodbye&quot;</span>;  \n  <span class=\"hljs-keyword\">case</span> <span class=\"hljs-literal\">null</span> -&gt; <span class=\"hljs-string\">&quot;No good&quot;</span>;  <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n});\n</code></pre>","children":[{"content":"It does not compile","children":[],"payload":{"tag":"li","lines":"63,64"}}],"payload":{"tag":"li","lines":"55,64"}}],"payload":{"tag":"li","lines":"42,64"}}],"payload":{"tag":"h1","lines":"0,1"}},{})</script>
+</body>
+</html>

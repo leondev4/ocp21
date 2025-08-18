@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="3742612808" etag="2332988712">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="871.5" posy="544.5" width="211" height="70" side="left" fold="false" treesize="1063" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="**Working with `switch` Expressions**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="1182.5" posy="125" width="300" height="49" side="right" fold="false" treesize="203" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="430" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="436.990234375">
+            <text data="**Returning Consistent Data Types**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="5" posx="1582.5" posy="104" width="457" height="91" side="right" fold="false" treesize="203" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="430" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="430">
+                <text data="&#10;When assigning a value as the result of a `switch` expression, a branch can&#x2019;t return a value with an unrelated type."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="2" posx="2139.5" posy="51.5" width="388" height="196" side="right" fold="false" treesize="203" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="430" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="430">
+                    <text data="`int measurement = 10;&#10;**int**size = switch(measurement) {&#10;  case 5 -&gt;**Integer.valueOf(1);**&#10;  case 10 -&gt;**(short)2;**&#10;  default -&gt;**3;**&#10;  case 20 -&gt;**&quot;4&quot;;** // DOES NOT COMPILE&#10;  case 40 -&gt;**5L;**  // DOES NOT COMPILE&#10;  case 50 -&gt;**null;**// DOES NOT COMPILE&#10;};`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="3" posx="2627.5" posy="48" width="457" height="112" side="right" fold="false" treesize="112" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="430" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="430">
+                        <text data="The `switch` expression is being assigned to an `int` variable, so all of the values must be consistent with `int`. The first `case` clause compiles without issue, as the `Integer` value is unboxed to `int`."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="4" posx="2627.5" posy="160" width="484" height="91" side="right" fold="false" treesize="91" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="461" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="468.291015625">
+                        <text data="The second and third `case` clauses are fine, as they can be stored as an `int`. The last three `case` expressions do not compile because each returns a type that is incompatible with `int`."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="6" posx="1182.5" posy="300" width="311" height="91" side="right" fold="false" treesize="189" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="339" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="325.40885416666663">
+            <text data="**Exhausting the `switch` Branches**&#10;Unlike a `switch` statement, a `switch` expression must return a value."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="7" posx="1593.5" posy="274.5" width="532" height="142" side="right" fold="false" treesize="189" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="505" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="518.84114583333314">
+                <text data="`void identifyType(String type) {&#10;**Integer reptile**= switch (type) { // DOES NOT COMPILE&#10;    case &quot;Snake&quot; -&gt; 1;&#10;    case &quot;Turtle&quot; -&gt; 2;&#10;  };&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="8" posx="2225.5" posy="289.5" width="458" height="112" side="right" fold="false" treesize="189" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="378" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="436.51822916666674">
+                    <text data="What is the value of `reptile` if `type` is not equal to `Snake` or `Turtle`?&#10;Java decided this behavior would be unsupported and triggers a compiler error if the `switch` expression is not exhaustive."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="9" posx="2783.5" posy="289.5" width="389" height="112" side="right" fold="false" treesize="189" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="378" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="378">
+                        <text data="A `switch` is said to be exhaustive if it covers all possible values.**All `switch` expressions must be exhaustive, which means they must handle all possible values**"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="10" posx="3272.5" posy="310.5" width="236" height="70" side="right" fold="false" treesize="189" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="378" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="378">
+                            <text data=" There are three ways to write &#10;an exhaustive `switch`:"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="11" posx="3608.5" posy="251" width="209" height="49" side="right" fold="false" treesize="49" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="378" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="378">
+                                <text data="1. Add a `default` clause."/>
+                              </nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="12" posx="3608.5" posy="300" width="345" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="358" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="348.72395833333337">
+                                <text data="2. If the `switch` takes an enum, add a `case` clause for every possible enum value."/>
+                              </nodename>
+                              <nodenote></nodenote>
+                            </node>
+                            <node id="13" posx="3608.5" posy="370" width="314" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="346" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="341.46614583333337">
+                                <text data="3. Cover all possible types of the `switch` variable with pattern matching."/>
+                              </nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="14" posx="1182.5" posy="515.5" width="454" height="133" side="right" fold="false" treesize="284" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="431" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="436.134765625">
+            <text data="In practice, the first solution is the one most often used.&#10;You can try writing `case` clauses for all possible `int` values,&#10;but we promise it doesn&#x2019;t work! Even smaller types like `byte`&#10;are not permitted by the compiler, despite there being only&#10;`256` possible values."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="15" posx="1736.5" posy="547" width="453" height="70" side="right" fold="false" treesize="284" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="431" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="431">
+                <text data="The second solution applies only to `switch` expressions that&#10;take an enum. For example, consider the following:"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="16" posx="2289.5" posy="484" width="437" height="196" side="right" fold="false" treesize="284" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="431" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="431">
+                    <text data="`enum Season{**SPRING, SUMMER, FALL, WINTER**}&#10;&#10;String getWeatherMissingOne(Season value) {&#10;  return switch (value) { // DOES NOT COMPILE&#10;  **case WINTER**-&gt; &quot;Cold&quot;;&#10;  **case SPRING**-&gt; &quot;Rainy&quot;;&#10;  **case SUMMER**-&gt; &quot;Hot&quot;;&#10;  };&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="17" posx="2826.5" posy="547" width="493" height="70" side="right" fold="false" treesize="284" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="464" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="492.09375">
+                        <text data="This code does not compile because `FALL` is not covered. The fix is either to add a case for `FALL` or add a `default` clause (or both)."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="18" posx="3419.5" posy="440" width="433" height="214" side="right" fold="false" treesize="214" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="431" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="431">
+                            <text data="`String getWeatherCoveredAll(Season value) {&#10;  return switch (value) {&#10;    case WINTER -&gt; &quot;Cold&quot;;&#10;    case SPRING -&gt; &quot;Rainy&quot;;&#10;    case SUMMER -&gt; &quot;Hot&quot;;&#10;  **case FALL**-&gt; &quot;Warm&quot;;&#10;  **default**-&gt; throw new&#10;      RuntimeException(&quot;Unsupported Season&quot;);&#10;  };&#10;}`"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                        <node id="19" posx="3419.5" posy="654" width="390" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="431" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="431">
+                            <text data="Since all possible values of `Season` are covered, the `default` branch is optional."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="20" posx="1182.5" posy="861.5" width="454" height="112" side="right" fold="false" treesize="387" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="431" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="431">
+            <text data="**Using the `yield` Statement**&#10; A switch expression supports both `case` expressions and `case` blocks, the latter of which is denoted with braces (`{}`). The Figure (250_figure_3_6.png)  shows examples of both."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="21" posx="1736.5" posy="816" width="439" height="133" side="right" fold="false" treesize="317" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="431" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="431">
+                <text data="We said that a `switch` expression must return a value. But how do you return a value from a `case` block?&#10;Enter the `yield` statement, shown in Figure. It allows the `case` clause to return a value. For example, the following&#10;uses a mix of `case` expressions and `case` blocks:"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="22" posx="2275.5" posy="739.5" width="514" height="286" side="right" fold="false" treesize="317" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="491" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="492.01041666666663">
+                    <text data="`int fish = 5;&#10;int length = 12;&#10;var name = switch (fish) {&#10;  case 1 -&gt; &quot;Goldfish&quot;;&#10;  case 2 -&gt; {**yield &quot;Trout&quot;;**}&#10;  case 3 -&gt; {&#10;    if (length&gt; 10)**yield &quot;Blobfish&quot;;**&#10;    else**yield &quot;Green&quot;;**&#10;  }&#10;  case 4 -&gt; {&#10;  **throw new RuntimeException(&quot;Unsupported value&quot;);**&#10;  }&#10;   default -&gt; &quot;Swordfish&quot;;&#10;};`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="25" posx="2889.5" posy="724" width="507" height="133" side="right" fold="false" treesize="133" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="491" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="491">
+                        <text data="Think of the `yield` keyword as a `return` statement within a&#10;`switch` expression. Because a `switch` expression must return&#10;a value, a `yield` is often required within a `case` block. The one &quot;exception&quot; to this rule is if the code throws an exception, as shown in the previous example."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="26" posx="2889.5" posy="924.5" width="367" height="49" side="right" fold="false" treesize="184" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="491" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="491">
+                        <text data="**Watch Semicolons in `switch` Expressions**"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="27" posx="3356.5" posy="857" width="649" height="184" side="right" fold="false" treesize="184" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="590" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="626.34114583333348">
+                            <text data="When writing a `case` expression, a semicolon is required, but when writing a `case` block, it is prohibited.&#10;`int fish = 1;&#10;var name = switch (fish) {&#10;  case 1 -&gt; &quot;Goldfish&quot; // DOES NOT COMPILE (missing semicolon)&#10;  case 2 -&gt; { yield &quot;Trout&quot;; }; // DOES NOT COMPILE (extra semicolon)&#10;  default -&gt; &quot;Shark&quot;;&#10;} // DOES NOT COMPILE (missing semicolon)`"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="23" posx="1736.5" posy="1041" width="422" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="431" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="431">
+                <text data="Remember: **A `yield` is required within a case block unles an exception is thrown.**"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

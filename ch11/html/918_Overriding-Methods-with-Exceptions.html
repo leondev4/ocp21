@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"","children":[{"content":"<strong>Overriding Methods with<brr> Checked Exceptions</brr></strong>","children":[{"content":"It is only valid in checked exceptions","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"Same class, Covariance class, or nothing in subclass methods","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"\n<pre data-lines=\"9,18\"><code data-lines=\"9,18\"><span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">CanNotHopException</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">Exception</span> </span>{}\n<span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">Hopper</span> </span>{\n  public void hop(){}\n}\n<span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">Bunny</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">Hopper</span> </span>{\n  public void hop() <span class=\"hljs-keyword\">throws</span> <span class=\"hljs-type\">CanNotHopException</span> {} <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n}\n</code></pre>","children":[{"content":"<code>hop()</code> isn&#x2019;t allowed to throw any checked exceptions because the<br>\n<code>hop()</code>  method in the superclass <code>Hopper</code> doesn&#x2019;t declare any.","children":[],"payload":{"tag":"li","lines":"18,20"}}],"payload":{"tag":"li","lines":"9,20"}},{"content":"\n<pre data-lines=\"20,28\"><code data-lines=\"20,28\"><span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">Hopper</span> </span>{\n  public void hop() <span class=\"hljs-keyword\">throws</span> <span class=\"hljs-type\">CanNotHopException</span> {}\n}\n<span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">Bunny</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">Hopper</span> </span>{\n  public void hop() {} <span class=\"hljs-comment\">//This is fine, you can put nothing, CanNotHopException or subytpes</span>\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"20,28"}},{"content":"An overridden method not declaring one of the exceptions thrown by the parent method<br>\nis similar to the method declaring that it throws an exception it never actually throws. This<br>\nis perfectly legal.","children":[],"payload":{"tag":"li","lines":"28,31"}}],"payload":{"tag":"h1","lines":"6,7"}},{"content":"<strong>Constructors with Checked Exceptions</strong>","children":[{"content":"It is only valid in checked exceptions","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"Contravariance or nothing in parent class constructors","children":[],"payload":{"tag":"li","lines":"33,34"}},{"content":"\n<pre data-lines=\"34,47\"><code data-lines=\"34,47\"><span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">CanNotHopException</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">Exception</span> </span>{}\n<span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">Hopper</span> </span>{\n  <span class=\"hljs-type\">Hopper</span>(){}\n}\n<span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">Bunny</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">Hopper</span> </span>{\n    public <span class=\"hljs-type\">Bunny</span>() <span class=\"hljs-keyword\">throws</span> <span class=\"hljs-type\">CanNotHopException</span>{ <span class=\"hljs-keyword\">super</span>();}\n}\n<span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">NewbornRabbit</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">Bunny</span></span>{\n    <span class=\"hljs-comment\">//It must trows CanNotHopException or its parents</span>\n    public <span class=\"hljs-type\">NewbornRabbit</span>() <span class=\"hljs-keyword\">throws</span> <span class=\"hljs-type\">Exception</span> { <span class=\"hljs-keyword\">super</span>();}\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"34,47"}},{"content":"In the <code>Bunny</code> constructor you can leave it alone or put <code>Exception</code> or subtypes; for example:<pre data-lines=\"48,53\"><code class=\"language-js\">public <span class=\"hljs-title class_\">Bunny</span>() throws <span class=\"hljs-title class_\">Exception</span>{ <span class=\"hljs-variable language_\">super</span>();}\npublic <span class=\"hljs-title class_\">Bunny</span>() throws <span class=\"hljs-title class_\">CanNotHopException</span>{ <span class=\"hljs-variable language_\">super</span>();}\npublic <span class=\"hljs-title class_\">Bunny</span>(){ <span class=\"hljs-variable language_\">super</span>();}\n</code></pre>\nThey all compile if inserted independently.","children":[],"payload":{"tag":"li","lines":"47,54"}}],"payload":{"tag":"h1","lines":"31,32"}},{"content":"<strong>Printing an Exception</strong>","children":[{"content":"\n<pre data-lines=\"55,69\"><code class=\"language-js\"><span class=\"hljs-number\">5</span>: public <span class=\"hljs-keyword\">static</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">main</span>(<span class=\"hljs-params\"><span class=\"hljs-built_in\">String</span>[] args</span>) {\n<span class=\"hljs-number\">6</span>:  <span class=\"hljs-keyword\">try</span> {\n<span class=\"hljs-number\">7</span>:     <span class=\"hljs-title function_\">hop</span>();\n<span class=\"hljs-number\">8</span>:  } <span class=\"hljs-keyword\">catch</span> (<span class=\"hljs-title class_\">Exception</span> e) {\n<span class=\"hljs-number\">9</span>:    <span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(e + <span class=\"hljs-string\">&quot;\\n&quot;</span>);\n<span class=\"hljs-number\">10</span>:   <span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(e.<span class=\"hljs-title function_\">getMessage</span>()+ <span class=\"hljs-string\">&quot;\\n&quot;</span>);\n<span class=\"hljs-number\">11</span>:   e.<span class=\"hljs-title function_\">printStackTrace</span>();\n<span class=\"hljs-number\">12</span>:  }\n<span class=\"hljs-number\">13</span>: }\n<span class=\"hljs-number\">14</span>: private <span class=\"hljs-keyword\">static</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">hop</span>(<span class=\"hljs-params\"></span>) {\n<span class=\"hljs-number\">15</span>:   <span class=\"hljs-keyword\">throw</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">RuntimeException</span>(<span class=\"hljs-string\">&quot;cannot hop&quot;</span>);\n<span class=\"hljs-number\">16</span>: }\n</code></pre>","children":[{"content":"<strong><code>java.lang.RuntimeException: cannot hop</code></strong>","children":[],"payload":{"tag":"li","lines":"69,70"}},{"content":"<strong><code>cannot hop</code></strong>","children":[],"payload":{"tag":"li","lines":"70,71"}},{"content":"\n<pre data-lines=\"71,76\"><code data-lines=\"71,76\">java<span class=\"hljs-selector-class\">.lang</span><span class=\"hljs-selector-class\">.RuntimeException</span>: cannot hop\n  at Handling<span class=\"hljs-selector-class\">.hop</span>(Handling<span class=\"hljs-selector-class\">.java</span>:<span class=\"hljs-number\">15</span>)\n  at Handling<span class=\"hljs-selector-class\">.main</span>(Handling<span class=\"hljs-selector-class\">.java</span>:<span class=\"hljs-number\">7</span>)\n</code></pre>","children":[],"payload":{"tag":"li","lines":"71,76"}}],"payload":{"tag":"li","lines":"55,76"}}],"payload":{"tag":"h1","lines":"54,55"}}]},{"initialExpandLevel":2})</script>
+</body>
+</html>

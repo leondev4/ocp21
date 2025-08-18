@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Understanding Garbage Collection</strong>","children":[{"content":"All Java objects are stored in your program memory&#x2019;s <em>heap</em>. The<br>\nheap, which is also referred to as the <em>free store</em>, represents a<br>\nlarge pool of unused memory allocated to your Java application.","children":[{"content":"<em>Garbage collection</em> refers to the process of automatically freeing<br>\nmemory on the heap by deleting objects that are no longer<br>\nreachable in your program.","children":[{"content":"<em>Eligible for garbage collection</em> refers to an object&#x2019;s state of no<br>\nlonger being accessible in a program and therefore able to be<br>\ngarbage collected.<br>\nDoes this mean an object that&#x2019;s eligible for garbage collection<br>\nwill be immediately garbage collected? Definitely not.","children":[],"payload":{"tag":"li","lines":"12,17"}},{"content":"Think of garbage-collection eligibility like shipping a package. You<br>\ncan take an item, seal it in a labeled box, and put it in your mailbox.<br>\nThis is analogous to making an item eligible for garbage collection.<br>\nWhen the mail carrier comes by to pick it up, though, is not in your<br>\ncontrol. For example, it may be a postal holiday, or there could be a<br>\nsevere weather event. You can even call the post office and ask<br>\nthem to come pick it up right away, but there&#x2019;s no way to guarantee<br>\nwhen and if this will actually happen.","children":[{"content":"You can suggest that garbage collection run.<br>\n<code>System.gc();</code><br>\nJust like the post office, Java is free to ignore you.<br>\nThis method is not guaranteed to do anything.","children":[],"payload":{"tag":"li","lines":"25,29"}}],"payload":{"tag":"li","lines":"17,29"}}],"payload":{"tag":"li","lines":"9,29"}}],"payload":{"tag":"li","lines":"6,29"}},{"content":"An object will remain on the heap until it is no longer reachable. An<br>\nobject is no longer reachable when one of these two situations occurs:<br>\n1.- The object no longer has any references pointing to it.<br>\n2.- All references to the object have gone out of scope.","children":[],"payload":{"tag":"li","lines":"29,33"}},{"content":"Look at this code and see whether you can figure out when each<br>\nobject first becomes eligible for garbage collection: (line 6 and line 9)","children":[{"content":"\n<pre data-lines=\"35,46\"><code class=\"language-java\"><span class=\"hljs-number\">1</span>: <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Scope</span> {\n<span class=\"hljs-number\">2</span>:   <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">main</span><span class=\"hljs-params\">(String[] args)</span> {\n<span class=\"hljs-number\">3</span>:     String one, two;\n<span class=\"hljs-number\">4</span>:     one = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">String</span>(<span class=\"hljs-string\">&quot;a&quot;</span>);\n<span class=\"hljs-number\">5</span>:     two = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">String</span>(<span class=\"hljs-string\">&quot;b&quot;</span>);\n<span class=\"hljs-number\">6</span>:     one = two;\n<span class=\"hljs-number\">7</span>:     <span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">three</span> <span class=\"hljs-operator\">=</span> one;\n<span class=\"hljs-number\">8</span>:     one = <span class=\"hljs-literal\">null</span>;\n<span class=\"hljs-number\">9</span>:   } }\n</code></pre>","children":[{"content":"On line 3, write <code>one</code> and <code>two</code>. On line 4, we have our first<br>\nobject. Draw a box with the string <code>&quot;a&quot;</code> in it, and draw an<br>\narrow from the word <code>one</code> to that box. Line 5 is similar.<br>\nDraw another box with the string <code>&quot;b&quot;</code> in it this time and an<br>\narrow from the word <code>two</code>.","children":[{"content":"<a href=\"https://1drv.ms/i/c/c83cfca51d5c2032/ESzco74WqDtIkVi6tj0Lvn4B4LFmEfaETLRM5YuP5CjZog?e=JXM7W8\">Figure 1.4</a>","children":[],"payload":{"tag":"li","lines":"51,52"}}],"payload":{"tag":"li","lines":"46,53"}},{"content":"On line 6, the variable <code>one</code> changes to point to <code>&quot;b&quot;</code>. Either erase or<br>\ncross out the arrow from <code>one</code> and draw a new arrow from one to <code>&quot;b&quot;</code>.<br>\nOn line 7, we have a new variable, so write the word <code>three</code> and draw<br>\nan arrow from three to <code>&quot;b&quot;</code>. Notice that <code>three</code> points to what <code>one</code> is<br>\npointing to right now and not what it was pointing to at the beginning.<br>\nThis is why you are drawing pictures. It&#x2019;s easy to forget something like that.","children":[{"content":"<a href=\"https://1drv.ms/i/c/c83cfca51d5c2032/EdHyveN2HiBKkKJAC_MnQboBAeKDmT635dBE8ih9rSVZgw?e=zECHZg\">Figure 1.5</a>","children":[],"payload":{"tag":"li","lines":"59,60"}}],"payload":{"tag":"li","lines":"53,61"}},{"content":"Finally, cross out the line between <code>one</code> and <code>&quot;b&quot;</code> since line 8 sets this variable to <code>null</code>.<br>\nNow, we were trying to find out when the objects were first eligible for garbage collection.<br>\nOn line 6, we got rid of the only arrow pointing to <code>&quot;a&quot;</code>, making that object eligible for<br>\ngarbage collection. <code>&quot;b&quot;</code> has arrows pointing to it until it goes out of scope. This means<br>\n<code>&quot;b&quot;</code> is elegible for garbage collection until the end of the method on line 9.","children":[],"payload":{"tag":"li","lines":"61,66"}}],"payload":{"tag":"li","lines":"35,66"}},{"content":"You can watch the figures 1.4 and 1.5 in the book.","children":[],"payload":{"tag":"li","lines":"66,67"}}],"payload":{"tag":"li","lines":"33,67"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

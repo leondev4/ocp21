@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"","children":[{"content":"<strong>Checked Exceptions</strong>","children":[{"content":"Must be declared or handled","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"All inherit <code>Exception</code> but not <code>RuntimeException</code>.","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"Tend to be more anticipated; for example, trying to read a file that doesn&#x2019;t exist.","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"<em>Handle or declare rule</em>","children":[{"content":"All checked exceptions that could be thrown within a<br>\nmethod are either wrapped in compatible <code>try</code> and<br>\n<code>catch</code> blocks or declared in the method signature.","children":[],"payload":{"tag":"li","lines":"10,13"}}],"payload":{"tag":"li","lines":"9,13"}},{"content":"Examples","children":[{"content":"<strong>Declare:</strong><pre data-lines=\"15,22\"><code data-lines=\"15,22\"><span class=\"hljs-function\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title\">fall</span><span class=\"hljs-params\">(<span class=\"hljs-keyword\">int</span> distance)</span> <span class=\"hljs-keyword\">throws</span> IOException </span>{\n  <span class=\"hljs-keyword\">if</span>(distance &gt; <span class=\"hljs-number\">10</span>) {\n    <span class=\"hljs-keyword\">throw</span> <span class=\"hljs-keyword\">new</span> IOException();\n  }\n}\n</code></pre>","children":[{"content":"\n<p data-lines=\"22,24\"><code>throws</code> keyword simply declares that the method might throw an<br>\n<code>IOException</code>.  <strong>It also might not</strong>.</p>","children":[],"payload":{"tag":"li","lines":"22,25"}},{"content":"\n<p data-lines=\"25,26\"><code>throw</code> keyword tells Java that you want to throw an <code>IOException</code>.</p>","children":[],"payload":{"tag":"li","lines":"25,26"}}],"payload":{"tag":"li","lines":"14,26"}},{"content":"<strong>Handle:</strong><pre data-lines=\"27,38\"><code class=\"language-js\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">fall</span>(<span class=\"hljs-params\">int distance</span>) {\n  <span class=\"hljs-keyword\">try</span> {\n    <span class=\"hljs-keyword\">if</span>(distance &gt; <span class=\"hljs-number\">10</span>) {\n        <span class=\"hljs-keyword\">throw</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">IOException</span>();\n      }\n    } <span class=\"hljs-keyword\">catch</span> (<span class=\"hljs-title class_\">Exception</span> e) {\n      e.<span class=\"hljs-title function_\">printStackTrace</span>();\n    }\n}\n</code></pre>","children":[{"content":"Since <code>IOException</code> is a subclass of <code>Exception</code>, the catch block is allowed to catch it.","children":[],"payload":{"tag":"li","lines":"38,39"}}],"payload":{"tag":"li","lines":"26,39"}}],"payload":{"tag":"li","lines":"13,39"}}],"payload":{"tag":"h1","lines":"5,6"}},{"content":"<strong>Unchecked Exceptions</strong>","children":[{"content":"An <em>unchecked exception</em> is any exception that<br>\ndoes not need to be declared or handled","children":[],"payload":{"tag":"li","lines":"40,42"}},{"content":"Often referred to as <em>runtime exceptions</em>,","children":[],"payload":{"tag":"li","lines":"42,43"}},{"content":"in Java, unchecked exceptions include any class<br>\nthat inherits <code>RuntimeException</code> or <code>Error</code>.","children":[],"payload":{"tag":"li","lines":"43,45"}},{"content":"It is permissible to handle or declare an unchecked<br>\nexception, but it isn&apos;t mandatory.","children":[],"payload":{"tag":"li","lines":"45,47"}},{"content":"A <em>runtime exception</em> is defined as the <code>RuntimeException</code><br>\nclass and its subclasses","children":[{"content":"For example, a <code>NullPointerException</code> can be thrown in the<br>\nbody of the following method if the <code>input</code> reference is <code>null</code>:<pre data-lines=\"51,56\"><code data-lines=\"51,56\"><span class=\"hljs-type\">void</span> fall(String <span class=\"hljs-keyword\">input</span>{   \n  <span class=\"hljs-keyword\">System</span>.<span class=\"hljs-keyword\">out</span>.println(<span class=\"hljs-keyword\">input</span>.toLowerCase());\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"49,56"}}],"payload":{"tag":"li","lines":"47,56"}}],"payload":{"tag":"h1","lines":"39,40"}},{"content":"<strong>Error and Throwable</strong>","children":[{"content":"<code>Error</code> means something went so horribly wrong that<br>\nyour program should not attempt to recover from it","children":[{"content":"For example, the disk drive &#x201c;disappeared&#x201d;<br>\nor the program ran out of memory.","children":[],"payload":{"tag":"li","lines":"59,61"}}],"payload":{"tag":"li","lines":"57,61"}},{"content":"<code>Throwable</code> is the parent class of all<br>\nexceptions, including the <code>Error</code> class.","children":[],"payload":{"tag":"li","lines":"61,63"}}],"payload":{"tag":"h1","lines":"56,57"}},{"content":"<strong>Reviewing Exception Types</strong>","children":[{"content":"\n<table data-lines=\"64,69\">\n<thead data-lines=\"64,65\">\n<tr data-lines=\"64,65\">\n<th>Type</th>\n<th>How to recognize</th>\n<th>OK for program<br> to catch?</th>\n<th>Is program required to<br> handle or declare?</th>\n</tr>\n</thead>\n<tbody data-lines=\"66,69\">\n<tr data-lines=\"66,67\">\n<td>Unchecked exception</td>\n<td>Subclass of <code>RuntimeException</code></td>\n<td>Yes</td>\n<td>No</td>\n</tr>\n<tr data-lines=\"67,68\">\n<td>Checked exception</td>\n<td>Subclass of <code>Exception</code> but not subclass of<br><code>RuntimeException</code></td>\n<td>Yes</td>\n<td>Yes</td>\n</tr>\n<tr data-lines=\"68,69\">\n<td>Error</td>\n<td>Subclass of <code>Error</code></td>\n<td>No</td>\n<td>No</td>\n</tr>\n</tbody>\n</table>","children":[],"payload":{"tag":"li","lines":"64,69"}}],"payload":{"tag":"h1","lines":"63,64"}}]},{"initialExpandLevel":2})</script>
+</body>
+</html>

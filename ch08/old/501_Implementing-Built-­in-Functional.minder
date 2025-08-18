@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="578289155" etag="1251926272">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="876.28125" posy="544.5" width="205" height="70" side="left" fold="false" treesize="1886" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="**Implementing Built-&#xAD;in Functional Interfaces**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="1181.28125" posy="-202.50000000000003" width="108" height="49" side="right" fold="false" treesize="371" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="200">
+            <text data="`Supplier`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1389.28125" posy="-359" width="656" height="151" side="right" fold="false" treesize="160" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="621" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="639.109375">
+                <text data="A `Supplier` is used when you want to generate or supply values without taking any input. The `Supplier` interface is defined as follows:&#10;`public interface**Supplier&lt;T&gt;**{&#10; **T get();**&#10;}`&#10; A `Supplier` is often used when constructing new objects."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="3" posx="2145.28125" posy="-363.5" width="478" height="160" side="right" fold="false" treesize="160" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="621" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="621">
+                    <text data="`&#10;**Supplier&lt;LocalDate&gt; s1**= LocalDate::now;&#10;**Supplier&lt;LocalDate&gt; s2**= () -&gt; LocalDate.now();&#10;  LocalDate d1 =**s1.get();**&#10;  LocalDate d2 =**s2.get();**&#10;  System.out.println(d1);// 2022-&#xAD;02-&#xAD;20&#10;  System.out.println(d2);// 2022-&#xAD;02-&#xAD;20`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="4" posx="1389.28125" posy="-172.00000000000003" width="532" height="148" side="right" fold="false" treesize="211" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="621" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="621">
+                <text data="we can print two empty `StringBuilder` objects:&#10;`**Supplier&lt;StringBuilder&gt; s1**= StringBuilder::new;&#10;**Supplier&lt;StringBuilder&gt; s2**=()-&gt; new StringBuilder();&#10;System.out.println(**s1.get()**); // Empty string&#10;System.out.println(**s2.get()**); // Empty string`&#10;This time, we used a constructor reference to create the object."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="5" posx="2021.28125" posy="-203.50000000000003" width="649" height="211" side="right" fold="false" treesize="211" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="621" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="621">
+                    <text data="We&#x2019;ve been using generics to declare what type of `Supplier` we are using. This can be a little long to read. Can you figure out what the following does? Just take it one step at a time:`&#10;Supplier&lt;ArrayList&lt;String&gt;&gt; s3 = ArrayList::new;&#10;ArrayList&lt;String&gt; a1 = s3.get();&#10;System.out.println(a1); // []`&#10;   We have a `Supplier` of a certain type. That type happens to be `ArrayList&lt;String&gt;`.&#10;Then calling `get()` creates a new instance of `ArrayList&lt;String&gt;`, which is the generic type of the `Supplier`."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="6" posx="2770.28125" posy="-196.00000000000003" width="673" height="196" side="right" fold="false" treesize="196" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="646" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="650.40625">
+                        <text data="What would happen if we tried to print out `s3` itself?&#10;`System.out.println(s3);`&#10;   The code prints something like this:&#10;`functint.BuiltIns$$Lambda$1/0x0000000800066840@4909b8da`&#10;    That&#x2019;s the result of calling `toString()` on a lambda. This actually does mean something. Our test class is named `BuiltIns`, and it is in a package that we created named `functint`. Then comes `$$`, which means that the class doesn&#x2019;t exist in a class file on the file system. It exists only in memory. You don&#x2019;t need to worry about the rest."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="7" posx="1181.28125" posy="212.5" width="138" height="70" side="right" fold="false" treesize="480.00000000000006" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="200">
+            <text data="`Consumer` and `BiConsumer`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="8" posx="1419.28125" posy="191.5" width="406" height="112" side="right" fold="false" treesize="480.00000000000011" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="406" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="382.69791666666674">
+                <text data="You use a `Consumer` when you want to do something with a parameter but not return anything. `BiConsumer` does the same thing, except that it takes two parameters (They don&#x2019;t have to be the same type.)."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="9" posx="1925.28125" posy="16.499999999999943" width="320" height="106" side="right" fold="false" treesize="124" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="422" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="422">
+                    <text data="`public interface**Consumer&lt;T&gt;**{&#10;   **void accept(T t);**&#10;     //omitted default method&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="11" posx="2345.28125" posy="7.4999999999999432" width="469" height="124" side="right" fold="false" treesize="124" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="460" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="461.78125">
+                        <text data="`**Consumer&lt;String&gt; c1**=System.out::println;&#10;**Consumer&lt;String&gt; c2**=x-&gt;System.out.println(x);&#10;&#10;c1.**accept(&quot;Annie&quot;)**; // Annie&#10;c2.**accept(&quot;Annie&quot;)**; // Annie`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="10" posx="1925.28125" posy="256.5" width="365" height="106" side="right" fold="false" treesize="356.00000000000011" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="422" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="422">
+                    <text data="`public interface**BiConsumer&lt;T, U&gt;**{&#10; **void accept(T t, U u);**&#10;   //omitted default method&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="12" posx="2390.28125" posy="131.49999999999994" width="541" height="178" side="right" fold="false" treesize="178" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="536" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="537.35677083333326">
+                        <text data="`var map = new HashMap&lt;String, Integer&gt;();&#10;**BiConsumer&lt;String, Integer&gt; b1**=map::put;&#10;**BiConsumer&lt;String, Integer&gt; b2**=(k, v)-&#xAD;&gt;map.put(k, v);&#10;&#10;**b1.accept(&quot;chicken&quot;, 7);**&#10;**b2.accept(&quot;chick&quot;, 1);**&#10;&#10;System.out.println(map); // {chicken=7, chick=1}`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="13" posx="3031.28125" posy="174.99999999999994" width="341" height="91" side="right" fold="false" treesize="91" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="351" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="327.77604166666652">
+                            <text data="When declaring `b1`, we used an instance method reference on an object since we want to call a method on the local variable `map`."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="14" posx="2390.28125" posy="309.50000000000006" width="536" height="178" side="right" fold="false" treesize="178.00000000000006" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="536" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="536">
+                        <text data="`var map = new HashMap&lt;String, String&gt;();&#10;**BiConsumer&lt;String, String&gt; b1**=map::put;&#10;**BiConsumer&lt;String, String&gt; b2**=(k, v)-&#xAD;&gt;map.put(k, v);&#10;&#10;**b1.accept(&quot;chicken&quot;, &quot;Cluck&quot;);**&#10;**b2.accept(&quot;chick&quot;, &quot;Tweep&quot;);**&#10;&#10;System.out.println(map); // {chicken=Cluck, chick=Tweep}`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="15" posx="3026.28125" posy="363.50000000000006" width="372" height="70" side="right" fold="false" treesize="70.000000000000057" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="377" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="356.35677083333337">
+                            <text data="This shows that a `BiConsumer` can use the same type for both the `T` and `U` generic parameters."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="16" posx="1181.28125" posy="576.5" width="147" height="70" side="right" fold="false" treesize="248" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="200">
+            <text data="`Predicate` and `BiPredicate`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="17" posx="1428.28125" posy="566" width="401" height="91" side="right" fold="false" treesize="248" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="360" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="373.37760416666663">
+                <text data="`Predicate` is often used when filtering or matching. A `BiPredicate` is just like a `Predicate`, except that it takes two parameters instead of one. "/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="18" posx="1929.28125" posy="496.5" width="379" height="106" side="right" fold="false" treesize="124" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="360" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="360">
+                    <text data="`public interface**Predicate&lt;T&gt;**{&#10; **boolean test(T t);**&#10;   //omitted default and static methods&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="20" posx="2408.28125" posy="487.5" width="419" height="124" side="right" fold="false" treesize="124" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="458" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="460.73177083333337">
+                        <text data="`**Predicate&lt;String&gt; p1**= String::isEmpty;&#10;**Predicate&lt;String&gt; p2**= x -&#xAD;&gt; x.isEmpty();&#10;&#10;System.out.println(p1.**test(&quot;&quot;)**);// true&#10;System.out.println(p2.**test(&quot;&quot;)**);// true`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="19" posx="1929.28125" posy="620.5" width="365" height="106" side="right" fold="false" treesize="124" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="360" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="360">
+                    <text data="`public interface**BiPredicate&lt;T,U&gt;**{&#10; **boolean test(T t, U u);**&#10;   //omitted default methods&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="21" posx="2394.28125" posy="611.5" width="554" height="124" side="right" fold="false" treesize="124" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="524" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="527.01302083333337">
+                        <text data="`**BiPredicate&lt;String, String&gt; b1**= String::startsWith;&#10;**BiPredicate&lt;String, String&gt; b2**=&#10;(string, prefix) -&#xAD;&gt; string.startsWith(prefix);&#10;System.out.println(b1.**test(&quot;chicken&quot;,&quot;chick&quot;)**);// true&#10;System.out.println(b2.**test(&quot;chicken&quot;,&quot;chick&quot;)**);// true`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="22" posx="3048.28125" posy="628" width="440" height="91" side="right" fold="false" treesize="91" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="422" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="421.59114583333348">
+                            <text data="The method reference includes both the instance variable and parameter for `startsWith()`. This is a good example of how method references save quite a lot of typing. "/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="23" posx="1181.28125" posy="875.5" width="138" height="70" side="right" fold="false" treesize="350" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="200">
+            <text data="`Function` and `BiFunction`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="24" posx="1419.28125" posy="854.5" width="415" height="112" side="right" fold="false" treesize="350" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="378" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="390.46354166666674">
+                <text data="A `Function` is responsible for turning one parameter (`T`) into a value of a potentially different type (`R`) and returning it. A `BiFunction` is responsible for turning two parameters (`T`,`U`) into a value (`R`) and returning it."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="25" posx="1934.28125" posy="755" width="370" height="106" side="right" fold="false" treesize="145" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="378" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="378">
+                    <text data="`public interface**Function&lt;T, R&gt;**{&#10; **R apply(T t);**&#10;  //omitted default and static methods&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="27" posx="2404.28125" posy="735.5" width="479" height="145" side="right" fold="false" treesize="145" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="594" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="613.74218749999989">
+                        <text data="    This function converts a `String` to the length of the `String`:&#10;`**Function&lt;String, Integer&gt; f1**= String::length;&#10;**Function&lt;String, Integer&gt; f2**= x -&gt; x.length();&#10;&#10;System.out.println(**f1.apply(&quot;cluck&quot;)**);// 5&#10;System.out.println(**f2.apply(&quot;cluck&quot;)**);// 5`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="28" posx="2983.28125" posy="773" width="346" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="346" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="325.75520833333326">
+                            <text data="Technically, it turns the `String` into an `int`, which is autoboxed into an `Integer`."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="26" posx="1934.28125" posy="930" width="392" height="106" side="right" fold="false" treesize="205" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="378" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="378">
+                    <text data="`public interface**BiFunction&lt;T, U, R&gt;**{&#10; **R apply(T t, U u);**&#10;   //omitted default method&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="29" posx="2426.28125" posy="880.5" width="608" height="205" side="right" fold="false" treesize="205" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="631" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="634.875">
+                        <text data="The types don&#x2019;t have to be different. The fol-&#10;lowing combines two String objects and produces another String:&#10;&#10;`**BiFunction&lt;String, String, String&gt; b1**= String::concat;&#10;**BiFunction&lt;String, String, String&gt; b2**=&#10;   (string, toAdd) -&gt; string.concat(toAdd);&#10;&#10;System.out.println(**b1.apply(&quot;baby &quot;, &quot;chick&quot;)**);// baby chick&#10;System.out.println(**b2.apply(&quot;baby &quot;, &quot;chick&quot;)**);// baby chick`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="30" posx="3134.28125" posy="927" width="435" height="112" side="right" fold="false" treesize="112" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="417" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="415.82031249999989">
+                            <text data="The first two types in the `BiFunction` are the input types. The third is the result type. For the method reference, the first parameter is the instance that `concat()` is called on, and the second is passed to `concat()`."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="31" posx="1181.28125" posy="1269" width="183" height="70" side="right" fold="false" treesize="437" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="200">
+            <text data="`UnaryOperator` and `BinaryOperator`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="32" posx="1464.28125" posy="1227" width="356" height="154" side="right" fold="false" treesize="437" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="323" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="336.0625">
+                <text data="They require all type parameters to be the same type. A `UnaryOperator` transforms its value into one of the same type. `UnaryOperator` extends `Function`. A `BinaryOperator` merges two values into one of the same type. `BinaryOperator` extends `BiFunction`."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="33" posx="1920.28125" posy="1128" width="572" height="88" side="right" fold="false" treesize="173" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="528" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="546.591796875">
+                    <text data="`public interface**UnaryOperator&lt;T&gt; extends Function&lt;T, T&gt;**{&#10;  //omitted static method&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="34" posx="2592.28125" posy="1085.5" width="187" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="323" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="322.8984375">
+                        <text data="**`T apply(T t);`**"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="36" posx="2592.28125" posy="1134.5" width="487" height="124" side="right" fold="false" treesize="124" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="460" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="466.421875">
+                        <text data="`**UnaryOperator&lt;String&gt; u1**= String::toUpperCase;&#10;**UnaryOperator&lt;String&gt; u2**= x -&gt; x.toUpperCase();&#10;&#10;System.out.println(u1.**apply(&quot;chirp&quot;)**);// CHIRP&#10;System.out.println(u2.**apply(&quot;chirp&quot;)**);// CHIRP`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="40" posx="3179.28125" posy="1151" width="331" height="91" side="right" fold="false" treesize="91" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="336" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="306.1484375">
+                            <text data="We don&#x2019;t need to specify the return type in the generics because `UnaryOperator` requires it to be the same as the parameter. "/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="35" posx="1920.28125" posy="1346.5" width="626" height="88" side="right" fold="false" treesize="264" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="573" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="598.021484375">
+                    <text data="`public interface**BinaryOperator&lt;T&gt; extends BiFunction&lt;T, T, T&gt;**{&#10;  // omitted static methods&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="37" posx="2646.28125" posy="1258.5" width="250" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="323" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="323">
+                        <text data="**`T apply(T t1, T t2);`**"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="38" posx="2646.28125" posy="1307.5" width="667" height="124" side="right" fold="false" treesize="124" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="643" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="647.880859375">
+                        <text data="`**BinaryOperator&lt;String&gt; b1**= String::concat;&#10;**BinaryOperator&lt;String&gt; b2**= (string, toAdd) -&gt; string.concat(toAdd);&#10;&#10;System.out.println(b1.**apply(&quot;baby &quot;, &quot;chick&quot;)**);// baby chick&#10;System.out.println(b2.**apply(&quot;baby &quot;, &quot;chick&quot;)**);// baby chick`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="41" posx="2646.28125" posy="1431.5" width="556" height="91" side="right" fold="false" treesize="91" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="556" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="539.2265625">
+                        <text data="Notice that this does the same thing as the `BiFunction` example. The code is more succinct, which shows the importance of using the best functional interface. It&#x2019;s nice to have one generic type specified instead of three."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

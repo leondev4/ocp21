@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Accounting for Daylight Saving Time</strong>","children":[{"content":"The act of moving the clock forward or back occurs at 2:00<br>\na.m., which falls very early Sunday morning.<br>\n<a href=\"https://1drv.ms/i/c/c83cfca51d5c2032/EaKfHohBOAVGr3Rm7Rc_TU8BImpE-nHsp7H5_xuweOJEiA?e=9TwOLz\">Figure 4.10</a> shows what happens with the clocks. When we<br>\nchange our clocks in March, time springs forward from<br>\n1:59 a.m. to 3:00 a.m. When we change our clocks in<br>\nNovember, time falls back, and we experience the hour<br>\nfrom 1:00 a.m. to 1:59 a.m. twice.","children":[{"content":"For example, on March 9, 2025, we move our clocks<br>\nforward an hour and jump from 2:00 a.m. to 3:00 a.m. This<br>\nmeans that there is no 2:30 a.m. that day. If we wanted to<br>\nknow the time an hour later than 1:30, it would be 3:30.","children":[{"content":"Example:<pre data-lines=\"17,32\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">date</span> <span class=\"hljs-operator\">=</span> LocalDate.of(<span class=\"hljs-number\">2025</span>, Month.MARCH, <span class=\"hljs-number\">9</span>);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">time</span> <span class=\"hljs-operator\">=</span> LocalTime.of(<span class=\"hljs-number\">1</span>, <span class=\"hljs-number\">30</span>);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">zone</span> <span class=\"hljs-operator\">=</span> ZoneId.of(<span class=\"hljs-string\">&quot;US/Eastern&quot;</span>);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">zDT</span> <span class=\"hljs-operator\">=</span> ZonedDateTime.of(date, time, zone);\n\nSystem.out.println(zDT); <span class=\"hljs-comment\">// 2025&#x2013;03-09T01:30-05:00[US/Eastern]</span>\nSystem.out.println(zDT.getHour()); <span class=\"hljs-comment\">// 1</span>\nSystem.out.println(zDT.getOffset()); <span class=\"hljs-comment\">// -05:00</span>\n\nzDT =zDT.plusHours(<span class=\"hljs-number\">1</span>);\nSystem.out.println(zDT); <span class=\"hljs-comment\">// 2025&#x2013;03-09T03:30-04:00[US/Eastern]</span>\nSystem.out.println(zDT.getHour()); <span class=\"hljs-comment\">// 3</span>\nSystem.out.println(zDT.getOffset()); <span class=\"hljs-comment\">// -04:00</span>\n</code></pre>","children":[{"content":"Notice that two things change in this example. The time<br>\njumps from 1:30 to 3:30. The UTC offset also changes.<br>\nRemember when we calculated GMT time by subtracting<br>\nthe time zone from the time? You can see that we went<br>\nfrom 6:30 GMT (1:30 minus &#x2013;5:00) to 7:30 GMT (3:30<br>\nminus &#x2013;4:00). This shows that the time really did change by<br>\none hour from GMT&#x2019;s point of view. We printed the hour<br>\nand offset fields separately for emphasis.","children":[],"payload":{"tag":"li","lines":"32,40"}}],"payload":{"tag":"li","lines":"16,40"}}],"payload":{"tag":"li","lines":"12,40"}}],"payload":{"tag":"li","lines":"5,40"}},{"content":"Similarly, in November, an hour after the initial 1:30 a.m. is<br>\nalso 1:30 a.m. because at 2:00 a.m. we repeat the hour.<br>\nThis time, try to calculate the GMT time yourself for all<br>\nthree times to confirm that we really do move only one hour<br>\nat a time.","children":[{"content":"\n<p data-lines=\"45,46\">Example:</p>\n<pre data-lines=\"46,57\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">date</span> <span class=\"hljs-operator\">=</span> LocalDate.of(<span class=\"hljs-number\">2025</span>, Month.NOVEMBER, <span class=\"hljs-number\">2</span>);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">time</span> <span class=\"hljs-operator\">=</span> LocalTime.of(<span class=\"hljs-number\">1</span>, <span class=\"hljs-number\">30</span>);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">zone</span> <span class=\"hljs-operator\">=</span> ZoneId.of(<span class=\"hljs-string\">&quot;US/Eastern&quot;</span>);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">zDT</span> <span class=\"hljs-operator\">=</span> ZonedDateTime.of(date, time, zone);\nSystem.out.println(zDT); <span class=\"hljs-comment\">// 2025-11-02T01:30-04:00[US/Eastern]</span>\nzDT = zDT.plusHours(<span class=\"hljs-number\">1</span>);\nSystem.out.println(zDT); <span class=\"hljs-comment\">// 2025-11-02T01:30-05:00[US/Eastern]</span>\nzDT = zDT.plusHours(<span class=\"hljs-number\">1</span>);\nSystem.out.println(zDT); <span class=\"hljs-comment\">// 2025-11-02T02:30-05:00[US/Eastern]</span>\n</code></pre>","children":[{"content":"Finally, trying to create a time that doesn&#x2019;t exist just rolls forward:<pre data-lines=\"59,66\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">date</span> <span class=\"hljs-operator\">=</span> LocalDate.of(<span class=\"hljs-number\">2025</span>, Month.MARCH, <span class=\"hljs-number\">9</span>);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">time</span> <span class=\"hljs-operator\">=</span> LocalTime.of(<span class=\"hljs-number\">2</span>, <span class=\"hljs-number\">30</span>);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">zone</span> <span class=\"hljs-operator\">=</span> ZoneId.of(<span class=\"hljs-string\">&quot;US/Eastern&quot;</span>);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">zDT</span> <span class=\"hljs-operator\">=</span> ZonedDateTime.of(date, time, zone);\nSystem.out.println(zDT); <span class=\"hljs-comment\">// 2025&#x2013;03&#x2013;09T03:30&#x2013;04:00[US/Eastern]</span>\n</code></pre>","children":[{"content":"Java is smart enough to know that there is no 2:30 a.m. that<br>\nnight and switches over to the appropriate GMT offset.","children":[],"payload":{"tag":"li","lines":"66,68"}}],"payload":{"tag":"li","lines":"58,68"}}],"payload":{"tag":"li","lines":"45,68"}}],"payload":{"tag":"li","lines":"40,68"}}],"payload":{"tag":"h1","lines":"4,5"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+---
+
+markmap:
+  initialExpandLevel: 1
+---
+
+[Figure 4.3]() 
+espacio blanco &nbsp;  
+
+![](https://markmap.js.org/favicon.png)
+
+![](./150_figure_1_4.png)
+<img src="150_figure_1_4.png" alt="drawing" style="width:250px;"/>
+
+==therefore== para resaltar
+
+Formulas matematicas
+$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Implementing Generic Interfaces</strong>","children":[{"content":"Just like a class, an interface can declare a formal type parameter.","children":[{"content":"\n<pre data-lines=\"7,12\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">interface</span> <span class=\"hljs-title class_\">Shippable</span>&lt;T&gt; {\n  <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">ship</span><span class=\"hljs-params\">(T t)</span>;\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"7,12"}}],"payload":{"tag":"li","lines":"6,12"}},{"content":"There are three ways a class<br>\ncan implements this interface.","children":[{"content":"Create a generic class","children":[{"content":"\n<pre data-lines=\"15,20\"><code class=\"language-java\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">ShippableAbstractCrate</span>&lt;U&gt; <span class=\"hljs-keyword\">implements</span> <span class=\"hljs-title class_\">Shippable</span>&lt;U&gt; {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">ship</span><span class=\"hljs-params\">(U t)</span> { }\n}\n</code></pre>","children":[{"content":"The type parameter could have been named anything, including <code>T</code>.<br>\nWe used <code>U</code> in the example to avoid confusion about what <code>T</code> refers to.","children":[],"payload":{"tag":"li","lines":"20,22"}}],"payload":{"tag":"li","lines":"15,22"}}],"payload":{"tag":"li","lines":"14,22"}},{"content":"Specify the generic type in the class.","children":[{"content":"\n<pre data-lines=\"23,28\"><code class=\"language-java\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">ShippableRobotCrate</span> <span class=\"hljs-keyword\">implements</span> <span class=\"hljs-title class_\">Shippable</span>&lt;Robot&gt; {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">ship</span><span class=\"hljs-params\">(Robot t)</span> { }\n}\n</code></pre>","children":[{"content":"There is no <code>&lt;&gt;</code> after class name. Same as<br>\nimplementing <code>Comparable</code> in your class.","children":[],"payload":{"tag":"li","lines":"28,30"}}],"payload":{"tag":"li","lines":"23,30"}}],"payload":{"tag":"li","lines":"22,30"}},{"content":"Not use generics at all","children":[{"content":"\n<pre data-lines=\"31,36\"><code data-lines=\"31,36\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">ShippableCrate</span> <span class=\"hljs-keyword\">implements</span> <span class=\"hljs-title class_\">Shippable</span> {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-built_in\">void</span> <span class=\"hljs-title function_\">ship</span>(<span class=\"hljs-params\"><span class=\"hljs-title class_\">Object</span> t</span>) { }\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"31,36"}}],"payload":{"tag":"li","lines":"30,36"}}],"payload":{"tag":"li","lines":"12,36"}},{"content":"\n<h4 data-lines=\"36,37\">What You Can&#x2019;t Do with Generic Types</h4>","children":[{"content":"Call a constructor: Writing <code>new T()</code>","children":[],"payload":{"tag":"li","lines":"37,38"}},{"content":"Create an array of that generic type: <code>T[] t= new T[2];</code>","children":[],"payload":{"tag":"li","lines":"38,39"}},{"content":"Call <code>instanceof</code>: at runtime <code>List&lt;Integer&gt;</code> and<br>\n<code>List&lt;String&gt;</code> look the same to Java","children":[],"payload":{"tag":"li","lines":"39,41"}},{"content":"Use a primitive type as a generic type parameter: <code>List&lt;int&gt;</code>","children":[],"payload":{"tag":"li","lines":"41,42"}},{"content":"Create a <code>static</code> variable as a generic type parameter:","children":[{"content":"\n<pre data-lines=\"43,49\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Example</span>&lt;T&gt; {\n    <span class=\"hljs-comment\">// This is not allowed:</span>\n    <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> T obj;<span class=\"hljs-comment\">// Compile error </span>\n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"43,49"}}],"payload":{"tag":"li","lines":"42,49"}},{"content":"Create a <code>static</code> method and return a generic<br>\ntype parameter or create method parameter:","children":[{"content":"\n<pre data-lines=\"51,58\"><code data-lines=\"51,58\">public <span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">Example</span>&lt;<span class=\"hljs-title\">T</span>&gt; </span>{\n  // This is <span class=\"hljs-keyword\">not</span> allowed:\n  public static T <span class=\"hljs-function\"><span class=\"hljs-keyword\">method</span>(<span class=\"hljs-title\">T</span> <span class=\"hljs-title\">obj</span>) </span>{ }// Compile error\n  //public static &lt;T&gt; T <span class=\"hljs-function\"><span class=\"hljs-keyword\">method</span></span>(T obj){}//ok \n}\n</code></pre>","children":[],"payload":{"tag":"li","lines":"51,58"}}],"payload":{"tag":"li","lines":"49,58"}},{"content":"Create exceptions with generic types","children":[{"content":"\n<pre data-lines=\"59,62\"><code data-lines=\"59,62\"><span class=\"hljs-class\"><span class=\"hljs-keyword\">class</span> <span class=\"hljs-title\">MyExcepcion&lt;T&gt;</span> <span class=\"hljs-keyword\">extends</span> <span class=\"hljs-title\">Exception</span> </span>{ }<span class=\"hljs-comment\">// compile error</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"59,62"}}],"payload":{"tag":"li","lines":"58,62"}},{"content":"Create annotations with generic types","children":[],"payload":{"tag":"li","lines":"62,63"}}],"payload":{"tag":"li","lines":"36,63"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

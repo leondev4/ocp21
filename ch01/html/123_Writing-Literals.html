@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Writing Literals</strong>","children":[{"content":"When a number is present in the code, it is called a <em>literal</em>. By<br>\ndefault, Java assumes you are defining an <code>int</code> value with a<br>\nnumeric literal. In the following example, the number listed is<br>\nbigger than what fits in an <code>int</code>.","children":[{"content":"\n<pre data-lines=\"10,13\"><code data-lines=\"10,13\"><span class=\"hljs-type\">long</span> max = <span class=\"hljs-number\">3123456789</span>; <span class=\"hljs-comment\">//DOES NOT COMPILE</span>\n</code></pre>","children":[{"content":"Java complains the number is out of range. And it is&#x2014;for an <code>int</code>.","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"The solution is to add the character <code>L</code> to the number.<pre data-lines=\"15,18\"><code class=\"language-java\"><span class=\"hljs-type\">long</span> <span class=\"hljs-variable\">max</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">3123456789L</span>; <span class=\"hljs-comment\">// Now Java knows it is a long</span>\n</code></pre>\nAlternatively, you could add a lowercase <code>l</code> to the number.","children":[],"payload":{"tag":"li","lines":"14,19"}}],"payload":{"tag":"li","lines":"10,19"}}],"payload":{"tag":"li","lines":"6,19"}},{"content":"Java allows you to specify digits in several other formats.","children":[{"content":"Octal (digits 0&#x2013;7), which uses the number<strong>0 as a prefix</strong>&#x2014;for<br>\nexample, 017.","children":[],"payload":{"tag":"li","lines":"20,22"}},{"content":"Hexadecimal (digits 0&#x2013;9 and letters A&#x2013;F/a&#x2013;f), which uses<strong>0x or 0X<br>\nas a prefix</strong>&#x2014;for example, 0xFF, 0xff, 0XFf. <strong>Hexadecimal is<br>\ncase insensitive</strong>, so all of these examples mean the same value.","children":[],"payload":{"tag":"li","lines":"22,25"}},{"content":"Binary (digits 0&#x2013;1), which uses the number <strong>0b or 0B as a<br>\nprefix</strong>&#x2014;for example, 0b10, 0B10.","children":[],"payload":{"tag":"li","lines":"25,27"}}],"payload":{"tag":"li","lines":"19,27"}},{"content":"<strong>Literals and the Underscore Character</strong>","children":[{"content":"You can&#x2019;t place an underscore right after the prefixes <code>0b</code>, <code>0B</code>,<br>\n<code>0x</code>, and <code>0X</code> or before <code>b</code>,<code>B</code>, <code>x</code> or <code>X</code>.","children":[{"content":"\n<pre data-lines=\"30,35\"><code data-lines=\"30,35\">  int x1 <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">0</span>b_11<span class=\"hljs-comment\">;     //DOES NOT COMPILE</span>\n  int x2 <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">0</span>_x11<span class=\"hljs-comment\">;     //DOES NOT COMPILE</span>\n  int x3 <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">0</span>xA_B_CD_F<span class=\"hljs-comment\">;//compiles</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"30,35"}}],"payload":{"tag":"li","lines":"28,35"}},{"content":"You can&#x2019;t place an underscore prior to an <code>L</code>, <code>F</code> or <code>D</code> suffix.","children":[{"content":"\n<pre data-lines=\"36,41\"><code class=\"language-java\"><span class=\"hljs-type\">long</span> <span class=\"hljs-variable\">x1</span> <span class=\"hljs-operator\">=</span> 11_L;     <span class=\"hljs-comment\">//DOES NOT COMPILE</span>\n<span class=\"hljs-type\">double</span> <span class=\"hljs-variable\">x2</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">0.</span>1D_;   <span class=\"hljs-comment\">//DOES NOT COMPILE</span>\n<span class=\"hljs-type\">float</span> <span class=\"hljs-variable\">x3</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">1.0_4F</span>;   <span class=\"hljs-comment\">//compiles</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"36,41"}}],"payload":{"tag":"li","lines":"35,41"}},{"content":"You can add underscores anywhere except at the beginning of a<br>\nliteral, the end of a literal, right before a decimal point, or right<br>\nafter a decimal point. You can even place multiple underscore<br>\ncharacters next to each other.","children":[{"content":"\n<pre data-lines=\"45,52\"><code data-lines=\"45,52\">double notAtStart <span class=\"hljs-operator\">=</span> _1000.<span class=\"hljs-number\">00</span><span class=\"hljs-comment\">;     // DOES NOT COMPILE</span>\ndouble notAtEnd <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">1000.00</span>_<span class=\"hljs-comment\">;       // DOES NOT COMPILE</span>\ndouble notByDecimal <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">1000</span>_.<span class=\"hljs-number\">00</span><span class=\"hljs-comment\">;   // DOES NOT COMPILE</span>\ndouble annoyingButLegal <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">1</span>_00_0.<span class=\"hljs-number\">0</span>_0<span class=\"hljs-comment\">; // Ugly, but compiles</span>\ndouble reallyUgly <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">1</span>____2<span class=\"hljs-comment\">; // Also compiles</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"45,52"}}],"payload":{"tag":"li","lines":"41,52"}}],"payload":{"tag":"li","lines":"27,52"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

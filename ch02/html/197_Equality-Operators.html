@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Equality Operators</strong>","children":[{"content":"The equals operator (<code>==</code>) and not equals operator (<code>!=</code>)<br>\ncompare two operands and return a <code>boolean</code> value<br>\ndetermining whether the expressions or values are equal<br>\nor not equal, respectively.","children":[{"content":"Equality <code>a == 10</code>","children":[{"content":"Returns <code>true</code> if the two values<br>\nrepresent the same value","children":[{"content":"Returns <code>true</code> if the two values<br>\nreference the same object","children":[],"payload":{"tag":"li","lines":"13,15"}}],"payload":{"tag":"li","lines":"11,15"}}],"payload":{"tag":"li","lines":"10,15"}},{"content":"Inequality <code>b != 3.14</code>","children":[{"content":"Returns <code>true</code> if the two values<br>\nrepresent different values","children":[{"content":"Returns <code>true</code> if the two values do not<br>\nreference the same object","children":[],"payload":{"tag":"li","lines":"18,20"}}],"payload":{"tag":"li","lines":"16,20"}}],"payload":{"tag":"li","lines":"15,20"}}],"payload":{"tag":"li","lines":"6,20"}},{"content":"The equality operator can be applied to numeric values,<br>\n<code>boolean</code> values, and objects (including <code>String</code> and <code>null</code>).<br>\nYou cannot mix these types.","children":[{"content":"\n<pre data-lines=\"23,28\"><code class=\"language-java\"><span class=\"hljs-type\">boolean</span> <span class=\"hljs-variable\">monkey</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-literal\">true</span> == <span class=\"hljs-number\">3</span>; <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n<span class=\"hljs-type\">boolean</span> <span class=\"hljs-variable\">ape</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-literal\">false</span> != <span class=\"hljs-string\">&quot;Grape&quot;</span>; <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n<span class=\"hljs-type\">boolean</span> <span class=\"hljs-variable\">gorilla</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-number\">10.2</span> == <span class=\"hljs-string\">&quot;Koko&quot;</span>; <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n</code></pre>","children":[{"content":"Pay close attention to the data types when you see an<br>\nequality operator on the exam. As mentioned in the<br>\nprevious section, the exam creators also have a habit of<br>\nmixing assignment operators and equality operators.","children":[{"content":"\n<pre data-lines=\"32,37\"><code class=\"language-java\"><span class=\"hljs-type\">boolean</span> <span class=\"hljs-variable\">bear</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-literal\">false</span>;\n<span class=\"hljs-type\">boolean</span> <span class=\"hljs-variable\">polar</span> <span class=\"hljs-operator\">=</span> (bear = <span class=\"hljs-literal\">true</span>);\nSystem.out.println(polar); <span class=\"hljs-comment\">// true</span>\n</code></pre>","children":[{"content":"At first glance, you might think the output should be <code>false</code>, and if<br>\nthe expression were (<code>bear == true</code>), then you would be correct.<br>\nIn this example, though, the expression is assigning the value of<br>\n<code>true</code> to <code>bear</code>, and as you saw in the section on assignment<br>\noperators, the assignment itself has the value of the assignment.<br>\nTherefore, <code>polar</code> is also assigned a value of <code>true</code>, and the output<br>\nis <code>true</code>.","children":[],"payload":{"tag":"li","lines":"37,44"}}],"payload":{"tag":"li","lines":"32,44"}}],"payload":{"tag":"li","lines":"28,44"}}],"payload":{"tag":"li","lines":"23,44"}}],"payload":{"tag":"li","lines":"20,44"}},{"content":"<strong>For object comparison, the equality operator is applied<br>\nto the references to the objects, not the objects they point<br>\nto. Two references are equal if and only if they point to the<br>\nsame object or both point to <code>null</code>.</strong> Let&#x2019;s take a look at some<br>\nexamples:","children":[{"content":"\n<pre data-lines=\"49,56\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">monday</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">File</span>(<span class=\"hljs-string\">&quot;schedule.txt&quot;</span>);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">tuesday</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">File</span>(<span class=\"hljs-string\">&quot;schedule.txt&quot;</span>);\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">wednesday</span> <span class=\"hljs-operator\">=</span> tuesday;\nSystem.out.println(monday == tuesday); <span class=\"hljs-comment\">// false</span>\nSystem.out.println(tuesday == wednesday); <span class=\"hljs-comment\">//true</span>\n</code></pre>","children":[{"content":"Even though all of the variables point to the same file<br>\ninformation, only two references, <code>tuesday</code> and<br>\n<code>wednesday</code>, are equal in terms of <code>==</code> since they<br>\npoint to the same object.","children":[],"payload":{"tag":"li","lines":"56,60"}},{"content":"\n<pre data-lines=\"60,63\"><code class=\"language-java\"><span class=\"hljs-type\">boolean</span> <span class=\"hljs-variable\">result</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-literal\">null</span> == <span class=\"hljs-literal\">null</span>; <span class=\"hljs-comment\">// true</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"60,63"}}],"payload":{"tag":"li","lines":"49,63"}}],"payload":{"tag":"li","lines":"44,63"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

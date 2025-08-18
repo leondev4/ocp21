@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Understanding Package<br> Declarations and Imports</strong>","children":[{"content":"\n<p data-lines=\"6,8\">Java puts classes in <em>packages</em>. These are logical groupings for classes.<br>\nJava needs you to tell it which packages to look in to find code.</p>","children":[{"content":"\n<p data-lines=\"8,9\">Suppose you try to compile this code:</p>\n<pre data-lines=\"9,17\"><code class=\"language-java\"><span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">NumberPicker</span>{\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">main</span><span class=\"hljs-params\">(String[] args)</span>{\n    <span class=\"hljs-type\">Random</span> <span class=\"hljs-variable\">r</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Random</span>(); <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n    System.out.println(r.nextInt(<span class=\"hljs-number\">10</span>));\n  }\n}\n</code></pre>","children":[{"content":"The Java compiler helpfully gives you an error<pre data-lines=\"18,21\"><code class=\"language-java\">error: cannot find symbol\n</code></pre>","children":[],"payload":{"tag":"li","lines":"17,21"}},{"content":"The error is omitting an <em>import</em> statement.<br>\n<code>import</code> statements tell Java which packages<br>\nto look in for classes.","children":[],"payload":{"tag":"li","lines":"21,24"}}],"payload":{"tag":"li","lines":"8,24"}},{"content":"\n<p data-lines=\"24,25\">Trying this again with the <code>import</code> allows the code to compile.</p>","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"\n<pre data-lines=\"25,34\"><code class=\"language-java\"><span class=\"hljs-keyword\">import</span> java.util.Random; <span class=\"hljs-comment\">//import tells Java where to find Random</span>\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">NumberPicker</span> {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">main</span><span class=\"hljs-params\">(String[] args)</span> {\n    <span class=\"hljs-type\">Random</span> <span class=\"hljs-variable\">r</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Random</span>();\n    System.out.println(r.nextInt(<span class=\"hljs-number\">10</span>)); <span class=\"hljs-comment\">// a number 0-9</span>\n  }\n}\n</code></pre>","children":[{"content":"It prints out a random number between <code>0</code> and <code>9</code>.<br>\nJust like arrays, Java likes to begin counting with <code>0</code>.","children":[],"payload":{"tag":"li","lines":"34,37"}}],"payload":{"tag":"li","lines":"25,37"}},{"content":"\n<p data-lines=\"37,39\">The <code>import</code> statement tells the compiler which package to<br>\nlook in to find a class.</p>","children":[],"payload":{"tag":"li","lines":"37,40"}}],"payload":{"tag":"li","lines":"6,40"}},{"content":"\n<p data-lines=\"40,41\"><strong>Packages</strong></p>","children":[{"content":"You start reading a package name at the beginning.<br>\nFor example, if it begins with <code>java</code>, this means it<br>\ncame with the JDK. If it starts with something else,<br>\nit likely shows where it came from using the website<br>\nname in reverse.  For example, <code>com.wiley.javabook</code>.","children":[],"payload":{"tag":"li","lines":"41,46"}},{"content":"Java calls more detailed packages child packages.<br>\nThe package <code>com.wiley.javabook</code> is a child package<br>\nof <code>com.wiley</code>.","children":[],"payload":{"tag":"li","lines":"46,49"}},{"content":"The rule for package names is that they are mostly<br>\nletters or numbers separated by periods (<code>.</code>).<br>\nTechnically, you&#x2019;re allowed a couple of other<br>\ncharacters between the periods (<code>.</code>). The rules are<br>\nthe same as for variable names.","children":[],"payload":{"tag":"li","lines":"49,54"}}],"payload":{"tag":"li","lines":"40,54"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://unpkg.com/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js"></script><script src="https://unpkg.com/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://unpkg.com/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Using Common Collection APIs</strong>","children":[{"content":"A collection is a group of objects contained in a single object. The Java Collections Framework<br>\nis a set of classes in <code>java.util</code> for storing collections. There are four main interfaces in the Java<br>\nCollections Framework.","children":[{"content":"<strong><code>List</code>:</strong> A list is an ordered collection of elements that allows duplicate<br>\nentries. Elements in a list can be accessed by an <code>int</code> index.","children":[],"payload":{"tag":"li","lines":"8,10"}},{"content":"<strong><code>Set</code>:</strong> A set is a collection that does not allow duplicate entries.","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"<strong><code>Queue</code>:</strong> A queue is a collection that orders its elements in a specific<br>\norder for processing. A <code>Deque</code> is a subinterface of <code>Queue</code> that<br>\nallows access at both ends.","children":[],"payload":{"tag":"li","lines":"11,14"}},{"content":"<strong><code>Map</code>:</strong> A map is a collection that maps keys to values, with no duplicate<br>\nkeys allowed. The elements in a map are key/value pairs.","children":[],"payload":{"tag":"li","lines":"14,16"}}],"payload":{"tag":"li","lines":"5,16"}},{"content":"<a href=\"https://1drv.ms/i/c/c83cfca51d5c2032/ET55gG4FHyxBjNF6624NagkB_WVC25_O9ZtqIQG493w3Wg?e=WhLYRs\">Figure 9.1</a> shows the <code>Collection</code> interface, its subinterfaces, and some classes that implement<br>\nthe interfaces that you should know for the exam. The interfaces are shown in rectangles, with<br>\nthe classes in rounded boxes.","children":[],"payload":{"tag":"li","lines":"16,19"}},{"content":"\n<h3 data-lines=\"19,20\">Understanding Generic Types</h3>","children":[{"content":"In Java, generics is just a way of saying parameterized type. For example,<br>\na <code>List&lt;Integer&gt;</code> is a list of numbers, while <code>Set&lt;String&gt;</code> is a set of strings","children":[{"content":"Without generics, we&#x2019;d have to write a lot of code like the following:<pre data-lines=\"23,28\"><code class=\"language-java\"><span class=\"hljs-type\">List</span> <span class=\"hljs-variable\">numbers</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>(List.of(<span class=\"hljs-number\">1</span>,<span class=\"hljs-number\">2</span>,<span class=\"hljs-number\">3</span>));\n<span class=\"hljs-type\">Integer</span> <span class=\"hljs-variable\">element</span> <span class=\"hljs-operator\">=</span> (Integer)numbers.get(<span class=\"hljs-number\">0</span>); <span class=\"hljs-comment\">// Required cast to compile</span>\nnumbers.add(<span class=\"hljs-string\">&quot;Welcome to the zoo!&quot;</span>);        <span class=\"hljs-comment\">// Unrelated types allowed</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"22,28"}},{"content":"With generics we can do better. The following change not only does<br>\naway with the required cast from the previous code but also helps<br>\nprevent unrelated objects from being added to the collection:<pre data-lines=\"31,36\"><code class=\"language-java\">List&lt;Integer&gt; numbers = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;Integer&gt;(List.of(<span class=\"hljs-number\">1</span>,<span class=\"hljs-number\">2</span>,<span class=\"hljs-number\">3</span>));\n<span class=\"hljs-type\">Integer</span> <span class=\"hljs-variable\">element</span> <span class=\"hljs-operator\">=</span> numbers.get(<span class=\"hljs-number\">0</span>);   <span class=\"hljs-comment\">// No cast required</span>\nnumbers.add(<span class=\"hljs-string\">&quot;Welcome to the zoo!&quot;</span>); <span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n</code></pre>","children":[{"content":"Getting a compiler error is good. You&#x2019;ll know right away that something is wrong rather than<br>\nhoping to discover it later. Generics are convenient because the code for <code>List</code>, <code>Set</code>, and<br>\nother collections does not change based on the generic type. You can even use your own<br>\nclass as the type, such as <code>List&lt;Visitor&gt;</code>.","children":[],"payload":{"tag":"li","lines":"36,40"}}],"payload":{"tag":"li","lines":"28,40"}}],"payload":{"tag":"li","lines":"20,40"}}],"payload":{"tag":"li","lines":"19,40"}},{"content":"\n<h3 data-lines=\"40,41\">Shortening Generics Code</h3>","children":[{"content":"You have two declarations of generics:<pre data-lines=\"42,46\"><code class=\"language-java\">List&lt;Integer&gt; list = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;Integer&gt;();\nMap&lt;Long,List&lt;Integer&gt;&gt; mapOfLists = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">HashMap</span>&lt;Long,List&lt;Integer&gt;&gt; ();\n</code></pre>","children":[{"content":"The diamond operator (<code>&lt;&gt;</code>) is a shorthand notation that allows you to<br>\nomit the generic type from the right side of a statement when the type<br>\ncan be inferred. It is called the diamond operator because <code>&lt;&gt;</code> looks<br>\nlike a diamond. Compare the previous declarations with these new,<br>\nmuch shorter versions:<pre data-lines=\"51,55\"><code class=\"language-java\">List&lt;Integer&gt; list = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;&gt;();\nMap&lt;Long,List&lt;Integer&gt;&gt; mapOfLists = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">HashMap</span>&lt;&gt;();\n</code></pre>","children":[],"payload":{"tag":"li","lines":"46,55"}},{"content":"The diamond operator cannot be used as the type in<br>\na variable declaration. It can be used only on the right<br>\nside of an assignment operation.","children":[{"content":"\n<pre data-lines=\"58,61\"><code class=\"language-java\">List&lt;&gt; list = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;Integer&gt;();<span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"58,61"}},{"content":"\n<pre data-lines=\"61,64\"><code class=\"language-java\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">use</span><span class=\"hljs-params\">(List&lt;&gt; data)</span> {}<span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"61,64"}}],"payload":{"tag":"li","lines":"55,64"}}],"payload":{"tag":"li","lines":"41,64"}},{"content":"<strong>Applying <code>var</code></strong><br>\nYou can also use <code>var</code> to shorten expressions with generics.<pre data-lines=\"66,70\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">list</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ArrayList</span>&lt;Integer&gt;();\n<span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">mapOfLists</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">HashMap</span>&lt;Long,List&lt;Integer&gt;&gt;();\n</code></pre>\nNotice how the generic type is back on the right side. That&#x2019;s because<br>\n<code>var</code> infers the type from the right side of the declaration, whereas the<br>\ndiamond operator infers it from the left side.","children":[{"content":"<strong>Using Both Shorteners</strong><br>\nWhat happens if you use both var and the diamond operator?<pre data-lines=\"75,78\"><code class=\"language-java\"><span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">map</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">HashMap</span>&lt;&gt;();\n</code></pre>","children":[],"payload":{"tag":"li","lines":"73,78"}},{"content":"Believe it or not, this does compile! If you try to have them both<br>\ninfer, there isn&#x2019;t enough information and you get <code>Object</code> as the<br>\ngeneric type. This is equivalent to the following:<pre data-lines=\"81,84\"><code class=\"language-java\">HashMap&lt;Object, Object&gt; map = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">HashMap</span>&lt;Object, Object&gt;();\n</code></pre>","children":[],"payload":{"tag":"li","lines":"78,84"}}],"payload":{"tag":"li","lines":"64,84"}}],"payload":{"tag":"li","lines":"40,84"}}],"payload":{"tag":"h1","lines":"4,5"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>Applying Scope to Classes</strong>","children":[{"content":"The rule for instance variables: they are available as soon as they are defined and last for the entire<br>\nlifetime of the object itself. The rule for class, aka static, variables: they go into scope when declared<br>\nlike the other variable types. However, they stay in scope for the entire life of the program.","children":[],"payload":{"tag":"li","lines":"6,9"}},{"content":"Try to figure out the type of the four variables and when they<br>\ngo into and out of scope.","children":[{"content":"\n<pre data-lines=\"11,23\"><code class=\"language-java\"><span class=\"hljs-number\">1</span>: <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">Mouse</span>{\n<span class=\"hljs-number\">2</span>:    <span class=\"hljs-keyword\">final</span> <span class=\"hljs-keyword\">static</span> <span class=\"hljs-type\">int</span> MAX_LENGTH=<span class=\"hljs-number\">5</span>;\n<span class=\"hljs-number\">3</span>:    <span class=\"hljs-type\">int</span> length;\n<span class=\"hljs-number\">4</span>:    <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">grow</span><span class=\"hljs-params\">(<span class=\"hljs-type\">int</span> inches)</span> {\n<span class=\"hljs-number\">5</span>:      <span class=\"hljs-keyword\">if</span> (length &lt; MAX_LENGTH) {\n<span class=\"hljs-number\">6</span>:        <span class=\"hljs-type\">int</span> newSize=length + inches;\n<span class=\"hljs-number\">7</span>:        length=newSize;\n<span class=\"hljs-number\">8</span>:      }\n<span class=\"hljs-number\">9</span>:    }\n<span class=\"hljs-number\">10</span>: }\n</code></pre>","children":[{"content":"In this class, we have one class variable, <code>MAX_LENGTH</code>; one instance<br>\nvariable, <code>length</code>; and two local variables, <code>inches</code> and <code>newSize</code>. The<br>\n<code>MAX_LENGTH</code> variable is a class variable because it has the <code>static</code><br>\nkeyword in its declaration. In this case, <code>MAX_LENGTH</code> goes into scope<br>\non line 2 where it is declared. It stays in scope until the program ends.","children":[],"payload":{"tag":"li","lines":"23,28"}},{"content":"Next, <code>length</code> goes into scope on line 3 where it is declared. It stays<br>\nin scope as long as this <code>Mouse</code> object exists. <code>inches</code> goes into scope<br>\nwhere it is declared on line 4. It goes out of scope at the end of the<br>\nmethod on line 9. <code>newSize</code> goes into scope where it is declared on<br>\nline 6. Since it is defined inside the <code>if</code> statement block, it goes out<br>\nof scope when that block ends on line 8.","children":[],"payload":{"tag":"li","lines":"28,34"}}],"payload":{"tag":"li","lines":"11,34"}}],"payload":{"tag":"li","lines":"9,34"}},{"content":"<strong>Reviewing Scope</strong>","children":[{"content":"<strong>Local variables:</strong> In scope from declaration to the end of the block<br>\n<strong>Method parameters:</strong> In scope for the duration of the method<br>\n<strong>Instance variables:</strong> In scope from declaration until the object is eligible for garbage collection<br>\n<strong>Class variables:</strong> In scope from declaration until the program ends","children":[],"payload":{"tag":"li","lines":"35,39"}}],"payload":{"tag":"li","lines":"34,39"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>

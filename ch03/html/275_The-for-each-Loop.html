@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<strong>The for-each Loop</strong>","children":[{"content":"The for-each loop is a specialized structure designed to<br>\niterate over arrays and various Collections Framework<br>\nclasses, as presented in <a href=\"https://1drv.ms/i/c/c83cfca51d5c2032/EbBhsnCqspZAjjNkJHm2THYB_An-3U5Iyx7_DZEbbDK5Fg?e=QDfojw\">Figure 3.11</a>.","children":[{"content":"The for-each loop declaration is composed of an initialization<br>\nsection and an object to be iterated over. The right side of the<br>\nfor-each loop must be one of the following:","children":[{"content":"+ A built-in Java array<br>\n+ An object whose type implements <code>java.lang.Iterable</code>","children":[{"content":"The right side must be an array or collection<br>\nof items, such as a <code>List</code> or a <code>Set</code>.","children":[],"payload":{"tag":"li","lines":"14,16"}},{"content":"<code>Map</code> is not supported in a for-each loop, although <code>Map</code><br>\ndoes include methods that return <code>Collection</code> instances.","children":[{"content":"The left side of the for-each loop must include a declaration<br>\nfor an instance of a variable whose type is compatible with<br>\nthe type of the array or collection on the right side of the<br>\nstatement. On each iteration of the loop, the named<br>\nvariable on the left side of the statement is assigned a new<br>\nvalue from the array or collection on the right side of the<br>\nstatement.","children":[],"payload":{"tag":"li","lines":"18,25"}}],"payload":{"tag":"li","lines":"16,25"}}],"payload":{"tag":"li","lines":"12,25"}}],"payload":{"tag":"li","lines":"9,25"}}],"payload":{"tag":"li","lines":"6,25"}},{"content":"Compare these two methods that both print the values of an array,<br>\none using a traditional for loop and the other using a for-each loop:","children":[{"content":"\n<pre data-lines=\"27,38\"><code class=\"language-java\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">printNames</span><span class=\"hljs-params\">(String[] names)</span> {\n  <span class=\"hljs-keyword\">for</span>(<span class=\"hljs-type\">int</span> counter=<span class=\"hljs-number\">0</span>; counter &lt; names.length; counter++)\n    System.out.println(names[counter]);\n  }\n\n<span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">printNames</span><span class=\"hljs-params\">(String[] names)</span> {\n  <span class=\"hljs-keyword\">for</span>(<span class=\"hljs-keyword\">var</span> name : names)\n    System.out.println(name);\n}\n</code></pre>","children":[{"content":"The for-each loop is a lot shorter, isn&#x2019;t it? We no longer<br>\nhave a <code>counter</code> loop variable that we need to create,<br>\nincrement, and monitor.","children":[{"content":"We can also use a for-each loop on a <code>List</code>, since it<br>\nimplements <code>Iterable</code>.","children":[],"payload":{"tag":"li","lines":"41,43"}},{"content":"\n<pre data-lines=\"43,49\"><code class=\"language-java\"><span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">printNames</span><span class=\"hljs-params\">(List&lt;String&gt; names)</span> {\n  <span class=\"hljs-keyword\">for</span> (<span class=\"hljs-keyword\">var</span> name : names)\n    System.out.println(name);\n}\n</code></pre>","children":[{"content":"You just need to know that on each iteration, a for-each loop assigns<br>\na variable with the same type as the generic argument. In this case,<br>\n<code>name</code> is of type <code>String</code>.","children":[],"payload":{"tag":"li","lines":"49,52"}}],"payload":{"tag":"li","lines":"43,52"}}],"payload":{"tag":"li","lines":"38,52"}}],"payload":{"tag":"li","lines":"27,52"}}],"payload":{"tag":"li","lines":"25,52"}},{"content":"What about the following examples?<pre data-lines=\"53,62\"><code class=\"language-java\"><span class=\"hljs-type\">String</span> <span class=\"hljs-variable\">birds</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-string\">&quot;Jay&quot;</span>;\n<span class=\"hljs-keyword\">for</span>(String bird :birds) <span class=\"hljs-comment\">//DOES NOT COMPILE</span>\n  System.out.print(bird + <span class=\"hljs-string\">&quot; &quot;</span>);\n\nString[] sloths = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">String</span>[<span class=\"hljs-number\">3</span>];\n<span class=\"hljs-keyword\">for</span> (<span class=\"hljs-type\">int</span> sloth: sloths) <span class=\"hljs-comment\">//DOES NOT COMPILE</span>\n  System.out.print(sloth + <span class=\"hljs-string\">&quot; &quot;</span>);\n</code></pre>","children":[{"content":"The first for-each loop does not compile because the <code>String birds</code><br>\ncannot be used on the right side of the statement.","children":[],"payload":{"tag":"li","lines":"62,65"}},{"content":"The second example does not compile because the loop variable type<br>\non the left side of the statement is <code>int</code> and doesn&#x2019;t match the expected<br>\ntype of <code>String</code>.","children":[],"payload":{"tag":"li","lines":"65,68"}}],"payload":{"tag":"li","lines":"52,68"}}],"payload":{"tag":"h1","lines":"5,6"}},{"initialExpandLevel":1})</script>
+</body>
+</html>
