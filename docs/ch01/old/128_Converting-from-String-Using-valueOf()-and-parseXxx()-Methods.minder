@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="203801683" etag="3481746103">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="807.5" posy="544.5" width="339" height="70" side="left" fold="false" treesize="948" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="301" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="313.53125">
+        <text data="**Converting from String Using `valueOf()` and `parseXxx()` Methods**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="1246.5" posy="105.5" width="401" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="375" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="378.2109375">
+            <text data="`int primitive = Integer.parseInt(&quot;123&quot;);&#10;Integer wrapper = Integer.valueOf(&quot;123&quot;);`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1747.5" posy="105.5" width="434" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="398" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="406.703125">
+                <text data="The first line converts a `String` to an `int` primitive. The second converts a `String` to an `Integer` wrapper class."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="3" posx="1246.5" posy="193.5" width="478" height="70" side="right" fold="false" treesize="106" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="438" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="466.08593750000006">
+            <text data="On the numeric wrapper classes, `valueOf()` and `parseXxx()` throws a `NumberFormatException` on invalid input."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="4" posx="1824.5" posy="175.5" width="626" height="106" side="right" fold="false" treesize="106" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="593" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="598.134765625">
+                <text data="`var var1 = Integer.valueOf(&quot;five&quot;));           // throws exception&#10;var val1 = Byte.parseByte(&quot;ABA&quot;);              //throws exception&#10;double double1 = Double.parseDouble(&quot;12.3D&quot;);  //compiles&#10;Float float1 = Float.valueOf(&quot;12.3F&quot;);         //compiles`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="5" posx="1246.5" posy="334.5" width="508" height="70" side="right" fold="false" treesize="176" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="496" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="504.1640625">
+            <text data="On `Boolean`, the method returns `Boolean.TRUE` for any value that matches `&quot;true&quot;` ignoring case, and `Boolean.FALSE` otherwise."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="6" posx="1854.5" posy="281.5" width="536" height="70" side="right" fold="false" treesize="70" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="552" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="553.07552083333337">
+                <text data="`System.out.println(**Boolean.valueOf(&quot;true&quot;)**); // true&#10;System.out.println(**Boolean.valueOf(&quot;TrUe&quot;)**); // true`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="7" posx="1854.5" posy="351.5" width="577" height="106" side="right" fold="false" treesize="106" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="552" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="552">
+                <text data="`System.out.println(**Boolean.valueOf(&quot;false&quot;)**); // false&#10;System.out.println(**Boolean.valueOf(&quot;FALSE&quot;)**); // false&#10;System.out.println(**Boolean.valueOf(&quot;kangaroo&quot;)**); // false&#10;System.out.println(**Boolean.valueOf(null)**); // false`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="8" posx="1246.5" posy="499.5" width="505" height="112" side="right" fold="false" treesize="196" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="496" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="496">
+            <text data="The numeric integral classes (`Byte`, `Short`, `Integer`, and&#10;`Long`) include an overloaded `valueOf(String str, int base)` and `parseXxx(String s, int base)` methods that take a base value. For hexadecimal, ignores case."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="9" posx="1851.5" posy="457.5" width="617" height="196" side="right" fold="false" treesize="196" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="625" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="626.34114583333326">
+                <text data="`var int1 = Integer.parseInt(&quot;AB_cA&quot;, 16);      //throws exception&#10;var int2 = Integer.parseInt(&quot;0xABcA&quot;, 16);     //throws exception&#10;var int3 = Integer.parseInt(&quot;ABcA&quot;,16);        //compiles: 43978&#10;var val1 = Byte.parseByte(&quot;ABA&quot;, 16);          //throws exception&#10;Short s = Short.valueOf(&quot;1010&quot;,2);             //compiles: 10&#10;System.out.println(Integer.valueOf(&quot;5&quot;, 16)); // 5&#10;System.out.println(Integer.valueOf(&quot;a&quot;, 16)); // 10&#10;System.out.println(Integer.valueOf(&quot;F&quot;, 16)); // 15&#10;System.out.println(Integer.valueOf(&quot;G&quot;, 16)); // throws exception`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="10" posx="1246.5" posy="720.5" width="523" height="133" side="right" fold="false" treesize="267" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="496" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="496">
+            <text data="All of the numeric classes extend the `Number` class, which means they all come with some useful helper methods: `byteValue()`, `shortValue()`, `intValue()`, `longValue()`, `floatValue()`, and `doubleValue()`. The `Boolean` and `Character` wrapper classes include `booleanValue()` and `charValue()`."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="11" posx="1869.5" posy="717" width="311" height="70" side="right" fold="false" treesize="197" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="496" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="496">
+                <text data="These methods return the primitive value&#10;of a wrapper instance"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="12" posx="2280.5" posy="653.5" width="518" height="106" side="right" fold="false" treesize="106" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="496" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="496">
+                    <text data="`Double apple = Double.valueOf(&quot;200.99&quot;);&#10;System.out.println(**apple.byteValue()**); // -56&#10;System.out.println(**apple.intValue()**); // 200&#10;System.out.println(**apple.doubleValue()**); // 200.99`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="14" posx="2280.5" posy="759.5" width="519" height="91" side="right" fold="false" treesize="91" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="496" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="496">
+                    <text data="In the first example, there is no 200 in `byte`, so it wraps around to `-56`. In the second example, the value is truncated, which means all of the numbers after the decimal are dropped."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="13" posx="1869.5" posy="850.5" width="355" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="393" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="382.43489583333348">
+                <text data="`Byte`, `Short`, `Integer`, `Long`, `Float` and `Double` wrapper classes contain this methods"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="15" posx="1246.5" posy="952" width="490" height="70" side="right" fold="false" treesize="133" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="496" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="496">
+            <text data="Some of the wrapper classes contain additional helper methods for&#10;working with numbers."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="16" posx="1836.5" posy="920.5" width="507" height="133" side="right" fold="false" treesize="133" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="496" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="496">
+                <text data="`max(int num1, int num2)`, which returns the largest of the two&#10;numbers&#10;`min(int num1, int num2)`, which returns the smallest of the two&#10;numbers&#10;`sum(int num1, int num2)`, which adds the two numbers"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="17" posx="2443.5" posy="962.5" width="452" height="49" side="right" fold="false" treesize="49" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="496" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="496">
+                    <text data="`Integer`, `Long`, `Float` and `Double` contain this methos."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

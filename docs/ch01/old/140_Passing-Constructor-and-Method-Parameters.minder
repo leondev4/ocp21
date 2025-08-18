@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="2658782358" etag="1996026775">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="216.0859375" posy="571.07421875" width="223" height="70" side="left" fold="false" treesize="1019" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="249" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="251.35546875">
+        <text data="**Passing Constructor and Method Parameters**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="539.0859375" posy="96.57421875" width="486" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="474" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="476.77083333333326">
+            <text data="Variables passed to a constructor or method are called constructor&#10;parameters or method parameters,"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1125.0859375" posy="107.07421875" width="512" height="49" side="right" fold="false" treesize="49" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="484" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="485.59114583333326">
+                <text data="These parameters are like local variables that have been preinitialized. "/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="3" posx="539.0859375" posy="198.07421875" width="414" height="70" side="right" fold="false" treesize="133" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="474" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="474">
+            <text data="In this method, `check` is a method parameter.&#10;`public void findAnswer(boolean**check**){}`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="4" posx="1053.0859375" posy="169.57421875" width="529" height="127" side="right" fold="false" treesize="133" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="502" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="503.078125">
+                <text data="Take a look at the following method `checkAnswer()` in the same class:&#10;`public void checkAnswer() {&#10;  boolean value;&#10;  findAnswer(value); // DOES NOT COMPILE&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="5" posx="1682.0859375" posy="166.57421875" width="523" height="133" side="right" fold="false" treesize="133" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="502" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="502">
+                    <text data="The call to `findAnswer()` does not compile because it tries to use a&#10;variable that is not initialized. While the caller of a method&#10;`checkAnswer()` needs to be concerned about the variable being&#10;initialized, once inside the method `findAnswer()`, we can assume the&#10;local variable has been initialized to some value."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="6" posx="539.0859375" posy="683.07421875" width="335" height="49" side="right" fold="false" treesize="816" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="474" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="474">
+            <text data="**Defining Instance and Class Variables**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="7" posx="974.0859375" posy="299.57421875" width="526" height="175" side="right" fold="false" treesize="175" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="509.40104166666663">
+                <text data="Variables that are not local variables are defined either as instance&#10;variables or as class variables. An _instance variable_, often called a&#10;field, is a value defined within a specific instance of an object. Let&#x2019;s&#10;say we have a `Person` class with an instance variable `name` of type&#10;`String`. Each instance of the class would have its own value for `name`, such as `Elysia` or `Toby`. Two instances could have the same value for `name`, but changing the value for one does not modify the other."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="9" posx="1600.0859375" posy="343.07421875" width="221" height="88" side="right" fold="false" treesize="88" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="503">
+                    <text data="`public class Person {&#10;**String name;**&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="8" posx="974.0859375" posy="474.57421875" width="529" height="133" side="right" fold="false" treesize="133" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="503">
+                <text data="A _class variable_ is one that is defined on the class level and shared among all instances of the class. It can even be publicly accessible to classes outside the class and doesn&#x2019;t require an instance to use. &#10;You can tell a variable is a class variable because it has the keyword static before it. "/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="10" posx="1603.0859375" posy="497.07421875" width="253" height="88" side="right" fold="false" treesize="88" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="503">
+                    <text data="`public class Person {&#10;**static int instances;**&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="11" posx="974.0859375" posy="709.07421875" width="473" height="91" side="right" fold="false" treesize="294" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="503">
+                <text data="Instance and class variables do not require you to initialize them.&#10;As soon as you declare these variables, they are given a default&#10;value."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="12" posx="1547.0859375" posy="607.57421875" width="142" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="503">
+                    <text data="`null` for object"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="13" posx="1547.0859375" posy="656.57421875" width="260" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="503">
+                    <text data="zero for `byte`, `short` and `int`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="16" posx="1547.0859375" posy="705.57421875" width="269" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="503">
+                    <text data="`0L` for `long`, if you print it get `0`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="14" posx="1547.0859375" posy="754.57421875" width="314" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="503">
+                    <text data="`0.0f` for `float`, if you print it get `0.0`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="15" posx="1547.0859375" posy="803.57421875" width="157" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="503">
+                    <text data="`0.0` for `double`."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="19" posx="1547.0859375" posy="852.57421875" width="180" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="503">
+                    <text data="`'\u0000'` for `char`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="17" posx="974.0859375" posy="901.57421875" width="406" height="214" side="right" fold="false" treesize="214" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="503">
+                <text data="`public class Person {&#10;  int v; long l; float f; double d;&#10;  public static void main(String[] args) {&#10;    var p = new Person();&#10;    System.out.println(p.v);&#10;    System.out.println(p.l);&#10;    System.out.println(p.f);&#10;    System.out.println(p.d);&#10;  }&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="18" posx="1480.0859375" posy="945.07421875" width="86" height="127" side="right" fold="false" treesize="127" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="503" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="503">
+                    <text data="It prints:&#10;`0&#10;0&#10;0.0&#10;0.0`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

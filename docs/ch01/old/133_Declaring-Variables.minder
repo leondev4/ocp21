@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="2119145448" etag="3445965899">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="877.3671875" posy="555" width="202" height="49" side="left" fold="false" treesize="1255" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="**Declaring Variables**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="1179.3671875" posy="-2.5" width="448" height="49" side="right" fold="false" treesize="140" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="443.62369791666663">
+            <text data="A _variable_ is a name for a piece of memory that stores data."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1727.3671875" posy="-48" width="439" height="49" side="right" fold="false" treesize="49" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="439">
+                <text data="To declare a variable you have to provide the type and name"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="3" posx="1727.3671875" posy="1" width="461" height="91" side="right" fold="false" treesize="91" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="439">
+                <text data="Giving a variable a value is called _initializing_ a variable.  You just type the variable name followed by an equal sign, followed by the desired value."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="4" posx="2288.3671875" posy="11.5" width="412" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="439">
+                    <text data="The code declares and initializes the `zooName` variable.&#10;`String zooName = &quot;The Best Zoo&quot;;`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="5" posx="1179.3671875" posy="350" width="222" height="49" side="right" fold="false" treesize="565" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="439">
+            <text data="**Identifying Identifiers**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="6" posx="1501.3671875" posy="253" width="332" height="70" side="right" fold="false" treesize="392" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="439">
+                <text data="An _identifier_ is the name of a variable,&#10;method, class, record, interface, or package."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="7" posx="1933.3671875" posy="197" width="397" height="49" side="right" fold="false" treesize="259" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="439">
+                    <text data="There are four rules to remember for legal identifiers."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="8" posx="2430.3671875" posy="92" width="445" height="91" side="right" fold="false" treesize="91" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="439">
+                        <text data="Identifiers must begin with a letter, a currency symbol, or a _&#10;symbol. Currency symbols include dollar (`$`), yuan (`&#xA5;`), euro (`&#x20AC;` ), and so on."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="9" posx="2430.3671875" posy="183" width="413" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="439">
+                        <text data="Identifiers can include numbers but not start with them."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="10" posx="2430.3671875" posy="232" width="391" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="439">
+                        <text data="A single underscore (_) is not allowed as an identifier."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="11" posx="2430.3671875" posy="281" width="412" height="70" side="right" fold="false" treesize="70" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="439">
+                        <text data="You cannot use the same name as a Java reserved word.&#10;But you can use contextual keywords."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="12" posx="1933.3671875" posy="351" width="975" height="133" side="right" fold="false" treesize="133" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="943" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="951.27604166666674">
+                    <text data="In Java, contextual keywords are identifiers that have a special meaning in certain contexts but can be used as regular identifiers in others.&#10;Some of the contextual keywords include `var`, `yield`, `sealed`, `non-sealed`, `permits`, `record`, `transitive`, `with`, `provides`, `to`, `opens`, exports`, `requires`, and `module` (note that they are all lowercase). These keywords can be used in various contexts such as method names, variable names, and package names, but they are restricted from being used as class names, interface names, records names or enum names."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="13" posx="1501.3671875" posy="484" width="259" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="439">
+                <text data="The following examples are legal:"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="15" posx="1860.3671875" posy="484" width="232" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="439">
+                    <text data="These examples are not legal:"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="14" posx="1501.3671875" posy="542" width="302" height="106" side="right" fold="false" treesize="124" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="439">
+                <text data="`long okidentifier;&#10;float $OK2Identifier;&#10;boolean _alsoOK1d3ntifi3r;&#10;char __SStillOkbutKnotsonice$;`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="16" posx="1903.3671875" posy="533" width="604" height="124" side="right" fold="false" treesize="124" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="606" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="609.078125">
+                    <text data="`int 3DPointClass;    // identifiers cannot begin with a number&#10;byte hollywood@vine; //@ is not a letter, digit, $ or _&#10;String *$coffee;     //first character * is not a letter, $ or _&#10;double public;       //public is a reserved word&#10;short _;             //a single underscore is not allowed`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="17" posx="1179.3671875" posy="907.5" width="266" height="49" side="right" fold="false" treesize="550" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="439">
+            <text data="**Declaring Multiple Variables**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="18" posx="1545.3671875" posy="788.5" width="463" height="70" side="right" fold="false" treesize="333" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="439" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="439">
+                <text data="How many variables do you think are declared and initialized in the following example?"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="20" posx="2108.3671875" posy="670.5" width="307" height="106" side="right" fold="false" treesize="133" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="550" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="550">
+                    <text data="`void sandFence() {&#10;  String s1, s2;&#10;  String s3 = &quot;yes&quot;, s4 = &quot;no&quot;;&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="19" posx="2515.3671875" posy="657" width="579" height="133" side="right" fold="false" treesize="133" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="550" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="551.51953125">
+                        <text data="Four `String` variables were declared: `s1`, `s2`, `s3`, and `s4`.  You can&#10;declare many variables in the same declaration as long as they are all of the same type. You can also initialize any or all of those values inline. In the example, we have two initialized variables: `s3` and `s4`. The other two variables remain declared but not yet initialized."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="21" posx="2108.3671875" posy="790" width="217" height="88" side="right" fold="false" treesize="88" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="550" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="550">
+                    <text data="`void paintFence() {&#10;  int i1, i2, i3 = 0;&#10;}`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="22" posx="2425.3671875" posy="799" width="436" height="70" side="right" fold="false" treesize="70" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="419" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="413.32421875">
+                        <text data="Three variables were declared: `i1`, `i2`, and `i3`. However, only one of those variables was initialized: `i3`."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="23" posx="2108.3671875" posy="909.5" width="414" height="49" side="right" fold="false" treesize="112" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="550" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="550">
+                    <text data="`int num, String value; // DOES NOT COMPILE`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="24" posx="2622.3671875" posy="878" width="488" height="112" side="right" fold="false" treesize="112" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="550" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="550">
+                        <text data="This code doesn&#x2019;t compile because it tries to declare multiple&#10;variables of different types in the same statement. The shortcut to&#10;declare multiple variables in the same statement is legal only when&#10;they share a type."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="25" posx="1545.3671875" posy="1063.5" width="283" height="70" side="right" fold="false" treesize="217" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="283" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="276.5078125">
+                <text data="See if you can figure out which of the following are legal declarations:"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="26" posx="1928.3671875" posy="1036.5" width="244" height="124" side="right" fold="false" treesize="217" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="283" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="283">
+                    <text data="`4: boolean b1, b2;&#10;5: String s1 = &quot;1&quot;, s2;&#10;6: double d1, double d2;&#10;7: int i1; int i2;&#10;8: int i3; i4;`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="27" posx="2272.3671875" posy="990" width="715" height="217" side="right" fold="false" treesize="217" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="693" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="696.50390625">
+                        <text data="Lines 4 and 5 are legal. They each declare two variables. Line 4 doesn&#x2019;t initialize either variable, and line 5 initializes only one. Line 7 is also legal. Although `int` does appear twice, each one is in a separate statement. A semicolon (`;`) separates statements in Java. It just so happens there are two completely different statements on the same line.&#10;Line 6 is not legal. Java does not allow you to declare two different types in the same statement. If you want to declare multiple variables in the same statement, they must share the same type declaration and not repeat it.&#10;Line 8 is not legal. Again, we have two completely different statements on the same line. The second one on line 8 is not a valid declaration because it omits the type. "/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

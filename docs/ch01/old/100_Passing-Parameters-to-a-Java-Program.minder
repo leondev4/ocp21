@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="1776591142" etag="378899685">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="35.02734375" posy="573.859375" width="337" height="49" side="left" fold="false" treesize="605" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="310" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="312.0859375">
+        <text data="**Passing Parameters to a Java Program**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="472.02734375" posy="295.859375" width="543" height="163" side="right" fold="false" treesize="163" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="527.1875">
+            <text data="We modify the Zoo program to print out the first two arguments passed in.&#10;`public class Zoo {&#10;  public static void main(String[] args) {&#10;    System.out.println(**args[0]**);&#10;    System.out.println(**args[1]**);&#10;}&#10;}`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1115.02734375" posy="342.359375" width="476" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="523">
+                <text data="The code `args[0]` accesses the first element of the array. That&#x2019;s&#10;right: array indexes begin with `0` in Java."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="3" posx="472.02734375" posy="458.859375" width="225" height="91" side="right" fold="false" treesize="91" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="523">
+            <text data="To run it, type this:&#10;`javac Zoo.java`&#10;`java Zoo**Bronx Zoo**`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="4" posx="797.02734375" posy="458.859375" width="283" height="91" side="right" fold="false" treesize="91" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="523">
+                <text data="The output is what you might expect.&#10;`Bronx`&#10;`Zoo`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="5" posx="1180.02734375" posy="469.359375" width="437" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="523">
+                    <text data="The program correctly identifies the first two &#x201C;words&#x201D; as the&#10;arguments. Spaces are used to separate the arguments. "/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="6" posx="472.02734375" posy="549.859375" width="530" height="112" side="right" fold="false" treesize="112" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="523">
+            <text data=" If you want spaces inside an argument, you need to use quotes as in this&#10;example:&#10;`javac Zoo.java`&#10;`java Zoo**&quot;San Diego&quot; Zoo**`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="7" posx="1102.02734375" posy="560.359375" width="272" height="91" side="right" fold="false" treesize="91" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="523">
+                <text data="Now we have a space in the output.&#10;`San Diego`&#10;`Zoo`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="8" posx="472.02734375" posy="679.859375" width="402" height="91" side="right" fold="false" treesize="127" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="523">
+            <text data="What happens if you don&#x2019;t pass in enough arguments?&#10;`javac Zoo.java`&#10;`java Zoo**Zoo**`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="9" posx="974.02734375" posy="661.859375" width="695" height="127" side="right" fold="false" treesize="127" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="661" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="668.40364583333314">
+                <text data="Java prints out an exception telling you it has no idea what to do with this argument at position 1.&#10;`Zoo&#10;Exception in thread &quot;main&quot; java.lang.ArrayIndexOutOfBoundsException:&#10;  Index 1 out of bounds for length 1&#10;  at Zoo.main(Zoo.java:4)`"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="10" posx="472.02734375" posy="820.359375" width="228" height="49" side="right" fold="false" treesize="112" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="523">
+            <text data="**Single-File Source Code**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="11" posx="800.02734375" posy="799.359375" width="507" height="91" side="right" fold="false" treesize="112" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="523">
+                <text data="If you get tired of typing both `javac` and `java` every time you want&#10;to try a code example, there&#x2019;s a shortcut. You can instead run this:&#10;`java Zoo.java Bronx Zoo`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="12" posx="1407.02734375" posy="788.859375" width="464" height="112" side="right" fold="false" treesize="112" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="475" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="451.19270833333348">
+                    <text data="There is a key difference here. When compiling first, you&#10;omitted the file extension when running `java`. When skipping the explicit compilation step, you include this extension. This feature is called launching _single-file source-code_ programs."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

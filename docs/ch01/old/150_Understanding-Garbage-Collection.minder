@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="687330957" etag="362351557">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="865.48168103448279" posy="330.87931034482745" width="221" height="70" side="left" fold="false" treesize="931" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="**Understanding Garbage Collection**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="1186.4816810344828" posy="19.379310344827445" width="474" height="91" side="right" fold="false" treesize="329" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="458.833984375">
+            <text data="All Java objects are stored in your program memory&#x2019;s _heap_. The&#10;heap, which is also referred to as the _free store_, represents a large pool of unused memory allocated to your Java application."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1760.4816810344828" posy="19.379310344827445" width="475" height="91" side="right" fold="false" treesize="329" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="470" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="474.6015625">
+                <text data="_Garbage collection_ refers to the process of automatically freeing memory on the heap by deleting objects that are no longer reachable in your program."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="3" posx="2335.4816810344828" posy="-99.620689655172555" width="480" height="133" side="right" fold="false" treesize="133" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="470" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="470">
+                    <text data="_Eligible for garbage collection_ refers to an object&#x2019;s state of no longer being accessible in a program and therefore able to be garbage collected.&#10;Does this mean an object that&#x2019;s eligible for garbage collection will&#10;be immediately garbage collected? Definitely not."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="4" posx="2335.4816810344828" posy="33.379310344827445" width="492" height="196" side="right" fold="false" treesize="196" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="470" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="470">
+                    <text data="Think of garbage-collection eligibility like shipping a package. You&#10;can take an item, seal it in a labeled box, and put it in your mailbox.&#10;This is analogous to making an item eligible for garbage collection.&#10;When the mail carrier comes by to pick it up, though, is not in your&#10;control. For example, it may be a postal holiday, or there could be a&#10;severe weather event. You can even call the post office and ask&#10;them to come pick it up right away, but there&#x2019;s no way to guarantee&#10;when and if this will actually happen."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="5" posx="2927.4816810344828" posy="75.379310344827445" width="469" height="112" side="right" fold="false" treesize="112" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="470" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="470">
+                        <text data="You can suggest that garbage collection run.&#10;    `System.gc();`&#10;Just like the post office, Java is free to ignore you. This method is&#10;not guaranteed to do anything."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="6" posx="1186.4816810344828" posy="229.37931034482745" width="468" height="133" side="right" fold="false" treesize="133" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="443">
+            <text data="An object will remain on the heap until it is no longer reachable. An object is no longer reachable when one of these two situations occurs:&#10;1. The object no longer has any references pointing to it.&#10;2. All references to the object have gone out of scope."/>
+          </nodename>
+          <nodenote></nodenote>
+        </node>
+        <node id="7" posx="1186.4816810344828" posy="551.37931034482745" width="470" height="91" side="right" fold="false" treesize="469" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="443">
+            <text data="Look at this code and see whether you can figure out when each object first becomes eligible for garbage collection: (line 6 and line 9)"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="8" posx="1756.4816810344828" posy="474.37931034482745" width="433" height="196" side="right" fold="false" treesize="420" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="443">
+                <text data="`1: public class Scope {&#10;2:   public static void main(String[] args) {&#10;3:     String one, two;&#10;4:     one = new String(&quot;a&quot;);&#10;5:     two = new String(&quot;b&quot;);&#10;6:     one = two;&#10;7:     String three = one;&#10;8:     one = null;&#10;9:   } }`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="9" posx="2289.4816810344828" posy="362.37931034482745" width="469" height="133" side="right" fold="false" treesize="133" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="443">
+                    <text data="On line 3, write `one` and `two`. On line 4, we have our first object. Draw a box with the string `&quot;a&quot;` in it, and draw an arrow from the word `one` to that box. Line 5 is similar. Draw another box with the string `&quot;b&quot;` in it this time and an arrow from the word `two`. "/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="10" posx="2858.4816810344828" posy="379.87931034482745" width="54" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="443">
+                        <text data="one"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="11" posx="3012.4816810344828" posy="379.87931034482745" width="47" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="2" linkarrow="false" linkdash="solid" nodeborder="squared" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="443">
+                            <text data="&quot;a&quot;"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="12" posx="2858.4816810344828" posy="428.87931034482745" width="54" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="443">
+                        <text data="two"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="13" posx="3012.4816810344828" posy="428.87931034482745" width="49" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="2" linkarrow="false" linkdash="solid" nodeborder="squared" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="443">
+                            <text data="&quot;b&quot;"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="16" posx="2289.4816810344828" posy="495.37931034482745" width="547" height="154" side="right" fold="false" treesize="154.00000000000006" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="532.16666666666663">
+                    <text data="On line 6, the variable `one` changes to point to `&quot;b&quot;`. Either erase or&#10;cross out the arrow from `one` and draw a new arrow from one to `&quot;b&quot;`.&#10;On line 7, we have a new variable, so write the word `three` and draw&#10;an arrow from three to `&quot;b&quot;`. Notice that `three` points to what `one` is&#10;pointing to right now and not what it was pointing to at the beginning. This is why you are drawing pictures. It&#x2019;s easy to forget something like that."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="17" posx="2936.4816810344828" posy="498.87931034482756" width="54" height="49" side="right" fold="false" treesize="49.000000000000057" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="523">
+                        <text data="one"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="20" posx="3090.4816810344828" posy="498.87931034482756" width="47" height="49" side="right" fold="false" treesize="49.000000000000057" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="2" linkarrow="false" linkdash="solid" nodeborder="squared" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="523">
+                            <text data="&quot;a&quot;"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="18" posx="2936.4816810344828" posy="547.87931034482756" width="54" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="523">
+                        <text data="two"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="21" posx="3090.4816810344828" posy="547.87931034482756" width="49" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="2" linkarrow="false" linkdash="solid" nodeborder="squared" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="523">
+                            <text data="&quot;b&quot;"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node id="19" posx="2936.4816810344828" posy="596.87931034482756" width="64" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="523" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="523">
+                        <text data="three"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="22" posx="2289.4816810344828" posy="649.37931034482745" width="637" height="133" side="right" fold="false" treesize="133" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="609" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="609.35416666666674">
+                    <text data="Finally, cross out the line between `one` and `&quot;b&quot;` since line 8 sets this variable to `null`. Now, we were trying to find out when the objects were first eligible for garbage collection. On line 6, we got rid of the only arrow pointing to `&quot;a&quot;`, making that object eligible for garbage collection. `&quot;b&quot;` has arrows pointing to it until it goes out of scope. This means `&quot;b&quot;` is elegible for garbage collection until the end of the method on line 9."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="15" posx="1756.4816810344828" posy="782.37931034482745" width="369" height="49" side="right" fold="false" treesize="49" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="443">
+                <text data="You can watch the figures 1.4 and 1.5 in the book."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <connections>
+    <connection from_id="17" to_id="21" drag_x="3046.4296875" drag_y="540.99218750000023">
+      <style connectiondash="solid" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+      <title></title>
+      <note></note>
+    </connection>
+    <connection from_id="19" to_id="21" drag_x="3048.091145833333" drag_y="597.22135416666697">
+      <style connectiondash="solid" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+      <title></title>
+      <note></note>
+    </connection>
+    <connection from_id="10" to_id="11" drag_x="2947.278645833333" drag_y="403.33593750000017">
+      <style connectiondash="solid" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+      <title></title>
+      <note></note>
+    </connection>
+    <connection from_id="12" to_id="13" drag_x="2960.734375" drag_y="452.20052083333354">
+      <style connectiondash="solid" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+      <title></title>
+      <note></note>
+    </connection>
+    <connection from_id="18" to_id="21" drag_x="3046.317708333333" drag_y="572.19010416666697">
+      <style connectiondash="solid" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+      <title></title>
+      <note></note>
+    </connection>
+  </connections>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

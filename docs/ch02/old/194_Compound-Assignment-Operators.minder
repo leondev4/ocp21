@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="1210991431" etag="2760499939">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="870.5" posy="544.5" width="213" height="70" side="left" fold="false" treesize="754" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="200">
+        <text data="**Compound Assignment Operators**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="1183.5" posy="202.5" width="108" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="200">
+            <text data="Addition&#10;assignment"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1391.5" posy="202.5" width="126" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="200">
+                <text data="`a += 5`&#10;`a  = a + 5`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="3" posx="1617.5" posy="202.5" width="337" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="288" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="326.53125">
+                    <text data="Adds the value on the right to the variable on the left and assigns the sum to the variable"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="4" posx="2054.5" posy="202.5" width="108" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="288" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="288">
+                        <text data="Subtraction&#10;assignment"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="5" posx="2262.5" posy="202.5" width="104" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="288" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="288">
+                            <text data="`b -= 0.2&#10;b=b-0.2`"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="6" posx="2466.5" posy="202.5" width="387" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="361" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="369.6640625">
+                                <text data="Subtracts the value on the right from the variable on the left and assigns the difference to the variable"/>
+                              </nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="7" posx="1183.5" posy="272.5" width="122" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="200">
+            <text data="Multiplication&#10;assignment"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="8" posx="1405.5" posy="272.5" width="113" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="200">
+                <text data="`c *= 100&#10;c = c*100`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="9" posx="1618.5" posy="272.5" width="369" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="338" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="349.2578125">
+                    <text data="Multiplies the value on the right with the variable on the left and assigns the product to the variable"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="10" posx="2087.5" posy="272.5" width="108" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="338" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="338">
+                        <text data="Division&#10;assignment"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="11" posx="2295.5" posy="272.5" width="95" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="338" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="338">
+                            <text data="`d /= 4&#10;d = d/4`"/>
+                          </nodename>
+                          <nodenote></nodenote>
+                          <nodes>
+                            <node id="12" posx="2490.5" posy="272.5" width="362" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="338" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                              <nodename maxwidth="338">
+                                <text data="Divides the variable on the left by the value on the right and assigns the quotient to the variable"/>
+                              </nodename>
+                              <nodenote></nodenote>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="13" posx="1183.5" posy="354.5" width="527" height="88" side="right" fold="false" treesize="112" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="475" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="500.68359375">
+            <text data="`int camel = 2, giraffe = 3;&#10;camel = camel * giraffe; //Simple assignment operator&#10;**camel *= giraffe;**    //Compound assignment operator`"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="14" posx="1810.5" posy="342.5" width="482" height="112" side="right" fold="false" treesize="112" color="#f9c440" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="467" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="456.6640625">
+                <text data="The left side of the compound operator can be applied only to a variable that is already defined and cannot be used to declare a new variable. In this example, if `camel` were not already defined, the expression `camel *= giraffe` would not compile."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="15" posx="1183.5" posy="551" width="499" height="70" side="right" fold="false" treesize="263" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="486" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="484.43489583333337">
+            <text data="**Compound operators are useful for more than just shorthand. They can also save you from having to explicitly cast a value.**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="16" posx="1782.5" posy="542" width="401" height="88" side="right" fold="false" treesize="263" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="486" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="486">
+                <text data="`long goat = 10;&#10;int sheep = 5;&#10;sheep = sheep * goat; // DOES NOT COMPILE`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="17" posx="2283.5" posy="454.5" width="460" height="91" side="right" fold="false" treesize="91" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="440" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="438.79427083333337">
+                    <text data="We are trying to assign a `long` value to an `int` variable. This last line could be fixed with an explicit cast to `(int)`, but there&#x2019;s a better way using the compound assignment operator:"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="18" posx="2283.5" posy="545.5" width="623" height="172" side="right" fold="false" treesize="172" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="534" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="602.84375">
+                    <text data="`long goat = 10;&#10;int sheep = 5;&#10;**sheep *= goat;**`&#10;The compound operator will first cast `sheep` to a `long`, apply the multiplication of two `long` values, and then cast the result to an `int`. Unlike the previous example, in which the compiler reported an error, the compiler will automatically cast the resulting value to the data type of the value on the left side of the compound operator."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="19" posx="1183.5" posy="791.5" width="436" height="91" side="right" fold="false" treesize="239" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="486" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="486">
+            <text data="**Return Value of Assignment Operators**&#10;The result of an assignment is an expression in and of itself&#10;equal to the value of the assignment."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="20" posx="1719.5" posy="717.5" width="320" height="106" side="right" fold="false" treesize="106" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="486" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="486">
+                <text data="`long wolf = 5;&#10;long coyote = (wolf = 3);&#10;System.out.println(wolf); // 3&#10;System.out.println(coyote); // 3`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="21" posx="2139.5" posy="725" width="445" height="91" side="right" fold="false" treesize="91" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="486" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="486">
+                    <text data="The key here is that `(wolf=3)` does two things. First, it sets&#10;the value of the variable `wolf` to be `3`. Second, it returns a&#10;value of the assignment, which is also `3`."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="22" posx="1719.5" posy="855" width="331" height="70" side="right" fold="false" treesize="133" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="339" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="308.23958333333326">
+                <text data="Don&#x2019;t be surprised if you see an if statement on the exam similar to the following"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="23" posx="2150.5" posy="846" width="284" height="88" side="right" fold="false" treesize="133" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="339" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="339">
+                    <text data="`  boolean healthy = false;&#10;**if(healthy = true)**&#10;  System.out.print(&quot;Good!&quot;);`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="24" posx="2534.5" posy="823.5" width="352" height="133" side="right" fold="false" treesize="133" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="339" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="339">
+                        <text data="While this may look like a test if `healthy` is `true`, it&#x2019;s actually assigning `healthy` a value of `true`. The result of the assignment is the value of the assignment, which is `true`, resulting in this snippet printing `Good!`."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

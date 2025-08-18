@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="3895693933" etag="260037593">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="857.96354166666663" posy="555.4453125" width="236" height="49" side="left" fold="false" treesize="930" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="211" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="211">
+        <text data="**The `return` Statement**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="1193.9635416666665" posy="302.4453125" width="453" height="91" side="right" fold="false" treesize="466" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="431" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="438.34375">
+            <text data="For now, though, you should be familiar with the idea that&#10;creating methods and using `return` statements can be used as an alternative to using labels and `break` statements. "/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1746.9635416666665" posy="114.9453125" width="586" height="466" side="right" fold="false" treesize="466" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="880" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="936.83375000000012">
+                <text data="`public class FindInMatrixUsingReturn {&#10;  private static int[] searchForValue(int[][] list, int v) {&#10;    for (int i = 0; i &lt; list.length; i++) {&#10;      for (int j = 0; j &lt; list[i].length; j++) {&#10;        if (list[i][j] == v) {&#10;        **return new int[]{i, j};**&#10;        }&#10;      }&#10;    }&#10;  **return null;**&#10;  }&#10;&#10;  public static void main(String[] args) {&#10;    int[][] list = {{1, 13}, {5, 2}, {2, 2}};&#10;    int searchValue = 2;&#10;  **int[] results = searchForValue(list, searchValue);**&#10;    if (results == null) {&#10;      System.out.print(&quot;Value &quot; + searchValue + &quot; not found&quot;);&#10;    } else {&#10;      System.out.print(&quot;Value &quot; + searchValue + &quot; found at:&quot; +&#10;                &quot;(&quot; + results[0] + &quot;,&quot; + results[1] + &quot;)&quot; );&#10;    }&#10;  }&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="3" posx="2432.9635416666665" posy="235.9453125" width="568" height="154" side="right" fold="false" treesize="154" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="567" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="545.19394531249998">
+                    <text data="This class is functionally the same as the first `FindInMatrix` class we saw earlier using `break`. If you need finer-grained control of the loop with multiple `break` and `continue` statements, the first class is probably better. That said, we find code without labels and `break` statements a lot easier to read and debug. Also, making the search logic an independent function makes the code more reusable and the calling `main()` method a lot easier to read."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="4" posx="2432.9635416666665" posy="389.9453125" width="592" height="70" side="right" fold="false" treesize="70" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="567" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="567">
+                    <text data="Just remember that `return` statements can be used to exit loops quickly and can lead to more readable code in practice, especially when used with nested loops."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="5" posx="1193.9635416666665" posy="648.4453125" width="469" height="133" side="right" fold="false" treesize="268" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="444" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="447.85416666666674">
+            <text data="**Unreachable Code**&#10;One facet of `break`, `continue`,  `return` and `yield` that you should be aware of is that**any code placed immediately after them in the same block is considered unreachable and will not compile.**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="6" posx="1762.9635416666665" posy="625.9453125" width="352" height="178" side="right" fold="false" treesize="268" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="431" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="431">
+                <text data="`int checkDate = 0;&#10;while (checkDate&lt;10) {&#10;  checkDate++;&#10;  if(checkDate&gt;100) {&#10;    break;&#10;    checkDate++; // DOES NOT COMPILE&#10;   }&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="7" posx="2214.9635416666665" posy="637.9453125" width="454" height="154" side="right" fold="false" treesize="268" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="431" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="431">
+                    <text data="Even though it is not logically possible for the `if` statement&#10;to evaluate to `true` in this code sample, the compiler notices&#10;that you have statements immediately following the `break`&#10;and will fail to compile with &#x201C;unreachable code&#x201D; as the reason. The same is true for `continue` and `return` statements, as shown in the following two examples:"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="8" posx="2768.9635416666665" posy="580.9453125" width="469" height="268" side="right" fold="false" treesize="268" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="459" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="459.93229166666674">
+                        <text data="`int minute = 1;&#10;WATCH: while (minute&gt;2) {&#10;  if (minute++&gt;2) {&#10;    continue WATCH;&#10;    System.out.print(minute); // DOES NOT COMPILE&#10;  }&#10;}&#10;&#10;int hour = 2;&#10;switch (hour) {&#10;  case 1: return; hour++; // DOES NOT COMPILE&#10;  case 2:&#10;}`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                      <nodes>
+                        <node id="9" posx="3337.9635416666665" posy="637.9453125" width="526" height="154" side="right" fold="false" treesize="154" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="498" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                          <nodename maxwidth="507.41406249999989">
+                            <text data="One thing to remember is that it does not matter if the loop or decision structure actually visits the line of code. For example, the loop could execute zero or infinite times at runtime. Regardless of execution, the compiler will report an error if it finds any code it deems unreachable, in this case any statements immediately following a `break`, `continue`, `return` or `yield` statement."/>
+                          </nodename>
+                          <nodenote></nodenote>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="10" posx="1193.9635416666665" posy="880.4453125" width="456" height="133" side="right" fold="false" treesize="196" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="423" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="428.85677083333337">
+            <text data="**TIP**&#10;Some of the most time-consuming questions on the exam could involve nested loops with lots of branching. Unless you can spot a compiler error right away, you might consider skipping these questions and coming back to them at the end."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="11" posx="1749.9635416666665" posy="911.9453125" width="186" height="70" side="right" fold="false" treesize="196" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="240" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="201.47395833333337">
+                <text data="**Supported control statement features**"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="12" posx="2035.9635416666665" posy="873.4453125" width="212" height="49" side="right" fold="false" treesize="98" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="423" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="423">
+                    <text data="`while`, `do/while`, `for`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="13" posx="2347.9635416666665" posy="848.9453125" width="221" height="49" side="right" fold="false" treesize="49" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="423" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="423">
+                        <text data="Labels, `break`, `continue`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="16" posx="2347.9635416666665" posy="897.9453125" width="302" height="49" side="right" fold="false" treesize="49" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="423" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="423">
+                        <text data="They do not support `yield` and `when`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="14" posx="2035.9635416666665" posy="971.4453125" width="90" height="49" side="right" fold="false" treesize="98" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="423" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="423">
+                    <text data="`switch`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="15" posx="2225.9635416666665" posy="946.9453125" width="246" height="49" side="right" fold="false" treesize="49" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="423" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="423">
+                        <text data="Labels, `break`, `yield`, `when`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="17" posx="2225.9635416666665" posy="995.9453125" width="244" height="49" side="right" fold="false" treesize="49" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="423" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="423">
+                        <text data="It does not support `continue`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>

@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<minder version="1.16.2" parent-etag="332894342" etag="123773936">
+  <theme name="default" label="Light" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100" calloutfont="Sans 12" calloutpadding="5" calloutptrwidth="20" calloutptrlength="20"/>
+  </styles>
+  <images/>
+  <nodes>
+    <node id="0" posx="547.31510416666652" posy="380.88020833333348" width="238" height="49" side="left" fold="false" treesize="1454" summarized="false" layout="Horizontal" group="false">
+      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="219" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename maxwidth="220.66927083333331">
+        <text data="**Creating a New Package**"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="1" posx="885.31510416666652" posy="-321.61979166666652" width="475" height="91" side="right" fold="false" treesize="91" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="449.8828125">
+            <text data="Up to now, all the code we&#x2019;ve written in this chapter has been in&#10;the _default package_. This is a special unnamed package that you&#10;should use only for throwaway code."/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="2" posx="1460.3151041666665" posy="-300.61979166666652" width="531" height="49" side="right" fold="false" treesize="49" color="#c6262e" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="496" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="504.6015625">
+                <text data="The directory structure on your computer is related to the package name."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="3" posx="885.31510416666652" posy="-139.11979166666652" width="430" height="49" side="right" fold="false" treesize="232" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="443">
+            <text data="Suppose we have these two classes in the `/tmp` directory:"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="4" posx="1415.3151041666665" posy="-230.61979166666652" width="406" height="232" side="right" fold="false" treesize="232" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="443">
+                <text data="`package packagea;&#10;public class ClassA{}&#10;&#10;package packageb;&#10;**import** packagea.ClassA;&#10;public class ClassB{&#10;  public static void main(String[] args) {&#10;  **ClassA a;**&#10;    System.out.println(&quot;Got it&quot;);&#10;  }&#10;}`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="5" posx="1921.3151041666665" posy="-149.61979166666652" width="428" height="70" side="right" fold="false" treesize="70" color="#f37329" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="443">
+                    <text data="Running from `/tmp` works because both `packagea` and `packageb` are underneath it."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="6" posx="885.31510416666652" posy="219.88020833333348" width="381" height="49" side="right" fold="false" treesize="486" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="443">
+            <text data="**Compiling and Running Code with Packages**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="7" posx="1366.3151041666665" posy="39.880208333333485" width="468" height="70" side="right" fold="false" treesize="147" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="443">
+                <text data="The first step is to create the two files from the previous section.&#10;For Windows, see Table 1.1 in the book."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="8" posx="1934.3151041666665" posy="1.3802083333334849" width="160" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="443">
+                    <text data="1. Create first class."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="9" posx="2194.3151041666665" posy="1.3802083333334849" width="261" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="443">
+                        <text data="`/tmp/packagea/ClassA.java`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="10" posx="1934.3151041666665" posy="50.380208333333485" width="182" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="443">
+                    <text data="2. Create second class."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="11" posx="2216.3151041666665" posy="50.380208333333485" width="261" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="443">
+                        <text data="`/tmp/packageb/ClassB.java`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="12" posx="1934.3151041666665" posy="99.380208333333485" width="151" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="443">
+                    <text data="3. Go to directory."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="13" posx="2185.3151041666665" posy="99.380208333333485" width="99" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="443">
+                        <text data="`cd /tmp`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="14" posx="1366.3151041666665" posy="193.88020833333348" width="459" height="70" side="right" fold="false" treesize="161" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="443">
+                <text data=" To compile:&#10;`javac packagea/ClassA.java packageb/ClassB.java`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="15" posx="1925.3151041666665" posy="148.38020833333348" width="230" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="443">
+                    <text data="Two new files will be created:"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="16" posx="2255.3151041666665" posy="148.38020833333348" width="459" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="443">
+                        <text data="`packagea/ClassA.class and packageb/ClassB.class`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="17" posx="1925.3151041666665" posy="197.38020833333348" width="629" height="112" side="right" fold="false" treesize="112" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="588" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="622.93229166666652">
+                    <text data="You can use an asterisk (*) to specify that you&#x2019;d like to include all Java files in a directory. This is convenient when you have a lot of files in a package. &#10;    `javac packagea/*.java packageb/*.java`&#10;You cannot use a wildcard to include subdirectories."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="18" posx="1366.3151041666665" posy="363.38020833333348" width="216" height="70" side="right" fold="false" treesize="178" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="443">
+                <text data="You can run it:&#10;`java packageb.ClassB`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="19" posx="1682.3151041666665" posy="352.88020833333348" width="519" height="91" side="right" fold="false" treesize="178" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="493" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="496.35677083333326">
+                    <text data="You&#x2019;ll see `Got it` printed. You might have noticed that we typed `ClassB` rather than `ClassB.class`. As discussed earlier,**you don&#x2019;t pass the extension when running a program**."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="20" posx="2301.3151041666665" posy="309.38020833333348" width="616" height="178" side="right" fold="false" treesize="178" color="#68b723" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="580" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="591.54687500000011">
+                        <text data="The following shows where the `.class` files were created in the directory structure.`&#10;tmp&#10;&#x251C;&#x2500;&#x2500; packagea&#10;&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; ClassA.class&#10;&#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; ClassA.java&#10;&#x2514;&#x2500;&#x2500; packageb&#10;    &#x251C;&#x2500;&#x2500; ClassB.class&#10;    &#x2514;&#x2500;&#x2500; ClassB.java`"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="21" posx="885.31510416666652" posy="669.88020833333348" width="288" height="49" side="right" fold="false" treesize="414" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="443">
+            <text data="**Compiling to Another Directory**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="22" posx="1273.3151041666665" posy="487.38020833333348" width="471" height="112" side="right" fold="false" treesize="112" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="448" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="446.17708333333326">
+                <text data="By default, the `javac` command places the compiled classes in the same directory as the source code. It also provides an option to place the class files into a different directory. The `-d` option&#10;specifies this target directory."/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="23" posx="1844.3151041666665" posy="518.88020833333348" width="571" height="49" side="right" fold="false" treesize="49" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="531" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="545.09375">
+                    <text data="Java options are case sensitive. This means you cannot pass `-D` instead of `-d`."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="24" posx="2515.3151041666665" posy="518.88020833333348" width="404" height="49" side="right" fold="false" treesize="49" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="448" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename maxwidth="448">
+                        <text data="Delete the `ClassA.class` and `ClassB.class` files."/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node id="25" posx="1273.3151041666665" posy="599.38020833333348" width="576" height="70" side="right" fold="false" treesize="70" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="541" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="551.55729166666674">
+                <text data="To compile:&#10;`javac**-d**classes packagea/ClassA.java packageb/ClassB.java`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="26" posx="1949.3151041666665" posy="609.88020833333348" width="476" height="49" side="right" fold="false" treesize="49" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="541" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="541">
+                    <text data="The command creates the `classes` directory if it does not exist."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="27" posx="1273.3151041666665" posy="669.38020833333348" width="302" height="232" side="right" fold="false" treesize="232" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="541" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="541">
+                <text data="The following shows this new structure`&#10;tmp&#10;&#x251C;&#x2500;&#x2500; classes&#10;&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; packagea&#10;&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; ClassA.class&#10;&#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; packageb&#10;&#x2502;&#xA0;&#xA0;     &#x2514;&#x2500;&#x2500; ClassB.class&#10;&#x251C;&#x2500;&#x2500; packagea&#10;&#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; ClassA.java&#10;&#x2514;&#x2500;&#x2500; packageb&#10;    &#x2514;&#x2500;&#x2500; ClassB.java`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="29" posx="1675.3151041666665" posy="683.88020833333348" width="488" height="133" side="right" fold="false" treesize="133" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="541" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="541">
+                    <text data="To run the program, you specify the classpath so Java knows where&#10;to find the classes. There are three options you can use.&#10;`java**-cp classes**packageb.ClassB`&#10;`java**-classpath classes**packageb.ClassB`&#10;`java**--class-path classes**packageb.ClassB`"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="30" posx="1675.3151041666665" posy="816.88020833333348" width="500" height="70" side="right" fold="false" treesize="70" color="#3689e6" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="541" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="541">
+                    <text data="Notice that the last one requires two dashes (`--`), while the first two&#10;require one dash (`-`)"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="31" posx="885.31510416666652" posy="946.8802083333336" width="253" height="49" side="right" fold="false" treesize="140" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="443">
+            <text data="**Important `javac` options**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="32" posx="1238.3151041666665" posy="901.3802083333336" width="252" height="91" side="right" fold="false" treesize="91" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="443">
+                <text data="`-cp &lt;classpath&gt;`&#10;`-classpath &lt;classpath&gt;`&#10;`--class-path &lt;classpath&gt;`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="33" posx="1590.3151041666665" posy="922.3802083333336" width="380" height="49" side="right" fold="false" treesize="49" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="443">
+                    <text data="Location of classes needed to compile the program"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="34" posx="1238.3151041666665" posy="992.3802083333336" width="108" height="49" side="right" fold="false" treesize="49" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="443">
+                <text data="`-d &lt;dir&gt;`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="35" posx="1446.3151041666665" posy="992.3802083333336" width="354" height="49" side="right" fold="false" treesize="49" color="#7a36b1" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="443">
+                    <text data="Directory in which to place generated class files"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="36" posx="885.31510416666652" posy="1062.3802083333335" width="244" height="49" side="right" fold="false" treesize="91" color="#715344" colorroot="false" summarized="false" layout="Horizontal" group="false">
+          <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename maxwidth="443">
+            <text data="**Important `java` options**"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="37" posx="1229.3151041666665" posy="1041.3802083333335" width="252" height="91" side="right" fold="false" treesize="91" color="#715344" colorroot="false" summarized="false" layout="Horizontal" group="false">
+              <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename maxwidth="443">
+                <text data="`-cp &lt;classpath&gt;`&#10;`-classpath &lt;classpath&gt;`&#10;`--class-path &lt;classpath&gt;`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="38" posx="1581.3151041666665" posy="1062.3802083333335" width="349" height="49" side="right" fold="false" treesize="49" color="#715344" colorroot="false" summarized="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="longdash" nodeborder="underlined" nodewidth="443" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename maxwidth="443">
+                    <text data="Location of classes needed to run the program"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+  <nodelinks id="0"/>
+</minder>
