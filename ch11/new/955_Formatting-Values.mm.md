@@ -142,3 +142,39 @@ if it encounters an incompatible type.
     ```
 
     These statements print the same value at runtime. 
+# **Adding Custom Text Values**
+- You can _escape_ the text by surrounding it with a pair of single quotes (`'`). 
+Escaping text instructs the formatter to ignore the values inside the single 
+quotes and just insert them as part of the final value.
+  - ```js
+    var f = DateTimeFormatter.ofPattern("MMMM dd, yyyy 'at' hh:mm");
+    System.out.println(dt.format(f)); // October 20, 2022 at 06:15
+    ```
+- But what if you need to display a single quote in the output, too? 
+Welcome to the fun of escaping characters! Java supports this
+by putting two single quotes next to each other. 
+  - ```js
+    var g1 = DateTimeFormatter.ofPattern("MMMM dd', Party''s at' hh:mm");
+    System.out.println(dt.format(g1)); //October 20, Party's at 06:15
+    ```
+  - ```js
+    var g2 = DateTimeFormatter.ofPattern("'System format, hh:mm: 'hh:mm");
+    System.out.println(dt.format(g2)); //System format, hh:mm: 06:15
+    ```
+  - ```js
+    var g3 = DateTimeFormatter.ofPattern("'NEW! 'yyyy', yay!'");
+    System.out.println(dt.format(g3)); // NEW! 2022, yay!`
+
+  - If you don’t escape the text values with single quotes, an exception will be thrown at runtime if 
+  the text cannot be interpreted as a date/time symbol.
+
+    ```js
+    DateTimeFormatter.ofPattern("The time is hh:mm"); // IllegalArgumentException
+    ```
+
+    This line throws an exception since `T` is an unknown symbol. The exam might also present you 
+    with an incomplete escape sequence.
+
+    ```js
+    DateTimeFormatter.ofPattern("'Time is: hh:mm: "); // IllegalArgumentException
+    ```
