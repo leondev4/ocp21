@@ -1,3 +1,8 @@
+---
+
+markmap:
+  initialExpandLevel: 2
+---
 # **Loading Properties with<br/> Resource Bundles**
 - A _resource bundle_ contains the locale-­specific objects to be used by a program. It is like 
 a map with keys and values. The resource bundle is commonly stored in a properties file.
@@ -145,8 +150,11 @@ data from `en_US` only if there is no matching `fr_FR` or `fr` resource bundle. 
     **Hello. Vancouver Zoo is open Canada visitors**
     - The default locale is `en_US`, and the requested locale is `en_CA`. First, Java goes through 
     the available resource bundles to find a match. It finds one right away with 
-    `Zoo_en_CA.properties`. This means the default locale of `en_US`_ is irrelevant. Line 14 
-    doesn’t find a match for the key `hello` in `Zoo_en_CA.properties`, so it goes up the 
+    `Zoo_en_CA.properties`. This means the default locale of `en_US`_ is irrelevant.
+    After line 12, the resource bundle is selected, and Java will only consider files it finds 
+    that are part of this resource bundle, namely `Zoo_en_CA.properties`, `Zoo_en.properties`, 
+    and `Zoo.properties`, in this order. 
+    Line 14 doesn’t find a match for the key `hello` in `Zoo_en_CA.properties`, so it goes up the 
     hierarchy to `Zoo_en.properties`._ Line 16 doesn’t find a match for `name` in either of 
     the first two properties files, so it has to go all the way to the top of the hierarchy to 
     `Zoo.properties`. Line 18 has the same experience as line 14, using `Zoo_en.properties`.

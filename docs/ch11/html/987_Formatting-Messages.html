@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/styles/default.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"","children":[{"content":"<strong>Formatting Messages</strong>","children":[{"content":"\n<p data-lines=\"6,9\">The convention is to use a number inside braces such as <code>{0}</code>, <code>{1}</code>, etc. The<br>\nnumber indicates the order in which the parameters will be passed. Although<br>\nresource bundles don&#x2019;t support this directly, the <code>MessageFormat</code> class does.</p>","children":[],"payload":{"tag":"li","lines":"6,9"}},{"content":"\n<p data-lines=\"9,10\">For example, suppose that we had this property defined:</p>\n<pre data-lines=\"10,13\"><code data-lines=\"10,13\"><span class=\"hljs-attribute\">helloByName</span>=Hello, {<span class=\"hljs-number\">0</span>} and {<span class=\"hljs-number\">1</span>}\n</code></pre>\n<p data-lines=\"14,18\">We can read in the value normally. After that, we can run it through the<br>\n<code>MessageFormat</code> class to substitute the parameters. The second parameter<br>\nto <code>format()</code> is a vararg, allowing you to specify any number of input values.<br>\nSuppose we have a resource bundle <code>rb</code>:</p>\n<pre data-lines=\"19,23\"><code class=\"language-js\"><span class=\"hljs-title class_\">String</span> format = rb.<span class=\"hljs-title function_\">getString</span>(<span class=\"hljs-string\">&quot;helloByName&quot;</span>);\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">print</span>(<span class=\"hljs-title class_\">MessageFormat</span>.<span class=\"hljs-title function_\">format</span>(format, <span class=\"hljs-string\">&quot;Tammy&quot;</span>, <span class=\"hljs-string\">&quot;Henry&quot;</span>));\n</code></pre>\n<p data-lines=\"24,25\">This will print the following:</p>\n<pre data-lines=\"25,28\"><code data-lines=\"25,28\"><span class=\"hljs-symbol\">Hello</span>, Tammy <span class=\"hljs-keyword\">and</span> Henry\n</code></pre>","children":[],"payload":{"tag":"li","lines":"9,28"}}],"payload":{"tag":"h1","lines":"5,6"}},{"content":"<strong>Using the <code>Properties</code> Class</strong>","children":[{"content":"\n<p data-lines=\"29,31\"><code>Properties</code> class functions like the <code>HashMap</code>.  It<br>\nuses <code>String</code> values for the keys and values</p>","children":[],"payload":{"tag":"li","lines":"29,31"}},{"content":"\n<pre data-lines=\"31,41\"><code data-lines=\"31,41\"><span class=\"hljs-keyword\">import</span> java.util.Properties;\n<span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">ZooOptions</span> {\n  <span class=\"hljs-keyword\">public</span> <span class=\"hljs-keyword\">static</span> <span class=\"hljs-keyword\">void</span> <span class=\"hljs-title function_\">main</span><span class=\"hljs-params\">(String[] args)</span> {\n    <span class=\"hljs-type\">var</span> <span class=\"hljs-variable\">props</span> <span class=\"hljs-operator\">=</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Properties</span>();\n    props.setProperty(<span class=\"hljs-string\">&quot;name&quot;</span>, <span class=\"hljs-string\">&quot;Our zoo&quot;</span>);\n    props.setProperty(<span class=\"hljs-string\">&quot;open&quot;</span>, <span class=\"hljs-string\">&quot;10am&quot;</span>);\n  }\n}\n</code></pre>","children":[{"content":"\n<p data-lines=\"41,42\">The <code>Properties</code> class is commonly used in handling values that may not exist.</p>\n<pre data-lines=\"43,47\"><code class=\"language-js\"><span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(props.<span class=\"hljs-title function_\">getProperty</span>(<span class=\"hljs-string\">&quot;camel&quot;</span>));        <span class=\"hljs-comment\">//null</span>\n<span class=\"hljs-title class_\">System</span>.<span class=\"hljs-property\">out</span>.<span class=\"hljs-title function_\">println</span>(props.<span class=\"hljs-title function_\">getProperty</span>(<span class=\"hljs-string\">&quot;camel&quot;</span>, <span class=\"hljs-string\">&quot;Bob&quot;</span>)); <span class=\"hljs-comment\">//Bob</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"41,47"}},{"content":"\n<p data-lines=\"47,49\">If a key were passed that actually existed, both statements would print it. This is<br>\ncommonly referred to as providing a default, or a backup value, for a missing key.</p>","children":[],"payload":{"tag":"li","lines":"47,49"}}],"payload":{"tag":"li","lines":"31,49"}},{"content":"\n<p data-lines=\"49,52\">The <code>Properties</code> class also includes a <code>get()</code> method, but only <code>getProperty()</code> allows<br>\nfor a default value. For example, the following call is invalid since <code>get()</code> takes only<br>\na single parameter:</p>\n<pre data-lines=\"53,58\"><code class=\"language-js\">props.<span class=\"hljs-title function_\">get</span>(<span class=\"hljs-string\">&quot;open&quot;</span>);  <span class=\"hljs-comment\">//10am</span>\n\nprops.<span class=\"hljs-title function_\">get</span>(<span class=\"hljs-string\">&quot;open&quot;</span>, <span class=\"hljs-string\">&quot;The zoo will be open soon&quot;</span>);<span class=\"hljs-comment\">// DOES NOT COMPILE</span>\n</code></pre>","children":[],"payload":{"tag":"li","lines":"49,58"}}],"payload":{"tag":"h1","lines":"28,29"}}]},{"initialExpandLevel":2})</script>
+</body>
+</html>
