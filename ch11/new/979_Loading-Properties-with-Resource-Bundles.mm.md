@@ -96,3 +96,62 @@ find the appropriate resource bundle with the following code?
     The requested locale is `en`, so we start with that. Since the en locale does not contain
     a country, we move on to the default locale, `hi`. Again, there’s no country, so we end 
     with the default bundle.
+# **Selecting Resource Bundle keys**
+- Java isn’t required to get all of the keys from the same resource bundle. It can get 
+them from any parent of the matching resource bundle. A parent resource bundle 
+in the hierarchy just removes components of the name until it gets to the top. 
+- Matching resource bundle:
+  ```
+  Zoo_fr_FR
+  ```
+  - Properties files keys can come from:
+    ```
+    Zoo_fr_FR.properties
+    Zoo_fr.properties
+    Zoo.properties
+    ```
+    - **Java does not use default locale when picks a key**
+- Assume the requested locale is `fr_FR` and the default is `en_US`. The JVM will provide 
+data from `en_US` only if there is no matching `fr_FR` or `fr` resource bundle. If it finds a 
+`fr_FR` or `fr` resource bundle, then only those bundles, along with the default bundle,
+ will be used.
+- ```js
+  //Zoo.properties
+  name=VancouverZoo
+
+  //Zoo_en.properties
+  hello=Hello
+  open=is open
+
+  //Zoo_en_US.properties
+  name=The Zoo
+
+  //Zoo_en_CA.properties
+  visitors=Canada visitors
+  ```
+  - ```js
+    11: Locale.setDefault(Locale.of("en", "US"));
+    12: Locale locale = Locale.of("en", "CA");
+    13: ResourceBundle rb =ResourceBundle.getBundle("Zoo", locale);
+    14: System.out.print(rb.getString("hello"));
+    15: System.out.print(". ");
+    16: System.out.print(rb.getString("name"));
+    17: System.out.print(" ");
+    18: System.out.print(rb.getString("open"));
+    19: System.out.print(" ");
+    20: System.out.print(rb.getString("visitors"));
+    ```
+    - The program prints the following:
+    **Hello. Vancouver Zoo is open Canada visitors**
+    - The default locale is `en_US`, and the requested locale is `en_CA`. First, Java goes through 
+    the available resource bundles to find a match. It finds one right away with 
+    `Zoo_en_CA.properties`. This means the default locale of `en_US`_ is irrelevant. Line 14 
+    doesn’t find a match for the key `hello` in `Zoo_en_CA.properties`, so it goes up the 
+    hierarchy to `Zoo_en.properties`._ Line 16 doesn’t find a match for `name` in either of 
+    the first two properties files, so it has to go all the way to the top of the hierarchy to 
+    `Zoo.properties`. Line 18 has the same experience as line 14, using `Zoo_en.properties`.
+    Finally, line 20 has an easier job of it and finds a matching key in `Zoo_en_CA.properties`.
+    - **In this example, only three properties files were used: `Zoo_en_CA.properties`, 
+    `Zoo_en.properties`, and `Zoo.properties`.**
+- If you attempting to call `rb.getString("close")` in the previous 
+program results in a `MissingResourceException` at runtime.
