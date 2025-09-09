@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"<strong>Introducing Modules</strong>","children":[{"content":"\n<p data-lines=\"1,4\">The <em>Java Platform Module System</em> (JPMS) groups code at a higher level. The main purpose of a module<br>\nis to provide groups of related packages that offer developers a particular set of functionality. It&#x2019;s like a<br>\nJAR file, except a developer chooses which packages are accessible outside the module.</p>","children":[],"payload":{"tag":"li","lines":"1,4"}},{"content":"\n<p data-lines=\"4,6\">A <em>module</em> is a group of one or more packages plus a special file called<br>\n<code>module-&#xad;info.java</code>. The contents of this file are the <em>module declaration</em>.</p>","children":[],"payload":{"tag":"li","lines":"4,7"}},{"content":"\n<img src=\"../img/1009_figure_12_1.png\" alt=\"drawing\" style=\"width:250px;\">","children":[{"content":"\n<p data-lines=\"9,11\">The arrows between many of the modules, represent<br>\n<em>dependencies</em>.</p>","children":[],"payload":{"tag":"li","lines":"9,12"}},{"content":"\n<p data-lines=\"12,14\">The line from <code>zoo.staff</code> to <code>zoo.animal.feeding</code> shows that the<br>\n<code>staff</code> depends on the <code>feeding</code>.</p>","children":[],"payload":{"tag":"li","lines":"12,14"}},{"content":"\n<p data-lines=\"14,16\"><code>zoo.staff</code> must have <code>requires</code> in its <code>module-info.java</code> and<br>\n<code>zoo.animal.feeding</code> must have <code>exports</code> in its <code>module-info.java</code></p>","children":[],"payload":{"tag":"li","lines":"14,16"}},{"content":"\n<p data-lines=\"16,18\">The file called <code>module-&#xad;info.java</code>. This file is required to be inside<br>\nall modules. The <code>module-&#xad;info.java</code> file is directly under the foler module.</p>","children":[],"payload":{"tag":"li","lines":"16,18"}},{"content":"\n<p data-lines=\"18,20\">For example if <code>feeding</code> is the module directory, the <code>module-&#xad;info.java</code> file is<br>\ndirectly under it.</p>","children":[],"payload":{"tag":"li","lines":"18,20"}}],"payload":{"tag":"li","lines":"7,20"}}],"payload":{"tag":"h1","lines":"0,1"}},{})</script>
+</body>
+</html>
